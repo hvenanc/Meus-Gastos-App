@@ -1,0 +1,49 @@
+{
+  "name": "meus-gastos",
+  "version": "1.4.0",
+  "main": "index.ts",
+  "dependencies": {
+    "@expo/vector-icons": "^15.0.2",
+    "@noble/hashes": "^2.4.0",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-native-community/datetimepicker": "9.1.0",
+    "expo": "~57.0.27",
+    "expo-crypto": "~57.0.3",
+    "expo-document-picker": "~57.0.3",
+    "expo-file-system": "~57.0.7",
+    "expo-sharing": "~57.0.22",
+    "expo-status-bar": "~57.0.1",
+    "firebase": "^13.0.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-nitro-modules": "^0.37.1",
+    "react-native-quick-base64": "^3.0.1",
+    "react-native-quick-crypto": "^1.1.8",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-svg": "15.15.4",
+    "react-native-web": "^0.21.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^26.6.5",
+    "@types/react": "~19.2.2",
+    "prettier": "^3.9.10",
+    "react-test-renderer": "^19.2.3",
+    "simple-icons": "^16.35.0",
+    "typescript": "~6.0.3"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types tests/finance.test.ts && node --experimental-strip-types tests/auth.test.ts && node --experimental-strip-types tests/dates.test.ts && node --experimental-strip-types tests/sync.test.ts && node --experimental-strip-types tests/cards.test.ts && node --experimental-strip-types tests/investments.test.ts && node --experimental-strip-types tests/investmentGate.test.mjs && node --experimental-strip-types tests/investmentPinNative.test.mjs",
+    "build:web": "expo export --platform web",
+    "format": "prettier --write App.tsx src tests",
+    "build:apk": "node scripts/build-android-apk.cjs",
+    "test:firebase": "npx --yes --package firebase-tools firebase emulators:exec --only auth,firestore --project demo-meus-gastos \"node --experimental-strip-types tests/firestore.integration.ts && node --experimental-strip-types tests/cloudStorage.integration.ts\""
+  },
+  "private": true
+}

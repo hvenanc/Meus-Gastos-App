@@ -1,0 +1,134 @@
+{
+  "repository": "https://github.com/guibranco/BancosBrasileiros",
+  "commit": "213e5a8f44b375ca541d12ae52de70d849d3df79",
+  "package": "logos-bancos-br",
+  "version": "0.8.0",
+  "logos": {
+    "nubank": {
+      "ispb": "18236120",
+      "name": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
+      "url": "https://cdn.jsdelivr.net/npm/logos-bancos-br@0/logos/svg/18236120.svg",
+      "file": "nubank.png"
+    },
+    "itau": {
+      "ispb": "60701190",
+      "name": "ITAÚ UNIBANCO S.A.",
+      "url": "https://cdn.jsdelivr.net/npm/logos-bancos-br@0/logos/svg/60701190.svg",
+      "file": "itau.png"
+    },
+    "bradesco": {
+      "ispb": "60746948",
+      "name": "Banco Bradesco S.A.",
+      "url": "https://cdn.jsdelivr.net/npm/logos-bancos-br@0/logos/svg/60746948.svg",
+      "file": "bradesco.png"
+    },
+    "santander": {
+      "ispb": "90400888",
+      "name": "BANCO SANTANDER (BRASIL) S.A.",
+      "url": "https://cdn.jsdelivr.net/npm/logos-bancos-br@0/logos/svg/90400888.svg",
+      "file": "santander.png"
+    },
+    "bancodobrasil": {
+      "ispb": "00000000",
+      "name": "Banco do Brasil S.A.",
+      "url": "https://cdn.jsdelivr.net/npm/logos-bancos-br@0/logos/svg/00000000.svg",
+      "file": "bancodobrasil.png"
+    },
+    "caixa": {
+      "ispb": "00360305",
+      "name": "Caixa Econômica Federal",
+      "url": "https://cdn.jsdelivr.net/npm/logos-bancos-br@0/logos/svg/00360305.svg",
+      "file": "caixa.png"
+    },
+    "inter": {
+      "ispb": "00416968",
+      "name": "Banco Inter S.A.",
+      "url": "https://cdn.jsdelivr.net/npm/logos-bancos-br@0/logos/svg/00416968.svg",
+      "file": "inter.png"
+    },
+    "c6bank": {
+      "ispb": "31872495",
+      "name": "Banco C6 S.A.",
+      "url": "https://cdn.jsdelivr.net/npm/logos-bancos-br@0/logos/svg/31872495.svg",
+      "file": "c6bank.png"
+    },
+    "btgpactual": {
+      "ispb": "30306294",
+      "name": "Banco BTG Pactual S.A.",
+      "url": "https://cdn.jsdelivr.net/npm/logos-bancos-br@0/logos/svg/30306294.svg",
+      "file": "btgpactual.png"
+    },
+    "picpay": {
+      "ispb": "22896431",
+      "name": "PICPAY INSTITUIçãO DE PAGAMENTO S.A.",
+      "url": "https://cdn.jsdelivr.net/npm/logos-bancos-br@0/logos/svg/22896431.svg",
+      "file": "picpay.png"
+    },
+    "mercadopago": {
+      "ispb": "10573521",
+      "name": "MERCADO PAGO INSTITUIÇÃO DE PAGAMENTO LTDA.",
+      "url": "https://cdn.jsdelivr.net/npm/logos-bancos-br@0/logos/svg/10573521.svg",
+      "file": "mercadopago.png"
+    },
+    "sicredi": {
+      "ispb": "01181521",
+      "name": "BANCO COOPERATIVO SICREDI S.A.",
+      "url": "https://cdn.jsdelivr.net/npm/logos-bancos-br@0/logos/svg/01181521.svg",
+      "file": "sicredi.png"
+    },
+    "sicoob": {
+      "ispb": "02038232",
+      "name": "BANCO COOPERATIVO SICOOB S.A. - BANCO SICOOB",
+      "url": "https://cdn.jsdelivr.net/npm/logos-bancos-br@0/logos/svg/02038232.svg",
+      "file": "sicoob.png"
+    },
+    "safra": {
+      "ispb": "58160789",
+      "name": "Banco Safra S.A.",
+      "url": "https://cdn.jsdelivr.net/npm/logos-bancos-br@0/logos/svg/58160789.svg",
+      "file": "safra.png"
+    },
+    "neon": {
+      "ispb": "20855875",
+      "name": "NEON PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
+      "url": "https://cdn.jsdelivr.net/npm/logos-bancos-br@0/logos/svg/20855875.svg",
+      "file": "neon.png"
+    },
+    "pagbank": {
+      "ispb": "08561701",
+      "name": "PAGSEGURO INTERNET INSTITUIÇÃO DE PAGAMENTO S.A.",
+      "url": "https://cdn.jsdelivr.net/npm/logos-bancos-br@0/logos/svg/08561701.svg",
+      "file": "pagbank.png"
+    },
+    "banrisul": {
+      "ispb": "92702067",
+      "name": "Banco do Estado do Rio Grande do Sul S.A.",
+      "url": "https://cdn.jsdelivr.net/npm/logos-bancos-br@0/logos/svg/92702067.svg",
+      "file": "banrisul.png"
+    },
+    "banestes": {
+      "ispb": "28127603",
+      "name": "BANESTES S.A. Banco do Estado do Espírito Santo",
+      "url": "https://cdn.jsdelivr.net/npm/logos-bancos-br@0/logos/svg/28127603.svg",
+      "file": "banestes.png"
+    },
+    "nordeste": {
+      "ispb": "07237373",
+      "name": "Banco do Nordeste do Brasil S.A.",
+      "url": "https://cdn.jsdelivr.net/npm/logos-bancos-br@0/logos/svg/07237373.svg",
+      "file": "nordeste.png"
+    },
+    "brasilia": {
+      "ispb": "00000208",
+      "name": "BRB - Banco de Brasília S.A.",
+      "url": "https://cdn.jsdelivr.net/npm/logos-bancos-br@0/logos/svg/00000208.svg",
+      "file": "brasilia.png"
+    },
+    "amazonia": {
+      "ispb": "04902979",
+      "name": "Banco da Amazônia S.A.",
+      "url": "https://cdn.jsdelivr.net/npm/logos-bancos-br@0/logos/svg/04902979.svg",
+      "file": "amazonia.png"
+    }
+  }
+}

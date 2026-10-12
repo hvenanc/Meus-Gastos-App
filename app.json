@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Meus Gastos",
+    "slug": "meus-gastos",
+    "version": "1.4.0",
+    "orientation": "portrait",
+    "icon": "./assets/app-icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/app-icon-foreground.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#101312"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.meusgastos.app"
+    },
+    "android": {
+      "package": "com.henrique.meusgastos",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/app-icon-foreground.png",
+        "backgroundColor": "#101b17",
+        "monochromeImage": "./assets/app-icon-monochrome.png"
+      },
+      "googleServicesFile": "./google-services.json",
+      "versionCode": 8
+    },
+    "web": {
+      "favicon": "./assets/app-favicon.png",
+      "name": "Meus Gastos"
+    },
+    "plugins": [
+      "./plugins/withAndroidSigning",
+      "@react-native-community/datetimepicker",
+      "react-native-quick-crypto"
+    ]
+  }
+}
