@@ -1,3 +1,5 @@
+import type { Data } from "./finance.ts";
+
 export type InvestmentAccount = {
   id: string;
   name: string;
@@ -25,6 +27,7 @@ export type InvestmentMovement = {
   amount: number;
   date: string;
   note: string;
+  sourceTransactionId?: string;
 };
 export type InvestmentAccess = {
   version: 1;
@@ -139,3 +142,46 @@ export const investmentLabels = {
   yield: "Rendimento",
   loss: "Perda / ajuste negativo",
 };
+
+/** Both entries must remain present and agree; this also protects imports and cloud merges. */
+export function investmentTransferValidationError(data: Data): string | null {
+  const movements = new Map(
+    (data.investmentMovements ?? []).map((m) => [m.id, m]),
+  );
+  const transactions = new Map(data.transactions.map((t) => [t.id, t]));
+  for (const transaction of data.transactions) {
+    if (transaction.investmentMovementId === undefined) continue;
+    const movement = movements.get(transaction.investmentMovementId);
+    if (
+      !data.investmentAccess ||
+      typeof transaction.investmentMovementId !== "string" ||
+      !transaction.investmentMovementId ||
+      transaction.type !== "transfer" ||
+      !transaction.paid ||
+      transaction.destinationId !== undefined ||
+      transaction.cardId ||
+      transaction.invoicePayment ||
+      transaction.refundOf ||
+      transaction.recurrenceId ||
+      !movement ||
+      movement.type !== "contribution" ||
+      movement.sourceTransactionId !== transaction.id ||
+      movement.amount !== transaction.amount ||
+      movement.date !== transaction.date
+    )
+      return "A transferência para investimentos está incompleta ou tem valores divergentes.";
+  }
+  for (const movement of movements.values()) {
+    if (movement.sourceTransactionId === undefined) continue;
+    const transaction = transactions.get(movement.sourceTransactionId);
+    if (
+      typeof movement.sourceTransactionId !== "string" ||
+      !movement.sourceTransactionId ||
+      movement.type !== "contribution" ||
+      !transaction ||
+      transaction.investmentMovementId !== movement.id
+    )
+      return "O aporte vinculado não tem uma transferência de origem válida.";
+  }
+  return null;
+}

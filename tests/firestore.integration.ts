@@ -19,7 +19,12 @@ import {
   resetFinance,
   makeRecurringExpenses,
 } from "../src/lib/finance.ts";
-import { pushFinance, resetCloudFinance } from "../src/lib/firestoreSync.ts";
+import {
+  pushFinance,
+  resetCloudFinance,
+  readCloudFinance,
+  migrateCloudFinance,
+} from "../src/lib/firestoreSync.ts";
 import { SyncConflict, decodeCloud } from "../src/lib/syncMerge.ts";
 const apps = ["alice", "bob", "guest"].map((name) =>
   initializeApp(
@@ -58,10 +63,7 @@ try {
   local.name = "Alice";
   let confirmed = await pushFinance(own, base, local);
   assert.equal(confirmed.revision, 1);
-  assert.equal(
-    decodeCloud((await getDocFromServer(own)).data()).data.name,
-    "Alice",
-  );
+  assert.equal((await readCloudFinance(own)).data.name, "Alice");
   console.log("✓ dados financeiros são gravados e lidos pelo proprietário");
   await assert.rejects(() => getDocFromServer(doc(dbs[1], own.path)), {
     code: "permission-denied",
@@ -157,8 +159,9 @@ try {
   );
   await pushFinance(own, investBase, invested);
   const protectedSnapshot = await getDocFromServer(own);
-  assert.equal(protectedSnapshot.data()!.schemaVersion, 3);
-  const restored = decodeCloud(protectedSnapshot.data()).data;
+  assert.equal(protectedSnapshot.data()!.schemaVersion, 4);
+  assert.equal(protectedSnapshot.data()!.payload, undefined);
+  const restored = (await readCloudFinance(own)).data;
   assert.equal(
     restored.categories.find((c) => c.id === "custom-icon")!.icon,
     "wifi-outline",
@@ -169,15 +172,49 @@ try {
   console.log(
     "✓ despesas fixas e ícone personalizado são recuperados do Firestore",
   );
+  const { parseBankNotice, notificationTransaction, noticeHash } =
+    await import("../src/lib/bankNotifications.ts");
+  const notice = {
+    id: noticeHash("emulated-notice"),
+    packageName: "com.nu.production",
+    title: "Pix recebido",
+    text: "Você recebeu um Pix de R$ 20,00",
+    postedAt: new Date(2026, 9, 13, 12).getTime(),
+    context: "test:initial",
+    accountId: "a",
+    cardId: "",
+  };
+  const imported = notificationTransaction(
+    restored,
+    notice,
+    parseBankNotice(notice)!,
+  )!;
+  const withNotice = {
+    ...restored,
+    transactions: [...restored.transactions, imported],
+  };
+  const written = await pushFinance(own, restored, withNotice);
+  const again = await pushFinance(own, restored, withNotice);
+  assert.equal(again.revision, written.revision);
+  assert.equal(
+    (await readCloudFinance(own)).data.transactions.filter(
+      (t) => t.notificationImportId === notice.id,
+    ).length,
+    1,
+  );
+  console.log(
+    "✓ transação importada da notificação é sincronizada sem duplicar reenvios",
+  );
+
   assert.equal(restored.investmentAccounts![0].initialBalance, 20000);
   assert.equal(restored.investmentMovements![0].amount, 1000);
   assert.ok(restored.investmentAccess?.hash);
-  assert.ok(!protectedSnapshot.data()!.payload.includes('"pin":"1234"'));
+  assert.equal(protectedSnapshot.data()!.payload, undefined);
   await assert.rejects(() => getDocFromServer(doc(dbs[1], own.path)), {
     code: "permission-denied",
   });
   console.log(
-    "✓ investimentos e verificador do PIN usam protocolo 3 e permanecem isolados por usuário",
+    "✓ investimentos e verificador do PIN usam protocolo 4 e permanecem isolados por usuário",
   );
   await assert.rejects(
     () => resetCloudFinance(own, resetFinance(restored), "wrong"),
@@ -192,6 +229,167 @@ try {
   assert.equal(cleared.data.investmentAccess, undefined);
   console.log(
     "✓ limpeza exige a credencial de investimento que foi autorizada e ainda é atual",
+  );
+  const accountRecord = doc(
+    own.parent.parent!,
+    "financeGenerations",
+    protectedSnapshot.data()!.generation,
+    "profile",
+    "main",
+  );
+  await assert.rejects(
+    () => getDocFromServer(doc(dbs[1], accountRecord.path)),
+    { code: "permission-denied" },
+  );
+  await assert.rejects(
+    () =>
+      setDoc(own, {
+        schemaVersion: 1,
+        revision: cleared.revision + 1,
+        payload: JSON.stringify(base),
+        updatedAt: serverTimestamp(),
+      }),
+    { code: "permission-denied" },
+  );
+  console.log(
+    "✓ registros separados são privados e clientes antigos não podem reverter a migração",
+  );
+  const legacyUser = await createUserWithEmailAndPassword(
+    auths[0],
+    `legacy-${Date.now()}@test.local`,
+    "Test-only-123!",
+  );
+  const legacyRef = doc(
+    dbs[0],
+    "users",
+    legacyUser.user.uid,
+    "finance",
+    "state",
+  );
+  const legacyData = structuredClone(initialData);
+  legacyData.name = "Legado";
+  legacyData.accounts = [
+    {
+      id: "legacy",
+      name: "Conta antiga",
+      bank: "other",
+      initialBalance: 12345,
+    },
+  ];
+  await setDoc(legacyRef, {
+    schemaVersion: 1,
+    revision: 1,
+    payload: JSON.stringify(legacyData),
+    updatedAt: serverTimestamp(),
+  });
+  const migrated = await migrateCloudFinance(legacyRef);
+  assert.equal(migrated.revision, 2);
+  assert.equal(migrated.data.accounts[0].initialBalance, 12345);
+  assert.equal((await getDocFromServer(legacyRef)).data()!.payload, undefined);
+  assert(
+    (
+      await getDocFromServer(
+        doc(legacyRef.parent.parent!, "financeBackups", "legacy-1"),
+      )
+    ).exists(),
+  );
+  assert.deepEqual((await readCloudFinance(legacyRef)).data, migrated.data);
+  console.log(
+    "✓ migração preserva valores, separa registros e guarda recuperação do legado",
+  );
+  const large = structuredClone(migrated.data);
+  large.transactions = Array.from({ length: 410 }, (_, index) => ({
+    id: `large-${index}`,
+    title: "Histórico",
+    type: "expense" as const,
+    amount: 100,
+    date: "2026-10-16",
+    categoryId: "food",
+    accountId: "legacy",
+    paid: false,
+    note: "a".repeat(3000),
+  }));
+  const big = await pushFinance(legacyRef, migrated.data, large);
+  assert.equal(
+    (await readCloudFinance(legacyRef)).data.transactions.length,
+    410,
+  );
+  assert.equal((await getDocFromServer(legacyRef)).data()!.payload, undefined);
+  console.log(
+    "✓ histórico acima de 900 KB e mais de 400 registros é publicado sem snapshot parcial",
+  );
+  const activeHead = (await getDocFromServer(legacyRef)).data()!;
+  const activeRecord = doc(
+    legacyRef.parent.parent!,
+    "financeGenerations",
+    activeHead.generation,
+    "accounts",
+    "id-legacy",
+  );
+  await assert.rejects(
+    () =>
+      setDoc(activeRecord, {
+        ...large.accounts[0],
+        _position: 0,
+        name: "Sem revisão",
+      }),
+    { code: "permission-denied" },
+  );
+  const edited = structuredClone(big.data);
+  edited.accounts[0].name = "Atualizada";
+  const updated = await pushFinance(legacyRef, big.data, edited);
+  assert.equal(
+    (await getDocFromServer(legacyRef)).data()!.generation,
+    activeHead.generation,
+  );
+  assert.equal(updated.data.accounts[0].name, "Atualizada");
+  console.log(
+    "✓ alteração normal atualiza documentos individuais e exige revisão coordenada",
+  );
+  const raceA = structuredClone(updated.data),
+    raceB = structuredClone(updated.data);
+  raceA.accounts.push({
+    id: "race-a",
+    name: "A",
+    bank: "other",
+    initialBalance: 0,
+  });
+  raceB.accounts.push({
+    id: "race-b",
+    name: "B",
+    bank: "other",
+    initialBalance: 0,
+  });
+  await Promise.all([
+    pushFinance(legacyRef, updated.data, raceA),
+    pushFinance(legacyRef, updated.data, raceB),
+  ]);
+  const afterRace = await readCloudFinance(legacyRef);
+  assert.equal(afterRace.data.accounts.length, 3);
+  const deleted = structuredClone(afterRace.data);
+  const removedId = deleted.transactions.pop()!.id;
+  const afterDelete = await pushFinance(legacyRef, afterRace.data, deleted);
+  assert.equal(
+    (await readCloudFinance(legacyRef)).data.transactions.length,
+    409,
+  );
+  const deleteHead = (await getDocFromServer(legacyRef)).data()!;
+  assert(
+    !(
+      await getDocFromServer(
+        doc(
+          legacyRef.parent.parent!,
+          "financeGenerations",
+          deleteHead.generation,
+          "transactions",
+          `id-${encodeURIComponent(removedId)}`,
+        ),
+      )
+    ).exists(),
+  );
+  assert.equal(afterDelete.data.accounts.length, 3);
+  console.log(
+    "✓ gravações concorrentes preservam registros distintos e exclusões removem os documentos corretos",
   );
 } finally {
   await Promise.all(dbs.map((db) => terminate(db)));

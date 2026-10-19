@@ -205,12 +205,11 @@ export function AuthScreen({ onLocal }: { onLocal: () => void }) {
             {!auth.configured && (
               <Panel style={{ marginBottom: 22 }}>
                 <Text style={[styles.title, { fontSize: 14, marginBottom: 8 }]}>
-                  Firebase aguardando configuração
+                  Acesso à nuvem indisponível
                 </Text>
                 <Text style={styles.muted}>
-                  Preencha as variáveis do .env e ative E-mail/senha no
-                  Firebase. Até lá, você pode explorar o app com armazenamento
-                  local.
+                  O serviço de acesso ainda não está disponível. Você pode
+                  explorar o app com armazenamento local.
                 </Text>
               </Panel>
             )}
@@ -333,8 +332,8 @@ export function AuthScreen({ onLocal }: { onLocal: () => void }) {
                 { textAlign: "center", marginTop: 24, fontSize: 11 },
               ]}
             >
-              Os registros financeiros ficam neste dispositivo.{"\n"}Sua
-              autenticação é gerenciada pelo Firebase.
+              Seus registros têm uma cópia neste aparelho e são sincronizados na
+              nuvem quando você entra na sua conta.
             </Text>
           </View>
         </ScrollView>

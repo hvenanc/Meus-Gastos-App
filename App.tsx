@@ -35,10 +35,16 @@ import {
   invoiceIsOpen,
   transactionAmount,
   remainingRefund,
+  availableInstallments,
+  invoiceMonth,
   resetFinance,
 } from "./src/lib/finance";
 import { formatBrazilianDate } from "./src/lib/dates";
-import { FinanceSync, type SyncStatus } from "./src/lib/cloudStorage";
+import {
+  FinanceSync,
+  syncMessage,
+  type SyncStatus,
+} from "./src/lib/cloudStorage";
 import { AppState } from "react-native";
 import { loadData, saveData } from "./src/lib/storage";
 import { exportBackup, importBackup } from "./src/lib/backup";
@@ -58,6 +64,12 @@ import { ThemeProvider, ThemeColors } from "./src/theme/ThemeProvider";
 import { AuthProvider, useAuth } from "./src/auth/AuthProvider";
 import { AuthScreen } from "./src/auth/AuthScreen";
 import { authError } from "./src/auth/errors";
+import {
+  TransactionRow,
+  type TransactionAction,
+} from "./src/components/TransactionRow";
+import { PurchaseDeletion } from "./src/components/PurchaseDeletion";
+import { InstallmentAnticipation } from "./src/components/InstallmentAnticipation";
 import { Investments } from "./src/components/Investments";
 import { InvestmentGate } from "./src/components/InvestmentGate";
 import { getBank } from "./src/data/banks";
@@ -130,6 +142,8 @@ function Main({ onLocalLogout }: { onLocalLogout: () => void }) {
     [search, setSearch] = useState(""),
     [accountFilter, setAccountFilter] = useState(""),
     [selectedCard, setSelectedCard] = useState("");
+  const [deletionPurchase, setDeletionPurchase] = useState("");
+  const [anticipationCard, setAnticipationCard] = useState("");
   const [protectedAction, setProtectedAction] = useState<
     "export" | "restore" | "reset" | "demo" | "cloud" | null
   >(null);
@@ -146,10 +160,10 @@ function Main({ onLocalLogout }: { onLocalLogout: () => void }) {
   const [syncError, setSyncError] = useState("");
   const syncLabel = {
     local: "Modo local · Sem login",
-    connecting: "Conectando ao Firebase",
+    connecting: "Conectando à nuvem",
     pending: "Salvo localmente · Sincronização pendente",
-    syncing: "Sincronizando com Firebase",
-    synced: "Sincronizado com Firebase",
+    syncing: "Sincronizando com a nuvem",
+    synced: "Sincronizado com a nuvem",
     error: "Salvo localmente · Verifique a sincronização",
     conflict: "Conflito de sincronização",
   }[syncStatus];
@@ -178,7 +192,7 @@ function Main({ onLocalLogout }: { onLocalLogout: () => void }) {
       sync.current = service;
       service.start().catch((e) => {
         if (active) {
-          setLoadError(e.message);
+          setLoadError(syncMessage(e));
           setLoading(false);
         }
       });
@@ -196,7 +210,7 @@ function Main({ onLocalLogout }: { onLocalLogout: () => void }) {
       .then(receive)
       .catch((e) => {
         if (active) {
-          setLoadError(e.message);
+          setLoadError(syncMessage(e));
           setLoading(false);
         }
       });
@@ -210,6 +224,7 @@ function Main({ onLocalLogout }: { onLocalLogout: () => void }) {
     return () => clearTimeout(t);
   }, [notice]);
   const notify = (message: string) => setNotice(message);
+
   async function commit(next: Data) {
     next = upgradeCategories(next);
     if (lock.current) return false;
@@ -221,7 +236,7 @@ function Main({ onLocalLogout }: { onLocalLogout: () => void }) {
       if (!sync.current) setData(next);
       notify(
         user
-          ? "Salvo · Sincronização automática com Firebase"
+          ? "Salvo · Sincronização automática com a nuvem"
           : "Salvo no dispositivo",
       );
       return true;
@@ -279,6 +294,11 @@ function Main({ onLocalLogout }: { onLocalLogout: () => void }) {
   function remove(config: EditorConfig) {
     const { type, item } = config;
     if (!item) return;
+    if ("investmentMovementId" in item && item.investmentMovementId) {
+      notify("Gerencie esta transferência na área privada de investimentos.");
+      setTab("investments");
+      return;
+    }
     if (
       type === "account" &&
       (data.transactions.some(
@@ -308,7 +328,17 @@ function Main({ onLocalLogout }: { onLocalLogout: () => void }) {
       notify("Esta categoria está em uso por lançamentos ou limites.");
       return;
     }
+    if (item.cardId && !item.refundOf && !item.invoicePayment && !item.paid) {
+      setEditor(null);
+      setDeletionPurchase(item.id);
+      return;
+    }
     if (
+      item.anticipationId ||
+      (item.groupId &&
+        data.transactions.some(
+          (t) => t.groupId === item.groupId && t.anticipationId,
+        )) ||
       item.invoicePayment ||
       item.refundOf ||
       data.transactions.some(
@@ -321,7 +351,7 @@ function Main({ onLocalLogout }: { onLocalLogout: () => void }) {
       (item.cardId && item.paid)
     ) {
       notify(
-        "Pagamentos de fatura e compras já quitadas são preservados no histórico.",
+        "Pagamentos de fatura e compras quitadas, antecipadas ou com créditos vinculados são preservados no histórico.",
       );
       return;
     }
@@ -368,118 +398,108 @@ function Main({ onLocalLogout }: { onLocalLogout: () => void }) {
         : transfer
           ? colors.blue
           : colors.red;
+    const edit = () => {
+      if (t.investmentMovementId) {
+        setTab("investments");
+        return;
+      }
+      if (t.anticipatedFrom && !t.paid) {
+        notify(
+          "Parcela antecipada. O valor e a fatura são preservados no histórico.",
+        );
+        return;
+      }
+      if (t.cardId && !t.refundOf && remainingRefund(data, t) > 0 && t.paid) {
+        open("refund", t);
+        return;
+      }
+      if (t.invoicePayment || t.refundOf || (t.cardId && t.paid)) {
+        notify("Este lançamento já está quitado na fatura.");
+        return;
+      }
+      open(t.type, t);
+    };
+    const actions: TransactionAction[] = [];
+    if (t.investmentMovementId)
+      actions.push({
+        title: "Gerenciar na área privada",
+        icon: "lock-closed-outline",
+        onPress: edit,
+      });
+    if (card && !t.refundOf && !t.invoicePayment) {
+      if (!t.paid && !t.anticipatedFrom)
+        actions.push({
+          title: "Editar compra",
+          icon: "create-outline",
+          onPress: () => open(t.type, t),
+        });
+      if (remainingRefund(data, t) > 0)
+        actions.push({
+          title: "Registrar estorno",
+          icon: "return-up-back-outline",
+          onPress: () => open("refund", t),
+        });
+      if (!t.paid)
+        actions.push({
+          title: "Excluir compra / parcela",
+          icon: "trash-outline",
+          danger: true,
+          onPress: () => setDeletionPurchase(t.id),
+        });
+    }
+    if (!card && !t.paid) {
+      actions.push({
+        title: "Marcar como pago",
+        icon: "checkmark-circle-outline",
+        onPress: () => {
+          void commit({
+            ...data,
+            transactions: data.transactions.map((x) =>
+              x.id === t.id ? { ...x, paid: true } : x,
+            ),
+          });
+        },
+      });
+      actions.push({
+        title: "Editar lançamento",
+        icon: "create-outline",
+        onPress: edit,
+      });
+    }
+    const compactMonth = (value: string) =>
+      `${value.slice(5, 7)}/${value.slice(0, 4)}`;
+    const details = [
+      card && tab !== "cards" && t.invoiceMonth
+        ? `Fatura ${compactMonth(t.invoiceMonth)}`
+        : "",
+      t.anticipatedFrom
+        ? `Antecipada de ${compactMonth(t.anticipatedFrom)}`
+        : "",
+    ]
+      .filter(Boolean)
+      .join(" · ");
     return (
-      <Pressable
-        accessibilityRole="button"
-        accessibilityLabel={`Editar ${t.title}`}
+      <TransactionRow
         key={t.id}
-        onPress={() => {
-          if (t.cardId && !t.refundOf && remainingRefund(data, t) > 0) {
-            if (t.paid) {
-              open("refund", t);
-              return;
-            }
-          }
-          if (t.invoicePayment || t.refundOf || (t.cardId && t.paid)) {
-            notify("Este lançamento já está quitado na fatura.");
-            return;
-          }
-          open(t.type, t);
-        }}
-        style={({ pressed }) => [
-          s.transaction,
-          { opacity: pressed ? 0.65 : 1 },
-        ]}
-      >
-        <View
-          style={[
-            s.categoryIcon,
-            { backgroundColor: `${cat?.color ?? colors.blue}18` },
-          ]}
-        >
-          <Icon
-            name={
-              transfer
-                ? "swap-horizontal"
-                : t.invoicePayment
-                  ? "card-outline"
-                  : (cat?.icon ?? "pricetag-outline")
-            }
-            color={transfer ? colors.blue : (cat?.color ?? colors.muted)}
-            size={20}
-          />
-        </View>
-        <View style={{ flex: 1, gap: 4 }}>
-          <Text style={[styles.title, { fontSize: 14 }]} numberOfLines={1}>
-            {t.title}{" "}
-            {!!t.installment && (
-              <Text style={styles.muted}>· {t.installment}</Text>
-            )}
-            {!!t.recurrenceId && (
-              <Text style={styles.muted}>
-                · Fixa {t.recurrenceIndex}/{t.recurrenceCount}
-              </Text>
-            )}
-          </Text>
-          <Text style={styles.muted}>
-            {formatBrazilianDate(t.date)} · {card?.name ?? account?.name}
-            {t.cardId && t.invoiceMonth
-              ? ` · Fatura ${monthLabel(t.invoiceMonth)}`
-              : ""}
-            {transfer
-              ? ` → ${data.accounts.find((a) => a.id === t.destinationId)?.name ?? ""}`
-              : ` · ${cat?.name ?? "Fatura"}`}
-          </Text>
-        </View>
-        <View style={{ alignItems: "flex-end", gap: 4 }}>
-          <Text style={{ color, fontWeight: "600", fontSize: 14 }}>
-            {t.type === "income" || t.refundOf ? "+" : transfer ? "" : "−"}{" "}
-            {display(t.amount)}
-          </Text>
-          <Text
-            style={{
-              fontSize: 10,
-              color: t.paid ? colors.muted : card ? colors.blue : "#e4bd75",
-            }}
-          >
-            {t.paid ? "Concluído" : card ? "Na fatura" : "Pendente"}
-          </Text>
-        </View>
-        {card && !t.refundOf && remainingRefund(data, t) > 0 && (
-          <Pressable
-            accessibilityRole="button"
-            accessibilityLabel={`Estornar ${t.title}`}
-            onPress={(event) => {
-              event.stopPropagation();
-              open("refund", t);
-            }}
-            style={{ padding: 10 }}
-          >
-            <Icon name="return-up-back-outline" color={colors.green} />
-          </Pressable>
-        )}
-        {!card && !t.paid && (
-          <Pressable
-            accessibilityRole="button"
-            accessibilityLabel={`Marcar ${t.title} como pago`}
-            onPress={() =>
-              commit({
-                ...data,
-                transactions: data.transactions.map((x) =>
-                  x.id === t.id ? { ...x, paid: true } : x,
-                ),
-              })
-            }
-            style={{ padding: 5 }}
-          >
-            <Icon
-              name="checkmark-circle-outline"
-              size={23}
-              color={colors.green}
-            />
-          </Pressable>
-        )}
-      </Pressable>
+        title={`${t.title}${t.installment ? ` · ${t.installment}` : ""}${t.recurrenceId ? ` · Fixa ${t.recurrenceIndex}/${t.recurrenceCount}` : ""}`}
+        subtitle={`${formatBrazilianDate(t.date)} · ${card ? getBank(card.bank).name : (account?.name ?? "Conta")}${transfer ? ` → ${t.investmentMovementId ? "Área privada" : (data.accounts.find((a) => a.id === t.destinationId)?.name ?? "")}` : ` · ${cat?.name ?? "Fatura"}`}`}
+        detail={details}
+        amount={`${t.type === "income" || t.refundOf ? "+" : transfer ? "" : "−"} ${display(t.amount)}`}
+        status={t.paid ? "Concluído" : card ? "Na fatura" : "Pendente"}
+        icon={
+          transfer
+            ? "swap-horizontal"
+            : t.invoicePayment
+              ? "card-outline"
+              : (cat?.icon ?? "pricetag-outline")
+        }
+        iconColor={transfer ? colors.blue : (cat?.color ?? colors.muted)}
+        amountColor={color}
+        statusColor={t.paid ? colors.muted : card ? colors.blue : "#e4bd75"}
+        onPress={edit}
+        actions={actions.map((action) => ({ ...action, disabled: busy }))}
+        openActionsOnPress={!!card}
+      />
     );
   }
   function accountRow(a: Account) {
@@ -593,7 +613,7 @@ function Main({ onLocalLogout }: { onLocalLogout: () => void }) {
             </View>
             {bill.credit > 0 && (
               <Text style={[styles.muted, { marginBottom: 14 }]}>
-                Crédito de estornos: {display(bill.credit)}. Será abatido de
+                Créditos e descontos: {display(bill.credit)}. Será abatido de
                 novas compras nesta fatura.
               </Text>
             )}
@@ -623,6 +643,19 @@ function Main({ onLocalLogout }: { onLocalLogout: () => void }) {
                 })
               }
             />
+            <View style={{ marginTop: 12 }}>
+              <Button
+                secondary
+                title="Antecipar parcelas"
+                icon="play-forward-outline"
+                disabled={
+                  busy ||
+                  !availableInstallments(data, c.id, invoiceMonth(today(), c))
+                    .length
+                }
+                onPress={() => setAnticipationCard(c.id)}
+              />
+            </View>
             <Pressable
               accessibilityRole="button"
               onPress={() => setSelectedCard(selectedCard === c.id ? "" : c.id)}
@@ -637,7 +670,9 @@ function Main({ onLocalLogout }: { onLocalLogout: () => void }) {
             </Pressable>
             {selectedCard === c.id &&
               (bill.items.length ? (
-                bill.items.map(transactionRow)
+                <View style={s.cardTransactions}>
+                  {bill.items.map(transactionRow)}
+                </View>
               ) : (
                 <Text
                   style={[styles.muted, { textAlign: "center", padding: 20 }]}
@@ -1084,8 +1119,8 @@ function Main({ onLocalLogout }: { onLocalLogout: () => void }) {
           )}
         </Panel>
         <Text style={[styles.muted, { marginTop: 14 }]}>
-          {rows.length} lançamento(s) · Toque para editar. O ✓ confirma um
-          lançamento pendente.
+          {rows.length} lançamento(s) · Toque para editar ou abrir as ações. Use
+          o menu ⋯ para concluir lançamentos pendentes.
         </Text>
       </>
     );
@@ -1332,7 +1367,7 @@ function Main({ onLocalLogout }: { onLocalLogout: () => void }) {
   function confirmReset() {
     setConfirmation({
       title: "Zerar todos os seus dados?",
-      body: "Esta ação é irreversível. Todos os seus registros financeiros, investimentos e o PIN da seção serão removidos. Exporte um backup antes. A limpeza do Firebase exige internet e afeta somente sua conta.",
+      body: "Esta ação é irreversível. Todos os seus registros financeiros, investimentos e o PIN da seção serão removidos. Exporte um backup antes. A limpeza dos dados na nuvem exige internet e afeta somente sua conta.",
       action: "Confirmar e zerar dados",
       danger: true,
       run: async () => {
@@ -1498,7 +1533,7 @@ function Main({ onLocalLogout }: { onLocalLogout: () => void }) {
                   title: "Sair da conta?",
                   body:
                     syncStatus === "synced"
-                      ? "Seus registros estão sincronizados com o Firebase e continuam salvos neste aparelho."
+                      ? "Seus registros estão sincronizados na nuvem e continuam salvos neste aparelho."
                       : "Há dados ou verificações de sincronização pendentes. As alterações locais ficam neste aparelho e serão enviadas ao entrar novamente nesta conta.",
                   action: "Sair",
                   run: async () => {
@@ -1615,7 +1650,7 @@ function Main({ onLocalLogout }: { onLocalLogout: () => void }) {
             Remove contas comuns e de investimentos, cartões, lançamentos,
             aportes, retiradas, rendimentos, metas, limites, PIN e categorias
             personalizadas{" "}
-            {user ? "do aparelho e do Firebase desta conta" : "deste aparelho"}.
+            {user ? "do aparelho e da nuvem desta conta" : "deste aparelho"}.
             Seu acesso e as categorias padrão serão mantidos. Exporte um backup
             antes de continuar.
           </Text>
@@ -1630,9 +1665,9 @@ function Main({ onLocalLogout }: { onLocalLogout: () => void }) {
           />
         </Panel>
         <Text style={[styles.muted, { paddingVertical: 20, lineHeight: 20 }]}>
-          Meus Gastos · v1.3{"\n"}
+          Meus Gastos · v1.7.0{"\n"}
           {user
-            ? "Dados sincronizados com Firebase e cópia local separada por usuário."
+            ? "Dados sincronizados na nuvem e cópia local separada por usuário."
             : "Dados armazenados neste dispositivo no modo local."}{" "}
           Faça backups regularmente. Não cadastre senhas ou números completos de
           cartões.
@@ -1965,6 +2000,30 @@ function Main({ onLocalLogout }: { onLocalLogout: () => void }) {
           </ScrollView>
         </SafeAreaView>
       </Modal>
+      {!!deletionPurchase && (
+        <PurchaseDeletion
+          data={data}
+          purchaseId={deletionPurchase}
+          onSave={commit}
+          onClose={() => setDeletionPurchase("")}
+        />
+      )}
+      {!!anticipationCard && (
+        <InstallmentAnticipation
+          data={data}
+          cardId={anticipationCard}
+          initialMonth={month}
+          onClose={() => setAnticipationCard("")}
+          onSave={async (next, destinationMonth) => {
+            const saved = await commit(next);
+            if (saved) {
+              setMonth(destinationMonth);
+              setSelectedCard(anticipationCard);
+            }
+            return saved;
+          }}
+        />
+      )}
       {editor && (
         <Editor
           key={`${editor.type}-${editor.item?.id ?? "new"}`}
@@ -2202,13 +2261,11 @@ const createStyles = (colors: ThemeColors) =>
       borderRadius: 14,
       marginBottom: 22,
     },
-    transaction: {
-      flexDirection: "row",
-      alignItems: "center",
-      gap: 10,
-      paddingVertical: 15,
-      borderBottomWidth: 1,
-      borderBottomColor: colors.border,
+    cardTransactions: {
+      flexDirection: "column",
+      alignItems: "stretch",
+      alignSelf: "stretch",
+      width: "100%",
     },
     categoryIcon: {
       width: 39,

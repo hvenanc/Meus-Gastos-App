@@ -29,7 +29,7 @@ const Context = createContext<{
   logout: async () => {},
 });
 function requireAuth() {
-  if (!auth) throw new Error("Firebase não configurado.");
+  if (!auth) throw new Error("Serviço de acesso indisponível.");
   return auth;
 }
 export function AuthProvider({ children }: { children: React.ReactNode }) {

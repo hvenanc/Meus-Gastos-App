@@ -32,6 +32,7 @@ if (!process.argv.includes("--skip-prebuild"))
     "android",
     "--no-install",
   ]);
+run(process.execPath, ["scripts/sync-native-features.cjs"]);
 run(
   "./gradlew",
   [

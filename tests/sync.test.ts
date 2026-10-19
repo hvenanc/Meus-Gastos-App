@@ -167,3 +167,17 @@ test("pagamento simultâneo da mesma fatura em dois aparelhos não duplica o dé
   assert.throws(() => mergeFinance(base, local, remote), SyncConflict);
   assert.deepEqual(mergeFinance(base, local, local), local);
 });
+
+test("a ordem dos campos devolvidos pelo Firestore não gera conflito falso", () => {
+  const base = fresh();
+  base.accounts = [
+    { id: "a", name: "Conta", bank: "other", initialBalance: 0 },
+  ];
+  const remote = structuredClone(base);
+  remote.accounts = [
+    { bank: "other", initialBalance: 0, name: "Conta", id: "a" },
+  ];
+  const local = structuredClone(base);
+  local.accounts[0].name = "Editada";
+  assert.equal(mergeFinance(base, local, remote).accounts[0].name, "Editada");
+});

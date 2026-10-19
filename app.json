@@ -2,7 +2,7 @@
   "expo": {
     "name": "Meus Gastos",
     "slug": "meus-gastos",
-    "version": "1.4.0",
+    "version": "1.7.0",
     "orientation": "portrait",
     "icon": "./assets/app-icon.png",
     "userInterfaceStyle": "dark",
@@ -23,7 +23,7 @@
         "monochromeImage": "./assets/app-icon-monochrome.png"
       },
       "googleServicesFile": "./google-services.json",
-      "versionCode": 8
+      "versionCode": 14
     },
     "web": {
       "favicon": "./assets/app-favicon.png",
@@ -32,7 +32,21 @@
     "plugins": [
       "./plugins/withAndroidSigning",
       "@react-native-community/datetimepicker",
-      "react-native-quick-crypto"
+      "react-native-quick-crypto",
+      [
+        "expo-secure-store",
+        {
+          "configureAndroidBackup": false,
+          "faceIDPermission": "Permita o uso da biometria para desbloquear seus investimentos."
+        }
+      ],
+      [
+        "expo-local-authentication",
+        {
+          "faceIDPermission": "Permita o uso da biometria para desbloquear seus investimentos."
+        }
+      ],
+      "./plugins/withInvestmentBiometrics"
     ]
   }
 }

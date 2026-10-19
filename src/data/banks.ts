@@ -1,11 +1,14 @@
+import { bankInstitutions } from "./bankInstitutions.ts";
+
 export const otherBank = {
   id: "other",
   name: "Outro banco",
   color: "#526777",
   mark: "",
+  keywords: [] as string[],
 };
 
-export const banks = [
+const legacyBanks = [
   otherBank,
   { id: "wallet", name: "Carteira", color: "#47584e", mark: "$" },
   { id: "nubank", name: "Nubank", color: "#820ad1", mark: "nu" },
@@ -41,5 +44,62 @@ export const banks = [
   },
   { id: "amazonia", name: "Banco da Amazônia", color: "#006847", mark: "" },
 ];
+
+export type Bank = {
+  id: string;
+  name: string;
+  color: string;
+  mark: string;
+  keywords: string[];
+};
+
+// Keep identifiers already stored in accounts, cards and investments.
+export const bankAliases: Record<string, string> = {
+  bb: "bancodobrasil",
+  intermedium: "inter",
+  brb: "brasilia",
+  carteira: "wallet",
+};
+
+const canonicalId = (id: string) => bankAliases[id] ?? id;
+const legacyById = new Map(legacyBanks.map((bank) => [bank.id, bank]));
+const importedBanks: Bank[] = bankInstitutions.map((institution) => {
+  const id = canonicalId(institution.id);
+  const legacy = legacyById.get(id);
+  return {
+    id,
+    name: legacy?.name ?? (id === "default" ? "Padrão" : institution.name),
+    color: legacy?.color ?? "#526777",
+    mark: legacy?.mark ?? "",
+    keywords: [institution.id, ...institution.keywords],
+  };
+});
+const importedById = new Map(importedBanks.map((bank) => [bank.id, bank]));
+export const banks: Bank[] = [
+  ...legacyBanks.map(
+    (bank) => importedById.get(bank.id) ?? { ...bank, keywords: [] },
+  ),
+  ...importedBanks.filter((bank) => !legacyById.has(bank.id)),
+];
+const banksById = new Map(banks.map((bank) => [bank.id, bank]));
 export const getBank = (id: string) =>
-  banks.find((b) => b.id === id) ?? otherBank;
+  banksById.get(canonicalId(id)) ?? otherBank;
+
+const normalizeSearch = (value: string) =>
+  value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .trim();
+
+export function searchBanks(query: string, includeWallet = true): Bank[] {
+  const terms = normalizeSearch(query).split(/\s+/).filter(Boolean);
+  return banks.filter((bank) => {
+    if (!includeWallet && bank.id === "wallet") return false;
+    if (bank.id === "other") return true;
+    const text = normalizeSearch(
+      [bank.id, bank.name, ...bank.keywords].join(" "),
+    );
+    return terms.every((term) => text.includes(term));
+  });
+}

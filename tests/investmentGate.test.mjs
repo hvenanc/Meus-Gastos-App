@@ -8,6 +8,7 @@ import React from "react";
 import renderer, { act } from "react-test-renderer";
 import { persisted } from "./helpers/asyncStorageStub.mjs";
 import { AppState } from "./helpers/pinNative.mjs";
+import { state as biometrics } from "./helpers/biometricStub.mjs";
 globalThis.IS_REACT_ACT_ENVIRONMENT = true;
 registerHooks({
   resolve(specifier, context, next) {
@@ -19,6 +20,11 @@ registerHooks({
     if (mocks[specifier])
       return next(
         new URL("./helpers/" + mocks[specifier], import.meta.url).href,
+        context,
+      );
+    if (specifier === "../lib/investmentBiometrics")
+      return next(
+        new URL("./helpers/biometricStub.mjs", import.meta.url).href,
         context,
       );
     if (
@@ -200,6 +206,68 @@ test("troca de credencial em outro aparelho bloqueia a sessão previamente abert
     await gate.press("Desbloquear");
     assert.ok(!gate.hidden());
   } finally {
+    await gate.close();
+  }
+});
+
+test("biometria só é ativada após PIN; cancelamento não desbloqueia e sucesso libera", async () => {
+  persisted.clear();
+  biometrics.enabled = false;
+  biometrics.success = false;
+  const gate = await mount();
+  try {
+    assert.ok(gate.hidden());
+    assert.ok(
+      !gate.root.root
+        .findAllByType("button")
+        .some((b) => b.props.title === "Ativar biometria neste aparelho"),
+    );
+    await gate.pin("1234");
+    await gate.press("Desbloquear");
+    await gate.press("Ativar biometria neste aparelho");
+    assert.equal(biometrics.enabled, true);
+    await gate.press("Bloquear");
+    await gate.press("Desbloquear com biometria");
+    assert.ok(gate.hidden());
+    biometrics.success = true;
+    await gate.press("Desbloquear com biometria");
+    assert.ok(!gate.hidden());
+  } finally {
+    await gate.close();
+    biometrics.enabled = false;
+    biometrics.success = true;
+  }
+});
+
+test("resultado biométrico tardio após segundo plano não reabre investimentos", async () => {
+  persisted.clear();
+  biometrics.enabled = true;
+  const gate = await mount();
+  let finish;
+  try {
+    biometrics.deferred = new Promise((resolve) => {
+      finish = resolve;
+    });
+    const button = gate.root.root
+      .findAllByType("button")
+      .find((b) => b.props.title === "Desbloquear com biometria");
+    let operation;
+    await act(async () => {
+      operation = button.props.onPress();
+      await new Promise((r) => setTimeout(r, 0));
+    });
+    await act(async () => {
+      AppState.emit("inactive");
+    });
+    await act(async () => {
+      AppState.emit("background");
+      finish(true);
+      await operation;
+    });
+    assert.ok(gate.hidden());
+  } finally {
+    biometrics.deferred = null;
+    biometrics.enabled = false;
     await gate.close();
   }
 });

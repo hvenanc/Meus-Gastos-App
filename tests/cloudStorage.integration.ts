@@ -36,6 +36,8 @@ registerHooks({
     return nextResolve(specifier, context);
   },
 });
+const { readRecordStore } = await import("../src/lib/recordStorage.ts");
+const { readCloudFinance } = await import("../src/lib/firestoreSync.ts");
 const { FinanceSync } = await import("../src/lib/cloudStorage.ts");
 const app = initializeApp({
   apiKey: "demo-key",
@@ -84,11 +86,11 @@ try {
     initialBalance: 123456,
   });
   await service.save(edited);
-  const cache = JSON.parse(
-    persisted.get(`${storageKey(alice.user.uid)}/cloud-v1`)!,
-  );
-  assert.equal(cache.pending, true);
-  assert.equal(cache.data.accounts[0].initialBalance, 123456);
+  const cache = (await readRecordStore(
+    `${storageKey(alice.user.uid)}/cloud-v1`,
+  ))!;
+  assert.equal(cache.meta.pending, true);
+  assert.equal(cache.snapshots.data.accounts[0].initialBalance, 123456);
   console.log(
     "✓ mudança offline é salva na fila local antes de qualquer resposta do servidor",
   );
@@ -108,7 +110,7 @@ try {
   await waitFor(() => status === "synced");
   assert.equal(data.accounts[0].id, "offline-account");
   assert.equal(
-    JSON.parse(persisted.get(`${storageKey(alice.user.uid)}/cloud-v1`)!)
+    (await readRecordStore(`${storageKey(alice.user.uid)}/cloud-v1`))!.meta
       .pending,
     false,
   );
@@ -156,8 +158,10 @@ try {
     service!.stop();
     const ref = doc(db, "users", alice.user.uid, "finance", "state");
     const before = (await getDocFromServer(ref)).data()!;
+    const beforeData = (await readCloudFinance(ref)).data;
     const key = `${storageKey(alice.user.uid)}/cloud-v1`;
-    persisted.delete(key);
+    for (const stored of persisted.keys())
+      if (stored.startsWith(key)) persisted.delete(stored);
     if (legacyNameOnly) {
       const { initialData, upgradeCategories } =
         await import("../src/lib/finance.ts");
@@ -186,7 +190,7 @@ try {
     );
     await service.start();
     await waitFor(() => status === "synced");
-    assert.deepEqual(data, JSON.parse(before.payload));
+    assert.deepEqual(data, beforeData);
     assert.equal(
       (await getDocFromServer(ref)).data()!.revision,
       before.revision,
@@ -206,7 +210,7 @@ try {
   assert.equal(data.transactions.length, 0);
   assert.ok(data.resetId);
   assert.equal(
-    JSON.parse(persisted.get(`${storageKey(alice.user.uid)}/cloud-v1`)!)
+    (await readRecordStore(`${storageKey(alice.user.uid)}/cloud-v1`))!.meta
       .pending,
     false,
   );

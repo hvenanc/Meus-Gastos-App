@@ -1,0 +1,6486 @@
+[
+  {
+    "id": "bb",
+    "name": "Banco do Brasil",
+    "keywords": [
+      "bb",
+      "banco do brasil"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bb.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 11,
+    "position": 0
+  },
+  {
+    "id": "caixa",
+    "name": "Caixa",
+    "keywords": [
+      "caixa",
+      "cef"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/caixa.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 10,
+    "position": 0
+  },
+  {
+    "id": "itau",
+    "name": "Itaú",
+    "keywords": [
+      "itau",
+      "itaú",
+      "unibanco"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/itau.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 9,
+    "position": 0
+  },
+  {
+    "id": "bradesco",
+    "name": "Bradesco",
+    "keywords": [
+      "bradesco"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bradesco.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 8,
+    "position": 0
+  },
+  {
+    "id": "visa",
+    "name": "Visa",
+    "keywords": [
+      "visa"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/visa.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 8,
+    "position": 0
+  },
+  {
+    "id": "mastercard",
+    "name": "Mastercard",
+    "keywords": [
+      "master",
+      "mastercard"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/mastercard.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 7,
+    "position": 0
+  },
+  {
+    "id": "nubank",
+    "name": "Nubank",
+    "keywords": [
+      "nubank",
+      "nu"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/nubank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 7,
+    "position": 0
+  },
+  {
+    "id": "diners",
+    "name": "Diners",
+    "keywords": [
+      "diners",
+      "diners club",
+      "club"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/diners.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 6,
+    "position": 0
+  },
+  {
+    "id": "santander",
+    "name": "Santander",
+    "keywords": [
+      "santander",
+      "banespa"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/santander.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 6,
+    "position": 0
+  },
+  {
+    "id": "amex",
+    "name": "American Express",
+    "keywords": [
+      "amex",
+      "american express",
+      "express"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/amex.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 5,
+    "position": 0
+  },
+  {
+    "id": "intermedium",
+    "name": "Banco Inter",
+    "keywords": [
+      "intermedium",
+      "inter"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/intermedium.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 5,
+    "position": 0
+  },
+  {
+    "id": "btgpactual",
+    "name": "BTG Pactual",
+    "keywords": [
+      "btg",
+      "pactual",
+      "btgpactual"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/btgpactual.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 4,
+    "position": 0
+  },
+  {
+    "id": "elo",
+    "name": "Elo",
+    "keywords": [
+      "elo",
+      "cielo"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/elo.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 4,
+    "position": 0
+  },
+  {
+    "id": "c6bank",
+    "name": "C6 Bank",
+    "keywords": [
+      "c6",
+      "c6bank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/c6bank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 3,
+    "position": 0
+  },
+  {
+    "id": "master-black",
+    "name": "Master Black",
+    "keywords": [
+      "master",
+      "black"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/master-black.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 3,
+    "position": 0
+  },
+  {
+    "id": "hipercard",
+    "name": "Hipercard",
+    "keywords": [
+      "hipercard"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/hipercard.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 2,
+    "position": 0
+  },
+  {
+    "id": "safra",
+    "name": "Safra",
+    "keywords": [
+      "safra"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/safra.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 2,
+    "position": 0
+  },
+  {
+    "id": "credicard",
+    "name": "Credicard",
+    "keywords": [
+      "credicard"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/credicard.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 1,
+    "position": 0
+  },
+  {
+    "id": "itaupersonnalite",
+    "name": "Itaú Personnalité",
+    "keywords": [
+      "itau",
+      "personnalite"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/itaupersonnalite.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 1,
+    "position": 0
+  },
+  {
+    "id": "118118-money",
+    "name": "118118 Money",
+    "keywords": [
+      "118118 Money"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/118118-money.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "99Pay",
+    "name": "99 Pay",
+    "keywords": [
+      "99",
+      "99pay"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/99Pay.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "abcbrasil",
+    "name": "ABC Brasil",
+    "keywords": [
+      "abc",
+      "brasil"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/abcbrasil.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "abnamro",
+    "name": "ABN AMRO",
+    "keywords": [
+      "abn",
+      "amro"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/abnamro.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "abrapetite",
+    "name": "Abrapetite (Vale Alimentação)",
+    "keywords": [
+      "abrapetite"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/abrapetite.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "absolutbank",
+    "name": "Absolut Bank",
+    "keywords": [
+      "absolutbank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/absolutbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "acessobank",
+    "name": "Acesso Bank",
+    "keywords": [
+      "acesso",
+      "bank",
+      "acessobank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/acessobank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "activo.bank",
+    "name": "Activo Bank",
+    "keywords": [
+      "activo bank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/activo.bank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "activtrades",
+    "name": "ActivTrades",
+    "keywords": [
+      "activ",
+      "trades"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/activtrades.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "advanzia",
+    "name": "Advanzia",
+    "keywords": [
+      "advanzia"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/advanzia.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "agbank",
+    "name": "AGBank",
+    "keywords": [
+      "ag",
+      "agbank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/agbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "agibank",
+    "name": "Agibank",
+    "keywords": [
+      "agibank",
+      "agi"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/agibank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "agora",
+    "name": "Ágora Investimentos",
+    "keywords": [
+      "investimentos",
+      "agora"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/agora.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "agribank",
+    "name": "Agribank",
+    "keywords": [
+      "agribank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/agribank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "ag-zero",
+    "name": "AgZero",
+    "keywords": [
+      "ag-zero"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/ag-zero.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "cooperativa-ailos",
+    "name": "Ailos",
+    "keywords": [
+      "ailos"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/cooperativa-ailos.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "abank",
+    "name": "AKBank",
+    "keywords": [
+      "AKBank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/abank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "aktia",
+    "name": "Aktia",
+    "keywords": [
+      "aktia"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/aktia.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "alelo",
+    "name": "alelo",
+    "keywords": [
+      "alelo"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/alelo.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "alfabank",
+    "name": "Alfa",
+    "keywords": [
+      "alfa"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/alfabank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "alphabank",
+    "name": "Alpha",
+    "keywords": [
+      "alpha"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/alphabank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "alt.bank",
+    "name": "Alt Bank",
+    "keywords": [
+      "alt bank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/alt.bank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "amazon",
+    "name": "Amazon",
+    "keywords": [
+      "amazon"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/amazon.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "amazonprime",
+    "name": "Amazon Prime",
+    "keywords": [
+      "amazon",
+      "prime"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/amazonprime.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "amazonia",
+    "name": "Amazonia",
+    "keywords": [
+      "amazonia",
+      "amazônia"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/amazonia.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "ame",
+    "name": "Ame Digital",
+    "keywords": [
+      "ame",
+      "ame digital"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/ame.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "lojasamericanas",
+    "name": "Americanas",
+    "keywords": [
+      "americanas"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/lojasamericanas.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "ameriprisefinancial",
+    "name": "Ameriprise Financial",
+    "keywords": [
+      "ameriprise",
+      "financial"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/ameriprisefinancial.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "amppersonalbanking",
+    "name": "AMP Personal Banking",
+    "keywords": [
+      "AMP",
+      "personal"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/amppersonalbanking.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "anz",
+    "name": "ANZ",
+    "keywords": [
+      "ANZ"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/anz.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "app.store",
+    "name": "App Store",
+    "keywords": [
+      "app store"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/app.store.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "asaas",
+    "name": "Asaas",
+    "keywords": [
+      "asaas"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/asaas.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "asn",
+    "name": "ASN",
+    "keywords": [
+      "asn",
+      "bankieren"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/asn.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "astro-pay",
+    "name": "Astro Pay",
+    "keywords": [
+      "astro"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/astro-pay.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "atlantico",
+    "name": "Atlantico",
+    "keywords": [
+      "Atlantico"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/atlantico.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "atticabank",
+    "name": "Attica",
+    "keywords": [
+      "attica"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/atticabank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "aura",
+    "name": "Aura",
+    "keywords": [
+      "aura"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/aura.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "avenida",
+    "name": "Avenida",
+    "keywords": [
+      "avenida"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/avenida.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "avenuesecuritie",
+    "name": "Avenue Securitie",
+    "keywords": [
+      "avenue",
+      "securities",
+      "avenue securities"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/avenuesecuritie.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "azul",
+    "name": "Azul",
+    "keywords": [
+      "azul"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/azul.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "b3",
+    "name": "B3",
+    "keywords": [
+      "b3"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/b3.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bahamas-cred",
+    "name": "Bahamas Cred",
+    "keywords": [
+      "bahamas-cred"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bahamas-cred.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "banamex",
+    "name": "Banamex",
+    "keywords": [
+      "banamex"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/banamex.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bancacarige",
+    "name": "Banca Carige",
+    "keywords": [
+      "bancacarige",
+      "carige"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bancacarige.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bancaditalia",
+    "name": "Banca DItalia",
+    "keywords": [
+      "ditalia"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bancaditalia.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bancamediolanum",
+    "name": "Banca Mediolanum",
+    "keywords": [
+      "bancamediolanum",
+      "mediolanum"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bancamediolanum.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bancamps",
+    "name": "Banca MPS",
+    "keywords": [
+      "mps"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bancamps.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bancaopopularedisondrio",
+    "name": "Banca Populare di Sondrio",
+    "keywords": [
+      "bancaopopularedisondrio"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bancaopopularedisondrio.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bank",
+    "name": "Banco",
+    "keywords": [
+      "banco"
+    ],
+    "logo_url": "",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": true,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "banco-bai",
+    "name": "Banco Bai",
+    "keywords": [
+      "banco-bai"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/banco-bai.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "banco-bic",
+    "name": "Banco BIC",
+    "keywords": [
+      "banco bic"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/banco-bic.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bancobpm",
+    "name": "Banco BPM",
+    "keywords": [
+      "bpm"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bancobpm.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "cacique",
+    "name": "Banco Cacique ",
+    "keywords": [
+      "cacique"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/cacique.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bancodebogota",
+    "name": "Banco de Bogotá",
+    "keywords": [
+      "bogota"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bancodebogota.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "banco-comercio-industria",
+    "name": "Banco de Comercio e Industria",
+    "keywords": [
+      "banco comercio industria"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/banco-comercio-industria.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bancodeoccident",
+    "name": "Banco de Occident",
+    "keywords": [
+      "occident"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bancodeoccident.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bancodelbajio",
+    "name": "Banco del Bajio",
+    "keywords": [
+      "bajio",
+      "del bajio"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bancodelbajio.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "nordeste",
+    "name": "Banco do Nordeste",
+    "keywords": [
+      "nordeste"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/nordeste.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "interpj",
+    "name": "Banco Inter PJ",
+    "keywords": [
+      "inter",
+      "banco"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/interpj.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "pan",
+    "name": "Banco PAN",
+    "keywords": [
+      "panamericano"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/pan.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "banco-parana",
+    "name": "Banco Paraná",
+    "keywords": [
+      "Banco Paraná"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/banco-parana.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "banco-poupanca-credito",
+    "name": "Banco Poupança e Crédito",
+    "keywords": [
+      "banco poupanca credito"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/banco-poupanca-credito.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "votorantim",
+    "name": "Banco Votorantim",
+    "keywords": [
+      "votorantim"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/votorantim.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bancolombia",
+    "name": "Bancolombia",
+    "keywords": [
+      "bancolombia"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bancolombia.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bancoposta",
+    "name": "BancoPosta",
+    "keywords": [
+      "bancoposta",
+      "posta"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bancoposta.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "banese",
+    "name": "Banese",
+    "keywords": [
+      "banese"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/banese.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "banestes",
+    "name": "Banestes",
+    "keywords": [
+      "banestes"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/banestes.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bangkokbank",
+    "name": "Bangkok Bank",
+    "keywords": [
+      "bangkok"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bangkokbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "banif",
+    "name": "Banif",
+    "keywords": [
+      "banif"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/banif.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "banknorwegian",
+    "name": "Bank Norwegian",
+    "keywords": [
+      "norwegian"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/banknorwegian.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bankofaland",
+    "name": "Bank of Aland",
+    "keywords": [
+      "aland"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bankofaland.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bankofamerica",
+    "name": "Bank of America",
+    "keywords": [
+      "bank",
+      "america"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bankofamerica.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bankofchina",
+    "name": "Bank of China",
+    "keywords": [
+      "bank",
+      "china"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bankofchina.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bankrakyat",
+    "name": "Bank Rakyat",
+    "keywords": [
+      "rakyat"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bankrakyat.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bankia",
+    "name": "Bankia",
+    "keywords": [
+      "bankia"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bankia.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bankwest",
+    "name": "Bankwest",
+    "keywords": [
+      "bankwest"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bankwest.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "banorte",
+    "name": "Banorte",
+    "keywords": [
+      "banorte"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/banorte.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "banpara",
+    "name": "Banpara",
+    "keywords": [
+      "banpara"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/banpara.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "banrisul",
+    "name": "Banrisul",
+    "keywords": [
+      "banrisul"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/banrisul.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "barclays",
+    "name": "Barclays",
+    "keywords": [
+      "barclays"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/barclays.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bari",
+    "name": "Bari",
+    "keywords": [
+      "bari"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bari.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bbm",
+    "name": "Bbm",
+    "keywords": [
+      "bbm"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bbm.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bbva",
+    "name": "BBVA",
+    "keywords": [
+      "BBVA"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bbva.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bca",
+    "name": "BCA",
+    "keywords": [
+      "BCA"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bca.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bemol",
+    "name": "Bemol",
+    "keywords": [
+      "bemol"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bemol.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "benvisavale",
+    "name": "Ben Visa Vale",
+    "keywords": [
+      "ben",
+      "visa vale"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/benvisavale.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bendigobank",
+    "name": "Bendigo",
+    "keywords": [
+      "bendigo"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bendigobank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bene",
+    "name": "Bene",
+    "keywords": [],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bene.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "betfair",
+    "name": "Betfair",
+    "keywords": [
+      "betfair"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/betfair.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bidv",
+    "name": "BIDV",
+    "keywords": [
+      "BIDV"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bidv.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bilhete-unico",
+    "name": "Bilhete Único",
+    "keywords": [
+      "bilhete-único"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bilhete-unico.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "binance",
+    "name": "Binance",
+    "keywords": [
+      "binance"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/binance.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "binomo",
+    "name": "Binomo",
+    "keywords": [
+      "binomo"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/binomo.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bitybank",
+    "name": "Bitybank",
+    "keywords": [
+      "bitybank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bitybank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bitz",
+    "name": "Bitz",
+    "keywords": [
+      "bitz"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bitz.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "blaze",
+    "name": "Blaze",
+    "keywords": [
+      "blaze"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/blaze.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bmg",
+    "name": "BMG",
+    "keywords": [
+      "bmg"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bmg.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bmg-corinthians",
+    "name": "BMG Corinthians",
+    "keywords": [
+      "bmg",
+      "bmg corinthians"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bmg-corinthians.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bmo",
+    "name": "BMO",
+    "keywords": [
+      "BMO"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bmo.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bni",
+    "name": "BNI",
+    "keywords": [
+      "BNI"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bni.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bnl",
+    "name": "BNL",
+    "keywords": [
+      "bnl"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bnl.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bnpparibas",
+    "name": "BNP Paribas",
+    "keywords": [
+      "bnp"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bnpparibas.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "boq",
+    "name": "BOQ",
+    "keywords": [
+      "BOQ"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/boq.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bperbanca",
+    "name": "BPER Banca",
+    "keywords": [
+      "bperbanca"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bperbanca.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bpi",
+    "name": "BPI",
+    "keywords": [
+      "bpi"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bpi.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bradesco-empresas",
+    "name": "Bradesco Empresas",
+    "keywords": [
+      "bradesco",
+      "empresas"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bradesco-empresas.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bradesco-prime",
+    "name": "Bradesco Prime",
+    "keywords": [
+      "bradesco prime"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bradesco-prime.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "brasilcard",
+    "name": "Brasilcard",
+    "keywords": [
+      "brasilcard"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/brasilcard.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "brb",
+    "name": "BRB",
+    "keywords": [
+      "brb"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/brb.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "brde",
+    "name": "BRDE",
+    "keywords": [
+      "brde.png"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/brde.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bankmandiri",
+    "name": "BRI",
+    "keywords": [
+      "bri"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bankmandiri.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bs2",
+    "name": "BS2",
+    "keywords": [
+      "bs2",
+      "2"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bs2.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "btgplus",
+    "name": "BTG +",
+    "keywords": [
+      "btg",
+      "btg +"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/btgplus.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "btg.empresas",
+    "name": "BTG Empresas",
+    "keywords": [
+      "btg empresas"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/btg.empresas.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "buddy.bank",
+    "name": "Buddy Bank",
+    "keywords": [
+      "buddy bank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/buddy.bank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bunq",
+    "name": "bunq",
+    "keywords": [
+      "bunq"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bunq.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bv",
+    "name": "BV",
+    "keywords": [
+      "bv"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bv.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "c-a",
+    "name": "C&A",
+    "keywords": [
+      "c-a"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/c-a.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "c-a-pay",
+    "name": "C&A Pay",
+    "keywords": [
+      "c-a-pay"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/c-a-pay.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "caisse",
+    "name": "Caisse dEpargne",
+    "keywords": [
+      "dEpargne"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/caisse.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "caixageral",
+    "name": "Caixa Geral",
+    "keywords": [
+      "caixa",
+      "geral"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/caixageral.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "caixabank",
+    "name": "CaixaBank",
+    "keywords": [
+      "CaixaBank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/caixabank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "caju",
+    "name": "Caju Benefícios",
+    "keywords": [
+      "caju",
+      "caju benefícios"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/caju.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "capitalone",
+    "name": "Capital One",
+    "keywords": [
+      "one",
+      "capital"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/capitalone.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "carrefour",
+    "name": "Carrefour",
+    "keywords": [
+      "carrefour"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/carrefour.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "card",
+    "name": "Cartão",
+    "keywords": [
+      "cartão"
+    ],
+    "logo_url": "",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": true,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "carteira",
+    "name": "Carteira",
+    "keywords": [
+      "carteira"
+    ],
+    "logo_url": "",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": true,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "cassadepositieprestiti",
+    "name": "Cassa Depositi e Prestiti",
+    "keywords": [
+      "depositi",
+      "prestiti"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/cassadepositieprestiti.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "cdb",
+    "name": "CDB",
+    "keywords": [
+      "CDB"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/cdb.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "cdp",
+    "name": "CDP",
+    "keywords": [
+      "CDP"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/cdp.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "celcoin",
+    "name": "Celcoin",
+    "keywords": [
+      "celcoin",
+      "coin"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/celcoin.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "cetelem",
+    "name": "Cetelem",
+    "keywords": [
+      "cetelem"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/cetelem.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "charlesschwab",
+    "name": "Charles Schwab",
+    "keywords": [
+      "charles",
+      "schwab"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/charlesschwab.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "chinaconstructionbank",
+    "name": "China Construction",
+    "keywords": [
+      "china",
+      "construction"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/chinaconstructionbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "cibc",
+    "name": "CIBC",
+    "keywords": [
+      "CIBC"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/cibc.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "cimbbank",
+    "name": "CIMB Bank",
+    "keywords": [
+      "CIMB Bank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/cimbbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "cimbniaga",
+    "name": "CIMB Niaga",
+    "keywords": [
+      "cimb",
+      "niaga"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/cimbniaga.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "citibank",
+    "name": "Citibank",
+    "keywords": [
+      "citi",
+      "citibank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/citibank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "clara",
+    "name": "Clara",
+    "keywords": [
+      "clara"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/clara.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "clear",
+    "name": "Clear",
+    "keywords": [
+      "clear"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/clear.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "clear-corretora",
+    "name": "Clear Corretora",
+    "keywords": [
+      "clear",
+      "corretora"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/clear-corretora.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "cofrinho",
+    "name": "Cofrinho",
+    "keywords": [
+      "cofrinho"
+    ],
+    "logo_url": "",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": true,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "coinbase",
+    "name": "Coinbase",
+    "keywords": [
+      "coinbase"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/coinbase.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "commbank",
+    "name": "CommBank",
+    "keywords": [
+      "commBank",
+      "comm"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/commbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "commerzbank",
+    "name": "Commerzbank",
+    "keywords": [
+      "commerzbank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/commerzbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "conectcar",
+    "name": "ConectCar",
+    "keywords": [
+      "conectcar",
+      "car"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/conectcar.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "noh",
+    "name": "Conta Noh",
+    "keywords": [
+      "noh"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/noh.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "savings",
+    "name": "Conta Poupança",
+    "keywords": [
+      "savings"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/savings.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": true,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "contabilizei.bank",
+    "name": "Contabilizei Bank",
+    "keywords": [
+      "contabilizei bank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/contabilizei.bank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "contasimples",
+    "name": "ContaSimples",
+    "keywords": [
+      "simples",
+      "contasimples"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/contasimples.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "coopercard",
+    "name": "Cooper Card",
+    "keywords": [
+      "cooper",
+      "card",
+      "coopercard"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/coopercard.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "cooperativa-cresol",
+    "name": "Cooperativa Cresol",
+    "keywords": [
+      "cresol"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/cooperativa-cresol.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "cooperforte",
+    "name": "Cooperforte",
+    "keywords": [
+      "cooperforte"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/cooperforte.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "cora",
+    "name": "Cora",
+    "keywords": [
+      "cora"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/cora.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "coverflex",
+    "name": "Coverflex",
+    "keywords": [
+      "coverflex"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/coverflex.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "credicard-on",
+    "name": "Credicard On",
+    "keywords": [
+      "credicard",
+      "credicard on"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/credicard-on.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "credicard-zero",
+    "name": "Credicard Zero",
+    "keywords": [
+      "credicard",
+      "credicard zero"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/credicard-zero.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "credisis",
+    "name": "CrediSIS",
+    "keywords": [
+      "credisis"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/credisis.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "creditagricoleitaly",
+    "name": "Credit agricole",
+    "keywords": [
+      "agricole"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/creditagricoleitaly.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "creditagricole",
+    "name": "Crédit Agricole",
+    "keywords": [
+      "Credit Agricole"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/creditagricole.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "creditbankofmoscow",
+    "name": "Credit Bank of Moscow",
+    "keywords": [
+      "moscow",
+      "creditbankofmoscow"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/creditbankofmoscow.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "creditdunord",
+    "name": "Crédit du Nord",
+    "keywords": [
+      "credit du nord"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/creditdunord.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "credito.agricola",
+    "name": "Crédito Agrícola",
+    "keywords": [
+      "credito agricola"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/credito.agricola.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "creditoemiliano",
+    "name": "Credito Emiliano",
+    "keywords": [
+      "creditoemiliano"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/creditoemiliano.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "crefisa",
+    "name": "Crefisa",
+    "keywords": [
+      "crefisa"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/crefisa.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "cruzeirodosul",
+    "name": "Cruzeirodosul",
+    "keywords": [
+      "cruzeirodosul"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/cruzeirodosul.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "crypto-com",
+    "name": "Crypto",
+    "keywords": [
+      "crypto"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/crypto-com.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "ctt",
+    "name": "CTT",
+    "keywords": [
+      "ctt"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/ctt.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "danskebank",
+    "name": "Danske",
+    "keywords": [
+      "danske"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/danskebank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bancodavivienda",
+    "name": "Davivienda",
+    "keywords": [
+      "davivienda",
+      "vienda"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bancodavivienda.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "daycoval",
+    "name": "Daycoval",
+    "keywords": [
+      "daycoval"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/daycoval.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "default",
+    "name": "Default",
+    "keywords": [],
+    "logo_url": "",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": true,
+    "hidden": true,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "desjardins",
+    "name": "Desjardins Bank",
+    "keywords": [
+      "desjardins",
+      "jardins"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/desjardins.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "digiplus",
+    "name": "Digi+",
+    "keywords": [
+      "digi",
+      "plus"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/digiplus.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "digio",
+    "name": "Digio",
+    "keywords": [
+      "digio"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/digio.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "diin",
+    "name": "Diin",
+    "keywords": [
+      "diin"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/diin.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "dmcard",
+    "name": "DM Card",
+    "keywords": [
+      "DM",
+      "dmcard",
+      "card"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/dmcard.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "dnbbank",
+    "name": "DNB",
+    "keywords": [
+      "DNB"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/dnbbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "dotz",
+    "name": "Dotz",
+    "keywords": [
+      "dotz"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/dotz.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "dzbank",
+    "name": "DZ Bank",
+    "keywords": [
+      "dzbank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/dzbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "easynvest",
+    "name": "Easynvest",
+    "keywords": [
+      "easy",
+      "easynvest",
+      "easyinvest"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/easynvest.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "ebanxgo",
+    "name": "EbanxGo",
+    "keywords": [
+      "ebanxgo",
+      "ebanx",
+      "go"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/ebanxgo.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "edenred",
+    "name": "Edenred",
+    "keywords": [
+      "edenred"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/edenred.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "efi.bank",
+    "name": "Efi bank",
+    "keywords": [
+      "Efi bank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/efi.bank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "elliot",
+    "name": "Elliot",
+    "keywords": [
+      "elliot"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/elliot.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "eqi",
+    "name": "EQI",
+    "keywords": [
+      "eqi"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/eqi.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "eurobank",
+    "name": "Eurobank",
+    "keywords": [
+      "eurobank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/eurobank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "evlibank",
+    "name": "Evli",
+    "keywords": [
+      "evli"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/evlibank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "exodus",
+    "name": "Exodus (crypto wallet)",
+    "keywords": [
+      "exodus"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/exodus.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "fidelity",
+    "name": "Fidelity",
+    "keywords": [
+      "fidelity"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/fidelity.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "flash",
+    "name": "Flash",
+    "keywords": [
+      "flash"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/flash.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "forexbank",
+    "name": "Forex",
+    "keywords": [
+      "forex"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/forexbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "fortbrasil",
+    "name": "Fortbrasil",
+    "keywords": [
+      "fortbrasil",
+      "brasil"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/fortbrasil.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "foxbit",
+    "name": "Foxbit",
+    "keywords": [
+      "foxbit"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/foxbit.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "freedom.24",
+    "name": "Freedom 24",
+    "keywords": [
+      "freedom 24"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/freedom.24.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "banco galicia",
+    "name": "Galicia",
+    "keywords": [
+      "galicia"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/banco galicia.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "garantibank",
+    "name": "Garanti",
+    "keywords": [
+      "garanti"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/garantibank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "gazprombank",
+    "name": "Gazprombank",
+    "keywords": [
+      "gazprombank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/gazprombank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "genial",
+    "name": "Genial Investimentos",
+    "keywords": [
+      "genial"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/genial.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "goldmansachs",
+    "name": "Goldman Sachs",
+    "keywords": [
+      "goldman",
+      "sachs"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/goldmansachs.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "google.play",
+    "name": "Google Play",
+    "keywords": [
+      "google play"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/google.play.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "grao",
+    "name": "Grão",
+    "keywords": [
+      "grao"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/grao.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "handelsbanken",
+    "name": "Handelsbanken",
+    "keywords": [
+      "handelsbanken"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/handelsbanken.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "havan",
+    "name": "Havan",
+    "keywords": [
+      "havan",
+      "lojas havan"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/havan.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bancohipotecario",
+    "name": "Hipotecario",
+    "keywords": [
+      "hipotecario"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bancohipotecario.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "hongleong",
+    "name": "Hong Leong",
+    "keywords": [
+      "hong",
+      "leong"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/hongleong.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "hotmart",
+    "name": "Hotmart",
+    "keywords": [
+      "hotmart",
+      "mart"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/hotmart.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "hsbc",
+    "name": "HSBC",
+    "keywords": [
+      "hsbc",
+      "bamerindus"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/hsbc.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "hypovereinsbank",
+    "name": "HypoVereinsbank",
+    "keywords": [
+      "hypovereinsbank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/hypovereinsbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "icatu",
+    "name": "Icatu",
+    "keywords": [
+      "icatu"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/icatu.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "icbc",
+    "name": "ICBC",
+    "keywords": [
+      "ICBC"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/icbc.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "iccreabanca",
+    "name": "ICCREA Banca",
+    "keywords": [
+      "iccrea",
+      "iccreabanca"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/iccreabanca.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "ifood-conta-digital",
+    "name": "Ifood (Conta Corrente)",
+    "keywords": [
+      "ifood"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/ifood-conta-digital.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "ifood-beneficios",
+    "name": "Ifood Benefícios",
+    "keywords": [
+      "ifood"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/ifood-beneficios.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "inbursa",
+    "name": "Inbursa",
+    "keywords": [
+      "inbursa"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/inbursa.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "infinitepay",
+    "name": "Infinite Pay",
+    "keywords": [
+      "infinite pay"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/infinitepay.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "ing",
+    "name": "ING",
+    "keywords": [
+      "ING"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/ing.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "interactive.brokers",
+    "name": "Interactive Brokers",
+    "keywords": [
+      "interactive",
+      "brokers"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/interactive.brokers.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "intesasanpaolo",
+    "name": "Intesa Sanpaolo",
+    "keywords": [
+      "intesa",
+      "sanpaolo"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/intesasanpaolo.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "ion",
+    "name": "Ion",
+    "keywords": [
+      "ion"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/ion.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "iqoption",
+    "name": "IQ Option",
+    "keywords": [
+      "iq",
+      "iqoption"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/iqoption.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "isbank",
+    "name": "Isbank",
+    "keywords": [
+      "Isbank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/isbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "itau.empresas",
+    "name": "Itaú Empresas",
+    "keywords": [
+      "itau",
+      "empresas"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/itau.empresas.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "itau-ion",
+    "name": "Itaú ION",
+    "keywords": [
+      "itau ion"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/itau-ion.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "itau-uniclass",
+    "name": "Itaú Uniclass",
+    "keywords": [
+      "itau",
+      "uniclass"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/itau-uniclass.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "iti",
+    "name": "Iti",
+    "keywords": [
+      "iti",
+      "itau"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/iti.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "jpbank",
+    "name": "JP",
+    "keywords": [
+      "jp"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/jpbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "jpmorgan",
+    "name": "JP Morgan Chase",
+    "keywords": [
+      "jp",
+      "morgan",
+      "chase"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/jpmorgan.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "juno",
+    "name": "Juno",
+    "keywords": [
+      "juno"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/juno.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "jyskebank",
+    "name": "Jyske",
+    "keywords": [
+      "jyske"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/jyskebank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "kbkookminbank",
+    "name": "KB Kookmin",
+    "keywords": [
+      "KB",
+      "kookmin"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/kbkookminbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "kbank",
+    "name": "KBank",
+    "keywords": [
+      "KBank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/kbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "kdbbank",
+    "name": "KDB",
+    "keywords": [
+      "KDB"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/kdbbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "kebhanabank",
+    "name": "KEB Hana",
+    "keywords": [
+      "KEB",
+      "Hana"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/kebhanabank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "kfw",
+    "name": "KFW",
+    "keywords": [
+      "kfw"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/kfw.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "kiwify",
+    "name": "Kiwify",
+    "keywords": [
+      "kiwify"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/kiwify.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "klarna",
+    "name": "Klarna",
+    "keywords": [
+      "klarna"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/klarna.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "krungthaibank",
+    "name": "Krung Thai Bank",
+    "keywords": [
+      "krung",
+      "thai"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/krungthaibank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "latam.pass",
+    "name": "Latam Pass",
+    "keywords": [
+      "latam pass"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/latam.pass.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "lhv",
+    "name": "LHV",
+    "keywords": [
+      "lhv"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/lhv.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "lloydsbanking",
+    "name": "Lloyds Banking Group",
+    "keywords": [
+      "lloyds ",
+      "group"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/lloydsbanking.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "luminor",
+    "name": "Luminor",
+    "keywords": [
+      "luminor"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/luminor.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "macquariebank",
+    "name": "Macquarie",
+    "keywords": [
+      "macquarie"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/macquariebank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bancomacro",
+    "name": "Macro",
+    "keywords": [
+      "macro"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bancomacro.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "magalu-pay",
+    "name": "Magalu Pay",
+    "keywords": [
+      "magalu",
+      "magalu pay"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/magalu-pay.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "magnetis",
+    "name": "Magnetis",
+    "keywords": [
+      "magnetis"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/magnetis.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "mais",
+    "name": "Mais!",
+    "keywords": [
+      "mais"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/mais.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "mandiri",
+    "name": "Mandiri",
+    "keywords": [
+      "mandiri"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/mandiri.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "marisa",
+    "name": "Marisa",
+    "keywords": [
+      "marisa"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/marisa.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "maybank",
+    "name": "Maybank",
+    "keywords": [
+      "maybank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/maybank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "mediobanca",
+    "name": "MedioBanca",
+    "keywords": [
+      "mediobanca"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/mediobanca.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "meliuz",
+    "name": "Méliuz",
+    "keywords": [
+      "meliuz",
+      "cashback"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/meliuz.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "mercadobitcoin",
+    "name": "Mercado Bitcoin",
+    "keywords": [
+      "bitcoin",
+      "mercado",
+      "mercado bitcoin"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/mercadobitcoin.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "mercadolivre",
+    "name": "Mercado Livre",
+    "keywords": [
+      "mercado livre"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/mercadolivre.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "mercadopago",
+    "name": "Mercadopago",
+    "keywords": [
+      "mercado",
+      "mercadopago"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/mercadopago.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "mercantilbrasil",
+    "name": "Mercantil do Brasil",
+    "keywords": [
+      "mercantil",
+      "brasil"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/mercantilbrasil.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "meu-util",
+    "name": "Meu UTIL",
+    "keywords": [
+      "meu",
+      "meu util",
+      "util"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/meu-util.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "midway",
+    "name": "Midway",
+    "keywords": [
+      "midway"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/midway.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "milleniumbcp",
+    "name": "Millenium BCP",
+    "keywords": [
+      "bcp",
+      "millenium"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/milleniumbcp.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "mizuhobank",
+    "name": "Mizuho",
+    "keywords": [
+      "mizuho"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/mizuhobank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "modalmais",
+    "name": "ModalMais",
+    "keywords": [
+      "modal",
+      "modalmais"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/modalmais.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "moey",
+    "name": "Moey",
+    "keywords": [
+      "moey"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/moey.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "moip",
+    "name": "Moip",
+    "keywords": [
+      "moip"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/moip.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "monetizze",
+    "name": "Monetizze",
+    "keywords": [
+      "monetizze"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/monetizze.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "monetus",
+    "name": "Monetus",
+    "keywords": [
+      "monetus"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/monetus.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "mps",
+    "name": "Monte dei Paschi di Siena - MPS Banco da Itália",
+    "keywords": [
+      "mps"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/mps.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "monzo-bank",
+    "name": "Monzo Bank",
+    "keywords": [
+      "monzo bank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/monzo-bank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "morganstanley",
+    "name": "Morgan Stanley",
+    "keywords": [
+      "morgan",
+      "stanley"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/morganstanley.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "mufgbank",
+    "name": "MUFG",
+    "keywords": [
+      "MUFG"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/mufgbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "n26",
+    "name": "N26",
+    "keywords": [
+      "n26"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/n26.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "nab",
+    "name": "NAB",
+    "keywords": [
+      "NAB"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/nab.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "banconacion",
+    "name": "Nación",
+    "keywords": [
+      "nacion"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/banconacion.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "national.australia.bank",
+    "name": "National Australia Bank",
+    "keywords": [
+      "national australia bank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/national.australia.bank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "nationalbank",
+    "name": "National Bank of Greece",
+    "keywords": [
+      "national",
+      "greece"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/nationalbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "neon",
+    "name": "Neon",
+    "keywords": [
+      "neon"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/neon.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "next",
+    "name": "Next",
+    "keywords": [
+      "next"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/next.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "nhbank",
+    "name": "NH",
+    "keywords": [
+      "nh"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/nhbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "nochubank",
+    "name": "Nochu",
+    "keywords": [
+      "nochu"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/nochubank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "nomad",
+    "name": "Nomad",
+    "keywords": [
+      "nomad"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/nomad.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "nordea",
+    "name": "Nordea",
+    "keywords": [
+      "nordea"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/nordea.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "nordnet",
+    "name": "Nordnet",
+    "keywords": [
+      "nordnet"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/nordnet.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "novafatura",
+    "name": "Nova Futura",
+    "keywords": [
+      "nova",
+      "futura",
+      "nova futura"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/novafatura.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "novadax",
+    "name": "NovaDAX",
+    "keywords": [
+      "novadax",
+      "dax"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/novadax.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "novobancopt",
+    "name": "Novo Banco",
+    "keywords": [
+      "novo",
+      "banco"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/novobancopt.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "novucard",
+    "name": "Novucard",
+    "keywords": [
+      "novucard"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/novucard.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "nu-invest",
+    "name": "NU invest",
+    "keywords": [
+      "nu",
+      "nu invest",
+      "invest"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/nu-invest.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "nubank.pj",
+    "name": "Nubank PJ",
+    "keywords": [
+      "nubank pj"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/nubank.pj.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "nubank-ultravioleta",
+    "name": "Nubank Ultravioleta",
+    "keywords": [
+      "nubank",
+      "ultravioleta"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/nubank-ultravioleta.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "nuconta",
+    "name": "Nuconta",
+    "keywords": [
+      "nuconta"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/nuconta.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "nykredit",
+    "name": "Nykredit",
+    "keywords": [
+      "nykredit"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/nykredit.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "olist",
+    "name": "Olist",
+    "keywords": [
+      "olist"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/olist.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "olymp.trade",
+    "name": "Olymp Trade",
+    "keywords": [
+      "olymp trade"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/olymp.trade.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "omni",
+    "name": "Omni",
+    "keywords": [
+      "omni"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/omni.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "opbank",
+    "name": "OP",
+    "keywords": [
+      "op"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/opbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "orama",
+    "name": "Órama",
+    "keywords": [
+      "orama"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/orama.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "original",
+    "name": "Original",
+    "keywords": [
+      "original"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/original.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "other",
+    "name": "Other",
+    "keywords": [],
+    "logo_url": "",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": true,
+    "hidden": true,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "otkritie",
+    "name": "Otkritie",
+    "keywords": [
+      "otkritie"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/otkritie.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "pag",
+    "name": "Pag!",
+    "keywords": [
+      "meupag",
+      "pag",
+      "pag!"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/pag.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "pagar-me",
+    "name": "Pagar.me",
+    "keywords": [
+      "pagar"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/pagar-me.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "pagbank",
+    "name": "PagBank",
+    "keywords": [
+      "pag",
+      "pagbank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/pagbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "pagseguro",
+    "name": "Pagseguro",
+    "keywords": [
+      "pags",
+      "pagseguro"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/pagseguro.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "palmeiras-pay",
+    "name": "Palmeiras Pay",
+    "keywords": [
+      "palmeiras"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/palmeiras-pay.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "pao-acucar",
+    "name": "Pão de Açucar",
+    "keywords": [
+      "pao",
+      "pao de açucar"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/pao-acucar.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "passfolio",
+    "name": "Passfolio",
+    "keywords": [
+      "passfolio"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/passfolio.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "bancopatagonia",
+    "name": "Patagonia",
+    "keywords": [
+      "patagonia"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/bancopatagonia.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "payoneer",
+    "name": "Payoneer",
+    "keywords": [
+      "payoneer"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/payoneer.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "paypal",
+    "name": "Paypal",
+    "keywords": [
+      "paypal"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/paypal.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "payu",
+    "name": "PayU Brasil",
+    "keywords": [
+      "payu"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/payu.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "petrobras",
+    "name": "Petrobras",
+    "keywords": [
+      "petrobras"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/petrobras.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "picpay",
+    "name": "PicPay",
+    "keywords": [
+      "picpay",
+      "pic",
+      "pay"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/picpay.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "piraeusbank",
+    "name": "Piraeus",
+    "keywords": [
+      "piraeus"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/piraeusbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "players-bank",
+    "name": "Players Bank",
+    "keywords": [
+      "players"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/players-bank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "pluxxe",
+    "name": "Pluxxe",
+    "keywords": [
+      "pluxxe"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/pluxxe.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "pncfinancialservices",
+    "name": "PNC Financial Services",
+    "keywords": [
+      "pnc"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/pncfinancialservices.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "pocket.option",
+    "name": "Pocket Option",
+    "keywords": [
+      "pocket option"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/pocket.option.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "portoseguro",
+    "name": "Porto Seguro",
+    "keywords": [
+      "porto",
+      "seguro"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/portoseguro.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "primacredi",
+    "name": "Primacredi",
+    "keywords": [
+      "primacredi"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/primacredi.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "proencamercado",
+    "name": "Proença Mercados",
+    "keywords": [
+      "proenca"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/proencamercado.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "promsvyazbank",
+    "name": "Promsvyazbank",
+    "keywords": [
+      "promsvyaz"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/promsvyazbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "publicbank",
+    "name": "Public Bank",
+    "keywords": [
+      "Public Bank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/publicbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "quotex",
+    "name": "Quotex",
+    "keywords": [
+      "quotex"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/quotex.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "rabobank",
+    "name": "Rabobank",
+    "keywords": [
+      "Rabobank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/rabobank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "raiffeisenbank",
+    "name": "Raiffeisen Bank",
+    "keywords": [
+      "raiffeisenbank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/raiffeisenbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "raio",
+    "name": "Raio",
+    "keywords": [
+      "raio"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/raio.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "rappi-bank",
+    "name": "Rappi Bank",
+    "keywords": [
+      "rappi",
+      "rappi bank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/rappi-bank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "rbcroyalbank",
+    "name": "RBC Royal",
+    "keywords": [
+      "RBC",
+      "royal"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/rbcroyalbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "rbs",
+    "name": "RBS",
+    "keywords": [
+      "RBS"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/rbs.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "rci",
+    "name": "RCI",
+    "keywords": [
+      "rci",
+      "investimentos"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/rci.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "recargapay",
+    "name": "Recargapay",
+    "keywords": [
+      "recargapay"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/recargapay.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "renner",
+    "name": "Renner",
+    "keywords": [
+      "renner"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/renner.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "revolut",
+    "name": "Revolut",
+    "keywords": [
+      "revolut",
+      "revo"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/revolut.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "rhbbank",
+    "name": "RHB",
+    "keywords": [
+      "rhb"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/rhbbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "riachuelo",
+    "name": "Riachuelo",
+    "keywords": [
+      "riachuelo"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/riachuelo.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "rico",
+    "name": "Rico",
+    "keywords": [
+      "rico"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/rico.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "sabadell",
+    "name": "Sabadell",
+    "keywords": [
+      "sabadell"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/sabadell.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "samsung",
+    "name": "Samsung",
+    "keywords": [
+      "Samsung"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/samsung.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "santander-private",
+    "name": "Santander Private",
+    "keywords": [
+      "santander",
+      "private"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/santander-private.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "saraiva",
+    "name": "Saraiva",
+    "keywords": [
+      "saraiva"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/saraiva.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "sberbank",
+    "name": "Sberbank",
+    "keywords": [
+      "sberbank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/sberbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "scb",
+    "name": "SCB",
+    "keywords": [
+      "SCB"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/scb.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "scotiabank",
+    "name": "Scotiabank",
+    "keywords": [
+      "scotiabank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/scotiabank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "sebbank",
+    "name": "SEB",
+    "keywords": [
+      "SEB"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/sebbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "sem-parar",
+    "name": "Sem parar",
+    "keywords": [
+      "sem",
+      "parar"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/sem-parar.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "senff",
+    "name": "Senff",
+    "keywords": [
+      "senff"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/senff.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "serasa-consumidor",
+    "name": "Serasa Consumidor",
+    "keywords": [
+      "serasa",
+      "serasa consumidor"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/serasa-consumidor.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "shinhanbank",
+    "name": "Shinhan",
+    "keywords": [
+      "shinhan"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/shinhanbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "shopee",
+    "name": "Shopee",
+    "keywords": [
+      "shopee"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/shopee.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "shoptime",
+    "name": "Shoptime",
+    "keywords": [
+      "shoptime",
+      "shop",
+      "time"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/shoptime.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "sicoob",
+    "name": "Sicoob",
+    "keywords": [
+      "sicoob"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/sicoob.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "sicredi",
+    "name": "Sicredi",
+    "keywords": [
+      "sicredi"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/sicredi.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "sisprime",
+    "name": "Sisprime",
+    "keywords": [
+      "sisprime"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/sisprime.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "smbc",
+    "name": "SMBC",
+    "keywords": [
+      "SMBC"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/smbc.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "smiles",
+    "name": "Smiles",
+    "keywords": [
+      "smiles"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/smiles.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "smpbank",
+    "name": "SMP Bank",
+    "keywords": [
+      "smpbank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/smpbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "snsbank",
+    "name": "SNS",
+    "keywords": [
+      "SNS"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/snsbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "socialbank",
+    "name": "Social Bank",
+    "keywords": [
+      "social",
+      "socialbank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/socialbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "societegenerale",
+    "name": "Société Générale",
+    "keywords": [
+      "société",
+      "générale"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/societegenerale.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "sodexo",
+    "name": "Sodexo",
+    "keywords": [
+      "sodexo"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/sodexo.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "sofi",
+    "name": "Sofi",
+    "keywords": [
+      "sofi"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/sofi.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "sofisadireto",
+    "name": "Sofisa direto",
+    "keywords": [
+      "sofisa",
+      "direto"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/sofisadireto.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "sparebank1",
+    "name": "Sparebank 1 SMN",
+    "keywords": [
+      "smn",
+      "spare"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/sparebank1.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "sportingbet",
+    "name": "SportingBet",
+    "keywords": [
+      "sportingbet"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/sportingbet.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "spuerkeess",
+    "name": "Spuerkeess",
+    "keywords": [
+      "spuerkeess"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/spuerkeess.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "standardchartered",
+    "name": "Standard Chartered",
+    "keywords": [
+      "standard",
+      "chartered"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/standardchartered.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "stanford-federal-credit-union",
+    "name": "Stanford Federal Credit Union",
+    "keywords": [
+      "stanford",
+      "federal",
+      "credit union"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/stanford-federal-credit-union.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "stone",
+    "name": "Stone",
+    "keywords": [
+      "stone"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/stone.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "storebrandbank",
+    "name": "Storebrand",
+    "keywords": [
+      "storebrand"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/storebrandbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "submarino",
+    "name": "Submarino",
+    "keywords": [
+      "submarino"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/submarino.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "sumup",
+    "name": "Sumup",
+    "keywords": [
+      "sumup"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/sumup.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "suncorpbank",
+    "name": "Suncorp",
+    "keywords": [
+      "suncorp"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/suncorpbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "superdigital",
+    "name": "Superdigital",
+    "keywords": [
+      "super",
+      "digital",
+      "superdigital"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/superdigital.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "swedbank",
+    "name": "Swedbank",
+    "keywords": [
+      "swedbank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/swedbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "swile",
+    "name": "Swile Benefícios",
+    "keywords": [
+      "swile"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/swile.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "sydbank",
+    "name": "SydBank",
+    "keywords": [
+      "sydBank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/sydbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "tangerine",
+    "name": "Tangerine",
+    "keywords": [
+      "tangerine"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/tangerine.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "tdameritrade",
+    "name": "TD AmeriTrade",
+    "keywords": [
+      "ameritrade",
+      "trade"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/tdameritrade.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "tdbank",
+    "name": "TD Bank",
+    "keywords": [
+      "tdbank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/tdbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "techcombank",
+    "name": "Techcombank",
+    "keywords": [
+      "techcombank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/techcombank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "telekom",
+    "name": "Telekom Deutchsland",
+    "keywords": [
+      "telekom"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/telekom.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "tesourodireto",
+    "name": "Tesouro Direto",
+    "keywords": [
+      "tesouro",
+      "direto",
+      "tesourodireto"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/tesourodireto.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "tesouronacional",
+    "name": "Tesouro Nacional",
+    "keywords": [
+      "tesouro",
+      "nacional",
+      "tesouronacional"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/tesouronacional.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "ticket",
+    "name": "Ticket",
+    "keywords": [
+      "ticket"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/ticket.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "tinkoff",
+    "name": "Tinkoff",
+    "keywords": [
+      "tinkoff"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/tinkoff.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "tmbbank",
+    "name": "TMB Bank",
+    "keywords": [
+      "TMB Bank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/tmbbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "ton",
+    "name": "TON",
+    "keywords": [
+      "ton"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/ton.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "toroinvestimentos",
+    "name": "Toro investimentos",
+    "keywords": [
+      "toro",
+      "investimentos"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/toroinvestimentos.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "trade.republic",
+    "name": "Trade Republic",
+    "keywords": [
+      "trade republic"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/trade.republic.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "trading.212",
+    "name": "Trading 212",
+    "keywords": [
+      "trading 212"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/trading.212.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "transferwise",
+    "name": "TransferWise",
+    "keywords": [
+      "transferwise",
+      "transfer"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/transferwise.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "tribanco",
+    "name": "Tribanco",
+    "keywords": [
+      "tribanco",
+      "tri",
+      "banco"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/tribanco.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "trigg",
+    "name": "Trigg",
+    "keywords": [
+      "trigg"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/trigg.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "tudoazul",
+    "name": "Tudo Azul",
+    "keywords": [
+      "azul",
+      "tudo azul"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/tudoazul.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "uber.drive",
+    "name": "Uber Drive",
+    "keywords": [
+      "uber drive"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/uber.drive.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "ubibanca",
+    "name": "UBI Banca",
+    "keywords": [
+      "ubi",
+      "banca"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/ubibanca.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "unicred",
+    "name": "Unicred",
+    "keywords": [
+      "unicred"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/unicred.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "unicreditbank",
+    "name": "Unicredit Bank",
+    "keywords": [
+      "unicredit"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/unicreditbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "cooperativa-unilos",
+    "name": "Unilos",
+    "keywords": [
+      "unilos"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/cooperativa-unilos.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "unimed.seguros",
+    "name": "Unimed Seguros",
+    "keywords": [
+      "unimed seguros"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/unimed.seguros.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "unipolbanca",
+    "name": "Unipol Banca",
+    "keywords": [
+      "unipol",
+      "unipolbanca"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/unipolbanca.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "uniprime",
+    "name": "Uniprime",
+    "keywords": [
+      "uniprime"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/uniprime.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "up.brasil",
+    "name": "Up Brasil",
+    "keywords": [
+      "up brasil"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/up.brasil.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "urbeme",
+    "name": "Urbe.Me",
+    "keywords": [
+      "urbe",
+      "urbe.me",
+      "urbe me"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/urbeme.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "urpay",
+    "name": "UrPay",
+    "keywords": [
+      "urpay",
+      "pay"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/urpay.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "usbank",
+    "name": "US Bank",
+    "keywords": [
+      "usbank "
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/usbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "veloe",
+    "name": "Veloe",
+    "keywords": [
+      "veloe"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/veloe.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "venmo",
+    "name": "Venmo",
+    "keywords": [
+      "venmo"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/venmo.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "verocard",
+    "name": "Verocard",
+    "keywords": [
+      "verocard"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/verocard.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "viacredi",
+    "name": "Viacredi",
+    "keywords": [
+      "viacred"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/viacredi.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "vietcombank",
+    "name": "Vietcombank",
+    "keywords": [
+      "vietcombank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/vietcombank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "vietinbank",
+    "name": "VietinBank",
+    "keywords": [
+      "vietinBank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/vietinbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "vitreo",
+    "name": "Vitreo",
+    "keywords": [
+      "vitreo"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/vitreo.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "vr",
+    "name": "VR Benefícios",
+    "keywords": [
+      "vr",
+      "beneficios"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/vr.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "vtbbank",
+    "name": "VTB",
+    "keywords": [
+      "VTB"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/vtbbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "vuon.card",
+    "name": "Vuon Card",
+    "keywords": [
+      "vuon",
+      "card"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/vuon.card.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "warren",
+    "name": "Warren",
+    "keywords": [
+      "oiwarren",
+      "warren"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/warren.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "webull",
+    "name": "Webull",
+    "keywords": [
+      "webull"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/webull.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "wellsfargo",
+    "name": "Wells Fargo",
+    "keywords": [
+      "wells",
+      "fargo"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/wellsfargo.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "westpac",
+    "name": "Westpac",
+    "keywords": [
+      "westpac",
+      "west"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/westpac.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "wiipo",
+    "name": "Wiipo",
+    "keywords": [
+      "wiipo"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/wiipo.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "will-bank",
+    "name": "Will Bank",
+    "keywords": [
+      "will",
+      "will bank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/will-bank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "wirecard",
+    "name": "Wirecard",
+    "keywords": [
+      "wirecard",
+      "moip"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/wirecard.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "wise",
+    "name": "Wise",
+    "keywords": [
+      "wise"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/wise.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "woop",
+    "name": "Woop",
+    "keywords": [
+      "woop"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/woop.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "xdex",
+    "name": "Xdex",
+    "keywords": [
+      "xdex"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/xdex.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "xm",
+    "name": "XM",
+    "keywords": [
+      "xm"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/xm.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "xp",
+    "name": "XP",
+    "keywords": [
+      "xp"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/xp.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "xtb",
+    "name": "XTB",
+    "keywords": [
+      "xtb"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/xtb.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "yapikredi",
+    "name": "Yapi Kredi Bank",
+    "keywords": [
+      "yapi",
+      "kredi"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/yapikredi.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "z1",
+    "name": "Z1",
+    "keywords": [
+      "z1"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/z1.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "zilch",
+    "name": "Zilch",
+    "keywords": [
+      "zilch"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/zilch.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "ziraatbank",
+    "name": "Ziraat",
+    "keywords": [
+      "ziraat"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/ziraatbank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  },
+  {
+    "id": "zro-bank",
+    "name": "zro Bank",
+    "keywords": [
+      "zro",
+      "zro bank"
+    ],
+    "logo_url": "https://assets.organizze.com.br/institutions/logos/zro-bank.png",
+    "ranking": 1,
+    "legal_name": "",
+    "generic": false,
+    "hidden": false,
+    "priority": 0,
+    "position": 0
+  }
+]

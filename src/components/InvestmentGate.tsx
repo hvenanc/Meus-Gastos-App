@@ -5,6 +5,13 @@ import { getRandomBytesAsync } from "expo-crypto";
 import { Button, Icon, Panel, useUI } from "./ui";
 import { type InvestmentAccess } from "../lib/investments";
 import {
+  biometricAvailable,
+  biometricEnabled,
+  enableBiometrics,
+  disableBiometrics,
+  authenticateBiometrics,
+} from "../lib/investmentBiometrics";
+import {
   createInvestmentAccess,
   verifyInvestmentPin,
   failedPinAttempt,
@@ -37,6 +44,9 @@ export function InvestmentGate({
     [error, setError] = useState(""),
     [ready, setReady] = useState(false),
     [now, setNow] = useState(Date.now());
+  const [bioAvailable, setBioAvailable] = useState(false),
+    [bioEnabled, setBioEnabled] = useState(false);
+  const biometricPrompt = useRef(false);
   const [attempts, setAttempts] = useState<PinAttempts>({
     failures: 0,
     blockedUntil: 0,
@@ -79,7 +89,26 @@ export function InvestmentGate({
     };
   }, [key]);
   useEffect(() => {
+    let active = true;
+    setBioEnabled(false);
+    biometricAvailable()
+      .then((v) => {
+        if (active) setBioAvailable(v);
+      })
+      .catch(() => {});
+    if (access)
+      biometricEnabled(userId ?? "local", access.hash)
+        .then((v) => {
+          if (active) setBioEnabled(v);
+        })
+        .catch(() => {});
+    return () => {
+      active = false;
+    };
+  }, [userId, access?.hash]);
+  useEffect(() => {
     const sub = AppState.addEventListener("change", (state) => {
+      if (state === "inactive" && biometricPrompt.current) return;
       if (state !== "active") lock();
     });
     return () => {
@@ -98,6 +127,44 @@ export function InvestmentGate({
       onUnlocked();
     }
   }, [unlocked, onUnlocked]);
+  async function biometricAction(enroll = false) {
+    if (busy || !ready || !access) return;
+    const stamp = generation.current;
+    setBusy(true);
+    setError("");
+    biometricPrompt.current = true;
+    try {
+      if (enroll) {
+        if (!unlocked) return;
+        if (bioEnabled) await disableBiometrics(userId ?? "local", access.hash);
+        else await enableBiometrics(userId ?? "local", access.hash);
+        if (stamp === generation.current) setBioEnabled(!bioEnabled);
+      } else {
+        const current = parsePinAttempts(await AsyncStorage.getItem(key));
+        if (pinBlocked(current, Date.now()))
+          throw new Error(
+            "Aguarde o bloqueio terminar antes de tentar novamente.",
+          );
+        if (!(await authenticateBiometrics(userId ?? "local", access.hash))) {
+          if (stamp === generation.current) setBioEnabled(false);
+          throw new Error(
+            "Biometria não concluída. Use seu PIN para continuar.",
+          );
+        }
+        if (stamp === generation.current) {
+          setAccepted(access.hash);
+          setPin("");
+        }
+      }
+    } catch {
+      setError(
+        "Não foi possível concluir a biometria. Use seu PIN para continuar.",
+      );
+    } finally {
+      biometricPrompt.current = false;
+      setBusy(false);
+    }
+  }
   async function submit() {
     if (busy || !ready) return;
     const stamp = generation.current;
@@ -175,8 +242,39 @@ export function InvestmentGate({
                 setConfirm("");
                 setError("");
               }}
+              disabled={busy}
             />
           </View>
+        )}
+        {!onUnlocked && bioAvailable && (
+          <View style={{ marginBottom: 18 }}>
+            <Button
+              title={
+                bioEnabled
+                  ? "Desativar biometria neste aparelho"
+                  : "Ativar biometria neste aparelho"
+              }
+              icon="finger-print-outline"
+              secondary
+              disabled={busy}
+              onPress={() => biometricAction(true)}
+            />
+            {!!error && (
+              <Text
+                accessibilityRole="alert"
+                style={{ color: colors.red, marginTop: 8 }}
+              >
+                {error}
+              </Text>
+            )}
+          </View>
+        )}
+        {!onUnlocked && !bioAvailable && (
+          <Text style={[styles.muted, { marginBottom: 18 }]}>
+            Para usar biometria, cadastre uma impressão digital ou
+            reconhecimento facial seguro nas configurações do aparelho. O PIN
+            continua disponível.
+          </Text>
         )}
         {children}
       </>
@@ -267,6 +365,18 @@ export function InvestmentGate({
         loading={busy}
         disabled={!ready || blocked}
       />
+      {!setup && bioEnabled && (
+        <View style={{ marginTop: 12 }}>
+          <Button
+            title="Desbloquear com biometria"
+            icon="finger-print-outline"
+            secondary
+            loading={busy}
+            disabled={!ready || blocked}
+            onPress={() => biometricAction()}
+          />
+        </View>
+      )}
       {(onClose || changing) && (
         <View style={{ marginTop: 12 }}>
           <Button

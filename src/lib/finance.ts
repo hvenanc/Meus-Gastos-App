@@ -1,5 +1,6 @@
 import {
   investmentValidationError,
+  investmentTransferValidationError,
   type InvestmentAccount,
   type InvestmentMovement,
   type InvestmentAccess,
@@ -35,17 +36,23 @@ export type Transaction = {
   categoryId: string;
   accountId: string;
   destinationId?: string;
+  investmentMovementId?: string;
   cardId?: string;
   paid: boolean;
   installment?: string;
   groupId?: string;
   invoiceMonth?: string;
   invoicePayment?: boolean;
+  anticipatedFrom?: string;
+  anticipationId?: string;
+  anticipationDiscount?: true;
   refundOf?: string;
   note?: string;
   recurrenceId?: string;
   recurrenceIndex?: number;
   recurrenceCount?: number;
+  notificationImportId?: string;
+  notificationImportedAt?: number;
 };
 export type Goal = { id: string; name: string; target: number; saved: number };
 export type Budget = { id: string; categoryId: string; amount: number };
@@ -429,6 +436,128 @@ export function remainingRefund(data: Data, original: Transaction) {
       .reduce((sum, t) => sum + t.amount, 0)
   );
 }
+
+export function availableInstallments(
+  data: Data,
+  cardId: string,
+  month: string,
+) {
+  const credited = new Set(
+    data.transactions.filter((t) => t.refundOf).map((t) => t.refundOf),
+  );
+  return data.transactions
+    .filter(
+      (t) =>
+        t.cardId === cardId &&
+        t.type === "expense" &&
+        !t.paid &&
+        !t.refundOf &&
+        !t.invoicePayment &&
+        !t.anticipationId &&
+        !!t.groupId &&
+        /^\d+\/\d+$/.test(t.installment ?? "") &&
+        Number(t.installment!.split("/")[1]) > 1 &&
+        !!t.invoiceMonth &&
+        t.invoiceMonth > month &&
+        !credited.has(t.id),
+    )
+    .sort(
+      (a, b) =>
+        a.invoiceMonth!.localeCompare(b.invoiceMonth!) ||
+        Number(a.installment!.split("/")[0]) -
+          Number(b.installment!.split("/")[0]),
+    );
+}
+
+export function anticipateInstallments(
+  data: Data,
+  cardId: string,
+  ids: string[],
+  month: string,
+  discount = 0,
+  date = today(),
+): Data {
+  const card = data.cards.find((c) => c.id === cardId);
+  if (!card) throw new Error("Cartão não encontrado.");
+  if (
+    !validDate(date) ||
+    !/^\d{4}-(0[1-9]|1[0-2])$/.test(month) ||
+    month < date.slice(0, 7) ||
+    !invoiceIsOpen(card, month, date)
+  )
+    throw new Error(
+      "Escolha uma fatura de destino aberta, deste mês ou de um mês futuro.",
+    );
+  const available = availableInstallments(data, cardId, month);
+  const selected = ids.map((id) => available.find((t) => t.id === id));
+  if (
+    !ids.length ||
+    new Set(ids).size !== ids.length ||
+    selected.some((t) => !t)
+  )
+    throw new Error(
+      "Selecione parcelas futuras em aberto, sem estornos ou antecipações anteriores.",
+    );
+  const installments = available.filter((t) => ids.includes(t.id));
+  if (new Set(installments.map((t) => t.groupId)).size !== 1)
+    throw new Error("Selecione parcelas de uma única compra por antecipação.");
+  const total = installments.reduce((sum, t) => sum + t.amount, 0);
+  if (
+    !Number.isSafeInteger(total) ||
+    !Number.isSafeInteger(discount) ||
+    discount < 0 ||
+    discount > total
+  )
+    throw new Error(
+      "O desconto deve estar entre zero e o total das parcelas selecionadas.",
+    );
+  const anticipationId = uid();
+  const selectedIds = new Set(ids);
+  // Split the discount exactly in cents; never change the purchase's original amount.
+  let remainingDiscount = discount;
+  let remainingTotal = total;
+  const credits: Transaction[] = [];
+  for (const installment of installments) {
+    const amount = Number(
+      (BigInt(remainingDiscount) * BigInt(installment.amount)) /
+        BigInt(remainingTotal),
+    );
+    remainingDiscount -= amount;
+    remainingTotal -= installment.amount;
+    if (amount)
+      credits.push({
+        id: uid(),
+        type: "expense",
+        title: `Desconto de antecipação · ${installment.title} · ${installment.installment}`,
+        amount,
+        date,
+        categoryId: installment.categoryId,
+        accountId: installment.accountId,
+        cardId,
+        invoiceMonth: month,
+        paid: false,
+        refundOf: installment.id,
+        anticipationDiscount: true,
+        anticipationId,
+      });
+  }
+  return {
+    ...data,
+    transactions: [
+      ...data.transactions.map((t) =>
+        selectedIds.has(t.id)
+          ? {
+              ...t,
+              invoiceMonth: month,
+              anticipatedFrom: t.invoiceMonth,
+              anticipationId,
+            }
+          : t,
+      ),
+      ...credits,
+    ],
+  };
+}
 export function refundCardPurchase(
   data: Data,
   purchaseId: string,
@@ -468,6 +597,10 @@ export function moveCardPurchase(
   original: Transaction,
   edited: Transaction,
 ): Transaction {
+  if (original.investmentMovementId)
+    throw new Error(
+      "Gerencie esta transferência na área privada de investimentos.",
+    );
   const recurrence = original.recurrenceId
     ? {
         recurrenceId: original.recurrenceId,
@@ -475,20 +608,28 @@ export function moveCardPurchase(
         recurrenceCount: original.recurrenceCount,
       }
     : {};
-  if (!original.cardId) return { ...edited, ...recurrence };
+  const imported = original.notificationImportId
+    ? {
+        notificationImportId: original.notificationImportId,
+        notificationImportedAt: original.notificationImportedAt,
+      }
+    : {};
+  if (!original.cardId) return { ...edited, ...recurrence, ...imported };
   if (
     original.paid ||
+    original.anticipationId ||
     original.refundOf ||
     data.transactions.some((t) => t.refundOf === original.id)
   )
     throw new Error(
-      "Compras quitadas ou com estorno registrado não podem ser alteradas.",
+      "Compras quitadas, antecipadas ou com estorno registrado não podem ser alteradas.",
     );
   const card = data.cards.find((c) => c.id === original.cardId);
   if (!card) throw new Error("Cartão não encontrado.");
   return {
     ...edited,
     ...recurrence,
+    ...imported,
     cardId: original.cardId,
     accountId: card.accountId,
     installment: original.installment,
@@ -583,6 +724,11 @@ export function validateData(value: unknown): value is Data {
         validDate(t.date) &&
         ["income", "expense", "transfer"].includes(t.type) &&
         typeof t.paid === "boolean" &&
+        (t.notificationImportId === undefined
+          ? t.notificationImportedAt === undefined
+          : /^[a-f0-9]{64}$/.test(t.notificationImportId) &&
+            Number.isSafeInteger(t.notificationImportedAt) &&
+            t.notificationImportedAt! > 0) &&
         (t.recurrenceId === undefined
           ? t.recurrenceIndex === undefined && t.recurrenceCount === undefined
           : t.type === "expense" &&
@@ -602,6 +748,7 @@ export function validateData(value: unknown): value is Data {
           )) &&
         (!t.cardId || d.cards.some((c) => c.id === t.cardId)) &&
         (t.type !== "transfer" ||
+          t.investmentMovementId !== undefined ||
           (d.accounts.some((a) => a.id === t.destinationId) &&
             t.destinationId !== t.accountId)) &&
         (!t.cardId ||
@@ -611,6 +758,7 @@ export function validateData(value: unknown): value is Data {
     )
   )
     return false;
+  if (investmentTransferValidationError(d)) return false;
   if (
     !d.goals.every(
       (g) =>
@@ -630,6 +778,48 @@ export function validateData(value: unknown): value is Data {
   )
     return false;
   if (d.resetId !== undefined && !str(d.resetId)) return false;
+  for (const t of d.transactions) {
+    if (t.anticipationId === undefined) {
+      if (
+        t.anticipatedFrom !== undefined ||
+        t.anticipationDiscount !== undefined
+      )
+        return false;
+      continue;
+    }
+    if (
+      !str(t.anticipationId) ||
+      !t.anticipationId ||
+      !t.cardId ||
+      t.type !== "expense" ||
+      t.invoicePayment
+    )
+      return false;
+    if (t.anticipationDiscount !== undefined) {
+      if (
+        t.anticipationDiscount !== true ||
+        !t.refundOf ||
+        t.anticipatedFrom !== undefined
+      )
+        return false;
+      const original = d.transactions.find((item) => item.id === t.refundOf);
+      if (
+        !original?.anticipatedFrom ||
+        original.anticipationId !== t.anticipationId ||
+        original.invoiceMonth !== t.invoiceMonth
+      )
+        return false;
+    } else if (
+      t.refundOf ||
+      !t.groupId ||
+      !/^\d+\/\d+$/.test(t.installment ?? "") ||
+      Number(t.installment!.split("/")[1]) <= 1 ||
+      typeof t.anticipatedFrom !== "string" ||
+      !/^\d{4}-(0[1-9]|1[0-2])$/.test(t.anticipatedFrom) ||
+      t.anticipatedFrom <= t.invoiceMonth!
+    )
+      return false;
+  }
   for (const credit of d.transactions.filter((t) => t.refundOf !== undefined)) {
     const original = d.transactions.find((t) => t.id === credit.refundOf);
     if (

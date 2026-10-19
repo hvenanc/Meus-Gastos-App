@@ -1,5 +1,9 @@
 # Logos dos bancos
 
+O catálogo atual do app usa os logos e as fontes registrados em
+[`organizze/ATTRIBUTION.md`](organizze/ATTRIBUTION.md).
+Os créditos abaixo se referem às imagens anteriores, preservadas nesta pasta.
+
 A seleção dos logos segue o campo `LogoUrl` do repositório:
 https://github.com/guibranco/BancosBrasileiros
 Commit consultado: `213e5a8f44b375ca541d12ae52de70d849d3df79`.

@@ -48,6 +48,8 @@ A integração segue a [documentação oficial do Firebase Authentication](https
 - Cadastro, edição e exclusão de contas com saldo inicial e identificação do banco.
 - Despesas, receitas, pendências e transferências entre contas.
 - Cartões com limite, fechamento, vencimento, compras em até 48 parcelas e pagamento da fatura pela conta vinculada.
+- Antecipação de parcelas pelo cartão: seleção individual ou de todas as parcelas futuras de uma compra, escolha da fatura aberta de destino e desconto opcional em reais, com resumo antes de confirmar.
+- Exclusão de uma parcela ou de todas as parcelas em aberto de uma compra, incluindo antecipadas; descontos e estornos vinculados saem junto, sem apagar parcelas pagas ou pagamentos de fatura.
 - Filtros por mês, tipo e conta; busca por descrição.
 - Categorias personalizáveis, metas com progresso e limites mensais por categoria.
 - Relatórios por categoria e evolução diária de receitas e despesas.
@@ -58,18 +60,24 @@ A integração segue a [documentação oficial do Firebase Authentication](https
 
 ## Armazenamento e regras
 
-Usuários autenticados sincronizam todos os dados em `users/<uid>/finance/state` no Cloud Firestore. O documento contém um snapshot JSON validado, revisão e horário do servidor. Transações fazem uma combinação entre base local, alterações locais e versão remota: registros diferentes são combinados; edição concorrente do mesmo registro gera aviso de conflito. A atualização é atômica, preservando vínculos entre contas, cartões e lançamentos. Esta versão limita o payload a 900 KB para respeitar o limite de documento do Firestore; históricos maiores continuam locais com erro visível e podem ser exportados. Para históricos maiores, o modelo deverá evoluir para coleções por entidade.
+A partir da versão 1.6.0, o Firestore mantém um documento por conta, cartão, categoria, lançamento, meta, limite e registro de investimento. `users/<uid>/finance/state` contém apenas a versão do protocolo (4), a revisão, as contagens e o identificador da geração ativa. Os registros ficam em `users/<uid>/financeGenerations/<generation>/<entidade>/<id>`, e o perfil em `profile/main`.
 
-AsyncStorage mantém cache e fila pendente em `@meus-gastos/data/v1/<uid>/cloud-v1`. A gravação local termina antes da confirmação na interface. Sem internet, alterações sobrevivem ao reinício e são enviadas quando a conexão volta, em primeiro plano. A versão anterior por usuário é migrada na primeira abertura. Dados do modo visitante continuam locais na chave original e só são associados a uma conta por importação explícita de backup. O tema continua por dispositivo. Em um conflito, exporte um backup antes de usar a versão da nuvem; o app também preserva uma cópia local de recuperação.
+Alterações comuns gravam somente os documentos modificados e o índice, na mesma transação. A revisão protege leituras e gravações contra mudanças simultâneas. Migrações e operações com mais de 400 documentos são preparadas em uma nova geração em lotes; a troca do índice só ocorre após todos os registros serem confirmados. Isso elimina o limite agregado de 900 KB do JSON antigo, mantendo os limites de cada documento do Firestore.
 
-As regras em `firestore.rules` permitem somente ao usuário autenticado ler/gravar seu documento, validam o envelope e a revisão incremental e negam acesso a outros caminhos. Para ativar no projeto real, crie o banco **Cloud Firestore (Standard)** no Firebase Console e publique as regras:
+No aparelho, AsyncStorage armazena registros imutáveis separados, com índices paginados e um manifesto pequeno. O manifesto só muda depois que os registros estão gravados. A fila offline guarda a base confirmada e as alterações locais por referências a esses registros, sem duplicar o histórico em um JSON único. Uma versão anterior é mantida para recuperação; o reset descarta também essa versão.
+
+A migração do cache antigo é automática, validada e remove a chave legada somente depois da gravação no novo formato. A migração remota cria uma cópia privada e imutável do documento legado em `financeBackups/legacy-<revision>` antes de publicar o novo índice. Gerações substituídas são removidas após a publicação; uma falha nessa limpeza pode deixar registros inativos que não são lidos pelo app. O reset também tenta remover backups legados. Operações parcialmente preparadas nunca se tornam o banco ativo.
+
+O snapshot JSON continua sendo apenas o formato portátil de exportação/importação e a estrutura em memória usada pelos cálculos. Backups anteriores continuam compatíveis. O login, os IDs e os vínculos entre registros são preservados. Após a migração remota, versões antigas do app não podem sobrescrever o protocolo 4; atualize os demais aparelhos para 1.6.0 antes de continuar a sincronização.
+
+As regras em `firestore.rules` permitem somente ao usuário autenticado ler/gravar seu documento, validam o índice, a revisão incremental e a coordenação das gravações nos registros ativos e negam acesso a outros caminhos. Para ativar no projeto real, crie o banco **Cloud Firestore (Standard)** no Firebase Console e publique as regras:
 
 ```bash
 npx --yes --package firebase-tools firebase login --reauth
 npx --yes --package firebase-tools firebase deploy --only firestore:rules --project meusgastos-d224e
 ```
 
-O Firestore Standard do projeto foi confirmado e as regras atualizadas foram publicadas em 12/10/2026. O app mostra erro de configuração/permissão mantendo os dados locais. As regras e o protocolo foram verificados nos emuladores locais, com `npm run test:firebase`. Não use regras públicas de teste no projeto real.
+O Firestore Standard do projeto foi confirmado e as regras atualizadas foram publicadas em 12/10/2026. O app mostra erro de configuração/permissão mantendo os dados locais. As regras e o protocolo 4 foram verificados nos emuladores locais, com `npm run test:firebase`, e publicados em 16/10/2026. Não use regras públicas de teste no projeto real.
 
 
 Valores monetários usam centavos inteiros. Saldo atual considera apenas receitas, despesas e transferências concluídas em contas. Compras no crédito descontam da conta apenas no pagamento da fatura. Relatórios consideram a data do lançamento (parcelas em meses sucessivos), incluindo pendências, e excluem transferências e débitos de pagamento de fatura para evitar contagem dupla. Faturas são agrupadas pelo mês de vencimento. Compra no dia do fechamento entra no próximo ciclo. O limite disponível desconta todas as parcelas em aberto. Dias inexistentes em parcelas são ajustados ao último dia do mês.
@@ -179,3 +187,21 @@ Categorias novas e existentes permitem escolher entre 20 ícones com prévia, ap
 A competência mensal de compras, parcelas e estornos no cartão é invoiceMonth, correspondente ao mês de vencimento da fatura, incluindo compras feitas após o fechamento e vencimentos no mês seguinte. Antecipar uma fatura não desloca sua competência prevista; o débito do pagamento continua no extrato da conta na data efetiva. Lançamentos comuns seguem sua própria data. Resumos, categorias, limites e listagem mensal usam a mesma regra; o pagamento da fatura é excluído dos totais de despesas para evitar dupla contagem.
 
 Validação: TypeScript, 54 testes unitários/componentes, exportação web e integração Firebase emulada incluindo recuperação das recorrências e ícone personalizado. Interface nativa deve ser conferida no aparelho.
+
+## Atualização 1.5.1 — remoção do monitoramento
+
+O monitoramento e a importação de notificações bancárias foram removidos da interface e do serviço Android. O aplicativo não solicita acesso às notificações. Transações já cadastradas continuam preservadas, assim como a biometria dos investimentos e a sincronização na nuvem.
+
+### Antecipar parcelas
+
+Em **Meus cartões → Antecipar parcelas**, escolha a fatura de destino, a compra e as parcelas futuras. Informe o desconto total em reais e confira o resumo antes de confirmar. As parcelas selecionadas saem das faturas originais e passam para a fatura escolhida. O desconto é distribuído entre elas em centavos e registrado como crédito vinculado, preservando os valores originais e os meses de origem. O saldo da conta só muda ao registrar o pagamento da fatura.
+
+São aceitas faturas abertas deste mês ou de meses futuros. Parcelas pagas, já antecipadas ou com estorno não entram na seleção. Antecipações e descontos ficam preservados no histórico; o backup e a sincronização validam os vínculos entre os lançamentos.
+
+### Excluir compras e parcelas
+
+Use o ícone de lixeira ao lado da compra em Transações ou na lista de compras da fatura. Escolha entre remover somente a parcela selecionada e remover todas as parcelas em aberto daquela compra. A revisão mostra os valores originais, os descontos/estornos vinculados e a redução líquida das faturas. Parcelas pagas e débitos de pagamento permanecem no histórico. Parcelas vinculadas a um crédito já quitado não podem ser removidas, pois esse crédito precisa manter sua origem.
+
+### Layout dos lançamentos
+
+A versão 1.6.2 usa linhas compactas de receitas e despesas: ícone, descrição, data/banco/categoria e valor/status à direita. Os detalhes ocupam até duas linhas, sem serem comprimidos por botões laterais. Compras no cartão usam o menu ⋯ para editar, registrar estorno ou excluir, respeitando as proteções de parcelas pagas e antecipadas. Pendências em conta oferecem confirmação de pagamento no mesmo menu.

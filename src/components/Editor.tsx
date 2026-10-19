@@ -32,8 +32,8 @@ import { formatBrazilianDate, parseBrazilianDate } from "../lib/dates";
 import { DateField } from "./DateField";
 import { MoneyField } from "./MoneyField";
 import { maskMoney } from "../lib/moneyMask";
-import { banks } from "../data/banks";
-import { BankIcon, Button, Choice, Field, Icon, useUI } from "./ui";
+import { BankPicker } from "./BankPicker";
+import { Button, Choice, Field, Icon, useUI } from "./ui";
 const CATEGORY_ICONS = [
   ["pricetag-outline", "Outros"],
   ["cart-outline", "Compras"],
@@ -106,7 +106,6 @@ export function Editor({
   );
   const [saved, setSaved] = useState(maskMoney(inputMoney(item?.saved ?? 0)));
   const [bank, setBank] = useState(item?.bank ?? "nubank");
-  const [bankSearch, setBankSearch] = useState("");
   const [account, setAccount] = useState(
     item?.accountId ?? data.accounts[0]?.id ?? "",
   );
@@ -338,51 +337,8 @@ export function Editor({
         onPress={() => set(a.id)}
       />
     ));
-  const bankPicker = (
-    <View style={{ marginBottom: 20 }}>
-      <Text style={[styles.label, { marginBottom: 10 }]}>Banco / ícone</Text>
-      <Field
-        label="Buscar banco"
-        value={bankSearch}
-        onChange={setBankSearch}
-        placeholder="Nubank, Itaú, Santander…"
-      />
-      <View style={{ flexDirection: "row", flexWrap: "wrap", gap: 8 }}>
-        {banks
-          .filter(
-            (b) =>
-              b.id === "other" ||
-              b.name.toLowerCase().includes(bankSearch.toLowerCase()),
-          )
-          .map((b) => (
-            <Pressable
-              key={b.id}
-              accessibilityRole="button"
-              accessibilityLabel={b.name}
-              onPress={() => setBank(b.id)}
-              style={{
-                width: "31%",
-                padding: 12,
-                gap: 8,
-                alignItems: "center",
-                backgroundColor: bank === b.id ? colors.active : colors.panel,
-                borderWidth: 1,
-                borderColor: bank === b.id ? colors.green : colors.border,
-                borderRadius: 12,
-              }}
-            >
-              <BankIcon bank={b.id} size={34} />
-              <Text
-                numberOfLines={1}
-                style={{ fontSize: 11, color: colors.text }}
-              >
-                {b.name}
-              </Text>
-            </Pressable>
-          ))}
-      </View>
-    </View>
-  );
+  const bankPicker = <BankPicker value={bank} onChange={setBank} />;
+
   return (
     <Modal
       visible

@@ -15,13 +15,18 @@ import {
 } from "./finance";
 import { loadData } from "./storage";
 import { storageKey } from "./storageKey";
+import { equalFinance, mergeFinance, SyncConflict } from "./syncMerge";
 import {
-  decodeCloud,
-  equalFinance,
-  mergeFinance,
-  SyncConflict,
-} from "./syncMerge";
-import { pushFinance, resetCloudFinance } from "./firestoreSync";
+  pushFinance,
+  resetCloudFinance,
+  readCloudFinance,
+  migrateCloudFinance,
+} from "./firestoreSync";
+import {
+  readRecordStore,
+  writeRecordStore,
+  removeRecordStore,
+} from "./recordStorage";
 export type SyncStatus =
   | "local"
   | "connecting"
@@ -41,16 +46,16 @@ export const syncMessage = (error: unknown) => {
   if (error instanceof SyncConflict) return error.message;
   const code = (error as { code?: string })?.code ?? "";
   if (code.includes("permission-denied"))
-    return "Acesso ao Firestore negado. Confira as regras de acesso do projeto Firebase.";
+    return "Não foi possível acessar seus dados na nuvem. Tente novamente ou entre em contato com o suporte.";
   if (code.includes("unavailable") || code.includes("deadline-exceeded"))
-    return "Sem conexão com o Firebase. Seus dados estão salvos neste aparelho e serão sincronizados quando a conexão voltar.";
+    return "Sem conexão com a nuvem. Seus dados estão salvos neste aparelho e serão sincronizados quando a conexão voltar.";
   if (code.includes("not-found") || code.includes("failed-precondition"))
-    return "Ative o Cloud Firestore no projeto Firebase para sincronizar seus dados.";
-  return error instanceof Error
+    return "O serviço de sincronização na nuvem está indisponível. Tente novamente mais tarde.";
+  return error instanceof Error && !/firebase|firestore/i.test(error.message)
     ? error.message
-    : "Não foi possível sincronizar com o Firebase. Seus dados locais estão preservados.";
+    : "Não foi possível sincronizar com a nuvem. Seus dados locais estão preservados.";
 };
-/** Durable local outbox plus Firestore transactions; one atomic snapshot per user's finances. */
+/** Durable record-level local outbox and normalized Firestore collections. */
 export class FinanceSync {
   private cache!: Cache;
   private ref!: DocumentReference;
@@ -84,14 +89,30 @@ export class FinanceSync {
     return job;
   }
   private async persist(next: Cache) {
-    await AsyncStorage.setItem(this.key, JSON.stringify(next));
+    await writeRecordStore(
+      this.key,
+      { data: next.data, base: next.base },
+      {
+        revision: next.revision,
+        pending: next.pending,
+        resetId: next.data.resetId ?? null,
+      },
+    );
     this.cache = next;
     if (this.active) this.onData(next.data);
   }
   async start() {
-    const raw = await AsyncStorage.getItem(this.key);
-    if (raw) {
-      const cache = JSON.parse(raw) as Cache;
+    const normalized = await readRecordStore(this.key);
+    const raw = normalized ? null : await AsyncStorage.getItem(this.key);
+    if (normalized || raw) {
+      const cache = normalized
+        ? ({
+            version: 1,
+            ...normalized.meta,
+            data: normalized.snapshots.data,
+            base: normalized.snapshots.base,
+          } as Cache)
+        : (JSON.parse(raw!) as Cache);
       if (
         cache.version !== 1 ||
         !validateData(cache.data) ||
@@ -118,6 +139,10 @@ export class FinanceSync {
         pending: !equalFinance(cached, upgradeCategories(initialData)),
       };
       await this.persist(this.cache);
+    }
+    if (raw) {
+      await this.persist(this.cache);
+      await AsyncStorage.removeItem(this.key);
     }
     // Older versions queued the auth display name on an empty installation.
     // Repair only that synthetic change; preserve every real offline edit.
@@ -152,7 +177,7 @@ export class FinanceSync {
     this.stopSnapshot = onSnapshot(
       this.ref,
       { includeMetadataChanges: true },
-      (snapshot) => {
+      async (snapshot) => {
         if (
           !this.active ||
           snapshot.metadata.hasPendingWrites ||
@@ -160,9 +185,16 @@ export class FinanceSync {
         )
           return;
         try {
-          this.remote = snapshot.exists()
-            ? decodeCloud(snapshot.data())
-            : { data: JSON.parse(JSON.stringify(initialData)), revision: 0 };
+          const incoming =
+            snapshot.exists() && snapshot.data().schemaVersion !== 4
+              ? await migrateCloudFinance(this.ref)
+              : await readCloudFinance(this.ref);
+          if (
+            !this.active ||
+            (this.remote && incoming.revision < this.remote.revision)
+          )
+            return;
+          this.remote = incoming;
           if (!this.flushing)
             void this.enqueue(async () => {
               if (
@@ -320,11 +352,9 @@ export class FinanceSync {
           revision: confirmed.revision,
           pending: false,
         });
-        await AsyncStorage.multiRemove([
-          storageKey(this.userId),
-          `${this.key}/conflict-backup`,
-          `${this.key}/damaged-backup`,
-        ]);
+        await removeRecordStore(storageKey(this.userId));
+        await removeRecordStore(`${this.key}/conflict-backup`);
+        await AsyncStorage.removeItem(`${this.key}/damaged-backup`);
       });
       this.remote = confirmed;
       this.onStatus("synced");
@@ -335,13 +365,12 @@ export class FinanceSync {
   }
   async useCloudVersion() {
     if (!this.remote || this.flushing)
-      throw new Error("Aguarde a conexão com o Firebase e tente novamente.");
+      throw new Error("Aguarde a conexão com a nuvem e tente novamente.");
     const remote = this.remote;
     await this.enqueue(async () => {
-      await AsyncStorage.setItem(
-        `${this.key}/conflict-backup`,
-        JSON.stringify(this.cache.data),
-      );
+      await writeRecordStore(`${this.key}/conflict-backup`, {
+        data: this.cache.data,
+      });
       await this.persist({
         version: 1,
         data: remote.data,

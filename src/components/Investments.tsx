@@ -34,8 +34,13 @@ import {
 import { MoneyField } from "./MoneyField";
 import { DateField } from "./DateField";
 import { InvestmentGate } from "./InvestmentGate";
-import { banks, getBank } from "../data/banks";
-type Kind = "account" | InvestmentMovement["type"];
+import { getBank } from "../data/banks";
+import { BankPicker } from "./BankPicker";
+import {
+  transferToInvestment,
+  deleteInvestmentTransfer,
+} from "../lib/investmentTransfers";
+type Kind = "transfer" | "account" | InvestmentMovement["type"];
 type Form = { kind: Kind; item?: InvestmentAccount | InvestmentMovement };
 export function Investments({
   data,
@@ -84,6 +89,7 @@ function InvestmentWorkspace({
     [amount, setAmount] = useState("0,00"),
     [bank, setBank] = useState("other"),
     [account, setAccount] = useState(""),
+    [source, setSource] = useState(""),
     [date, setDate] = useState(formatBrazilianDate(today())),
     [note, setNote] = useState(""),
     [error, setError] = useState(""),
@@ -102,6 +108,12 @@ function InvestmentWorkspace({
     .reduce((sum, m) => sum + investmentAmount(m), 0);
   function open(kind: Kind, item?: InvestmentAccount | InvestmentMovement) {
     setForm({ kind, item });
+    setSource(
+      item && "sourceTransactionId" in item
+        ? (data.transactions.find((t) => t.id === item.sourceTransactionId)
+            ?.accountId ?? "")
+        : (data.accounts[0]?.id ?? ""),
+    );
     setError("");
     setDeletePrompt(false);
     setName(item && "name" in item ? item.name : "");
@@ -130,7 +142,18 @@ function InvestmentWorkspace({
     try {
       let next = { ...data };
       const id = form.item?.id ?? uid();
-      if (form.kind === "account") {
+      if (form.kind === "transfer") {
+        next = remove
+          ? deleteInvestmentTransfer(data, id)
+          : transferToInvestment(data, {
+              sourceAccountId: source,
+              investmentAccountId: account,
+              amount: parseMoney(amount || "0,00"),
+              date: parseBrazilianDate(date),
+              note,
+              movementId: form.item?.id,
+            });
+      } else if (form.kind === "account") {
         if (remove) {
           if (movements.some((m) => m.accountId === id))
             throw new Error(
@@ -189,8 +212,9 @@ function InvestmentWorkspace({
           {money(total)}
         </Text>
         <Text style={[styles.muted, { lineHeight: 21 }]}>
-          Este patrimônio fica separado do saldo geral. Aportes e retiradas
-          registrados aqui não movimentam suas contas comuns.
+          Use Transferir de uma conta para descontar o saldo da origem e
+          registrar o aporte aqui. Os demais registros são ajustes manuais dos
+          investimentos.
         </Text>
         <View style={{ marginTop: 18, gap: 10 }}>
           <Text style={styles.title}>
@@ -241,6 +265,19 @@ function InvestmentWorkspace({
         ))
       )}
       <Section title="Registrar movimentação" />
+      <View style={{ marginBottom: 12 }}>
+        <Button
+          title="Transferir de uma conta"
+          icon="swap-horizontal-outline"
+          disabled={!accounts.length || !data.accounts.length}
+          onPress={() => open("transfer")}
+        />
+        {!data.accounts.length && (
+          <Text style={styles.muted}>
+            Cadastre uma conta de origem para transferir.
+          </Text>
+        )}
+      </View>
       <View
         style={{
           flexDirection: "row",
@@ -306,7 +343,11 @@ function InvestmentWorkspace({
                 color={investmentAmount(m) < 0 ? colors.red : colors.green}
               />
               <View style={{ flex: 1, gap: 6 }}>
-                <Text style={styles.title}>{investmentLabels[m.type]}</Text>
+                <Text style={styles.title}>
+                  {m.sourceTransactionId
+                    ? "Transferência de conta"
+                    : investmentLabels[m.type]}
+                </Text>
                 <Text style={styles.muted}>
                   {accounts.find((a) => a.id === m.accountId)?.name} ·{" "}
                   {formatBrazilianDate(m.date)}
@@ -324,7 +365,9 @@ function InvestmentWorkspace({
               <Button
                 title="Editar"
                 secondary
-                onPress={() => open(m.type, m)}
+                onPress={() =>
+                  open(m.sourceTransactionId ? "transfer" : m.type, m)
+                }
               />
             </View>
           </Panel>
@@ -351,7 +394,9 @@ function InvestmentWorkspace({
               {form?.kind === "account"
                 ? "Conta de investimentos"
                 : form
-                  ? investmentLabels[form.kind]
+                  ? form.kind === "transfer"
+                    ? "Transferir para investimentos"
+                    : investmentLabels[form.kind]
                   : ""}
             </Text>
             {form?.kind === "account" ? (
@@ -367,29 +412,41 @@ function InvestmentWorkspace({
                   value={amount}
                   onChange={setAmount}
                 />
-                <Text style={styles.label}>Banco / instituição</Text>
-                <View
-                  style={{
-                    flexDirection: "row",
-                    flexWrap: "wrap",
-                    gap: 8,
-                    marginBottom: 18,
-                  }}
-                >
-                  {banks
-                    .filter((b) => b.id !== "wallet")
-                    .map((b) => (
-                      <Choice
-                        key={b.id}
-                        title={b.name}
-                        active={bank === b.id}
-                        onPress={() => setBank(b.id)}
-                      />
-                    ))}
-                </View>
+                <BankPicker
+                  value={bank}
+                  onChange={setBank}
+                  includeWallet={false}
+                />
               </>
             ) : (
               <>
+                {form?.kind === "transfer" && (
+                  <>
+                    <Text style={styles.label}>Conta de origem</Text>
+                    <View
+                      style={{
+                        flexDirection: "row",
+                        flexWrap: "wrap",
+                        gap: 8,
+                        marginBottom: 18,
+                      }}
+                    >
+                      {data.accounts.map((a) => (
+                        <Choice
+                          key={a.id}
+                          title={a.name}
+                          active={source === a.id}
+                          onPress={() => setSource(a.id)}
+                        />
+                      ))}
+                    </View>
+                    <Text style={styles.muted}>
+                      O valor será debitado da conta escolhida e adicionado ao
+                      investimento de destino, sem contar como despesa ou
+                      receita.
+                    </Text>
+                  </>
+                )}
                 <Text style={styles.label}>Conta de investimentos</Text>
                 <View
                   style={{
@@ -433,9 +490,12 @@ function InvestmentWorkspace({
             {deletePrompt ? (
               <>
                 <Text style={styles.muted}>
-                  Excluir este registro? O saldo será recalculado e a alteração
-                  será sincronizada. A exclusão pode ser recusada se deixar
-                  alguma retirada sem saldo.
+                  {form?.kind === "transfer"
+                    ? "Excluir esta transferência? O valor será devolvido à conta de origem e o aporte removido. "
+                    : "Excluir este registro? "}
+                  O saldo será recalculado e a alteração será sincronizada. A
+                  exclusão pode ser recusada se deixar alguma retirada sem
+                  saldo.
                 </Text>
                 <Button
                   title="Confirmar exclusão"

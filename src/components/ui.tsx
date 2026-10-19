@@ -38,7 +38,7 @@ const BrazilianBankIcon = createIconSet(
 export function BankIcon({ bank, size = 42 }: { bank: string; size?: number }) {
   const { colors, styles } = useUI();
   const b = getBank(bank);
-  const logo = bankLogos[bank];
+  const logo = bankLogos[b.id];
   return (
     <View
       accessibilityLabel={b.name}

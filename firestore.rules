@@ -1,20 +1,60 @@
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
+    function owner(userId) { return request.auth != null && request.auth.uid == userId; }
+    function headPath(userId) { return /databases/$(database)/documents/users/$(userId)/finance/state; }
+    function validCounts(c) {
+      return c.keys().hasOnly(['accounts','cards','categories','transactions','goals','budgets','investmentAccounts','investmentMovements'])
+        && c.accounts is int && c.accounts >= 0 && c.cards is int && c.cards >= 0
+        && c.categories is int && c.categories >= 0 && c.transactions is int && c.transactions >= 0
+        && c.goals is int && c.goals >= 0 && c.budgets is int && c.budgets >= 0
+        && c.investmentAccounts is int && c.investmentAccounts >= 0
+        && c.investmentMovements is int && c.investmentMovements >= 0;
+    }
     match /users/{userId}/finance/state {
-      function owner() { return request.auth != null && request.auth.uid == userId; }
-      function validState() {
-        return request.resource.data.keys().hasOnly(['schemaVersion', 'revision', 'payload', 'updatedAt'])
-          && request.resource.data.schemaVersion in [1, 2, 3]
-          && request.resource.data.revision is int
-          && request.resource.data.payload is string
-          && request.resource.data.payload.size() < 900001
-          && request.resource.data.updatedAt == request.time;
+      function validLegacy() {
+        return request.resource.data.keys().hasOnly(['schemaVersion','revision','payload','updatedAt'])
+          && request.resource.data.schemaVersion in [1,2,3]
+          && request.resource.data.payload is string && request.resource.data.payload.size() < 900001;
       }
-      allow read: if owner();
-      allow create: if owner() && validState() && request.resource.data.revision == 1;
-      allow update: if owner() && validState() && request.resource.data.revision == resource.data.revision + 1;
+      function validRecords() {
+        return request.resource.data.keys().hasOnly(['schemaVersion','revision','generation','counts','updatedAt'])
+          && request.resource.data.schemaVersion == 4
+          && request.resource.data.generation is string && request.resource.data.generation.matches('[A-Za-z0-9_-]+')
+          && validCounts(request.resource.data.counts);
+      }
+      function validState() {
+        return request.resource.data.revision is int && request.resource.data.updatedAt == request.time
+          && (validRecords() || validLegacy());
+      }
+      allow read: if owner(userId);
+      allow create: if owner(userId) && validState() && request.resource.data.revision == 1;
+      allow update: if owner(userId) && validState()
+        && request.resource.data.revision == resource.data.revision + 1
+        && (resource.data.schemaVersion != 4 || request.resource.data.schemaVersion == 4);
       allow delete: if false;
+    }
+    match /users/{userId}/financeGenerations/{generation}/{entity}/{recordId} {
+      function knownEntity() { return entity in ['profile','accounts','cards','categories','transactions','goals','budgets','investmentAccounts','investmentMovements']; }
+      function coordinated() {
+        return !exists(headPath(userId)) || get(headPath(userId)).data.schemaVersion != 4
+          || get(headPath(userId)).data.generation != generation
+          || (getAfter(headPath(userId)).data.revision == get(headPath(userId)).data.revision + 1
+            && getAfter(headPath(userId)).data.generation == generation);
+      }
+      function validRecord() {
+        return (entity == 'profile' && recordId == 'main' && request.resource.data.version == 1 && request.resource.data.name is string)
+          || (entity != 'profile' && request.resource.data.id is string
+            && request.resource.data._position is int && request.resource.data._position >= 0);
+      }
+      allow read: if owner(userId) && knownEntity();
+      allow create, update: if owner(userId) && knownEntity() && validRecord() && coordinated();
+      allow delete: if owner(userId) && knownEntity() && coordinated();
+    }
+    match /users/{userId}/financeBackups/{backupId} {
+      allow read, delete: if owner(userId);
+      allow create: if owner(userId) && request.resource.data.schemaVersion in [1,2,3] && request.resource.data.payload is string;
+      allow update: if false;
     }
   }
 }

@@ -1,4 +1,5 @@
 import { type Data, validateData, upgradeCategories } from "./finance.ts";
+import { investmentTransferAvailable } from "./investmentTransfers.ts";
 const fields = [
   "accounts",
   "cards",
@@ -9,13 +10,24 @@ const fields = [
   "investmentAccounts",
   "investmentMovements",
 ] as const;
-const same = (a: unknown, b: unknown) =>
-  JSON.stringify(a) === JSON.stringify(b);
-export class SyncConflict extends Error {
-  constructor() {
-    super(
-      "O mesmo registro foi alterado em outro aparelho. Exporte um backup das alterações locais antes de usar a versão da nuvem.",
+const canonical = (value: unknown): unknown => {
+  if (Array.isArray(value)) return value.map(canonical);
+  if (value && typeof value === "object")
+    return Object.fromEntries(
+      Object.entries(value)
+        .filter(([, entry]) => entry !== undefined)
+        .sort(([a], [b]) => a.localeCompare(b))
+        .map(([key, entry]) => [key, canonical(entry)]),
     );
+  return value;
+};
+export const same = (a: unknown, b: unknown) =>
+  JSON.stringify(canonical(a)) === JSON.stringify(canonical(b));
+export class SyncConflict extends Error {
+  constructor(
+    message = "O mesmo registro foi alterado em outro aparelho. Exporte um backup das alterações locais antes de usar a versão da nuvem.",
+  ) {
+    super(message);
   }
 }
 /** Three-way merge: different records merge; concurrent edits of the same record are explicit conflicts. */
@@ -25,6 +37,33 @@ export function mergeFinance(base: Data, local: Data, remote: Data): Data {
   const originalIds = new Set(base.transactions.map((t) => t.id));
   const localIds = new Set(local.transactions.map((t) => t.id));
   const remoteIds = new Set(remote.transactions.map((t) => t.id));
+  // Different phones can receive the same bank event with different Android IDs.
+  const newLocalNotices = local.transactions.filter(
+    (t) =>
+      t.notificationImportId && !originalIds.has(t.id) && !remoteIds.has(t.id),
+  );
+  const newRemoteNotices = remote.transactions.filter(
+    (t) =>
+      t.notificationImportId && !originalIds.has(t.id) && !localIds.has(t.id),
+  );
+  if (
+    newLocalNotices.some((a) =>
+      newRemoteNotices.some(
+        (b) =>
+          a.id !== b.id &&
+          a.type === b.type &&
+          a.amount === b.amount &&
+          a.date === b.date &&
+          a.accountId === b.accountId &&
+          a.cardId === b.cardId &&
+          Math.abs(a.notificationImportedAt! - b.notificationImportedAt!) <=
+            120000,
+      ),
+    )
+  )
+    throw new SyncConflict(
+      "Duas importações de notificações podem representar a mesma transação. Revise os lançamentos antes de usar a versão da nuvem.",
+    );
   const independentLocalPayment = local.transactions.some(
     (t) => t.invoicePayment && !originalIds.has(t.id) && !remoteIds.has(t.id),
   );
@@ -81,6 +120,22 @@ export function mergeFinance(base: Data, local: Data, remote: Data): Data {
   }
   // Account/category deletion on another device must never orphan local transactions.
   if (!validateData(result)) throw new SyncConflict();
+  const changedTransfers = result.transactions.filter(
+    (t) =>
+      t.investmentMovementId &&
+      !same(
+        base.transactions.find((b) => b.id === t.id),
+        t,
+      ),
+  );
+  for (const transfer of changedTransfers) {
+    if (
+      investmentTransferAvailable(result, transfer.accountId, transfer.date) < 0
+    )
+      throw new SyncConflict(
+        "As transferências entre aparelhos excedem o saldo da conta de origem. Revise os lançamentos antes de sincronizar.",
+      );
+  }
   return result;
 }
 export const equalFinance = (a: Data, b: Data) => same(a, b);
@@ -98,10 +153,10 @@ export function decodeCloud(value: unknown): { data: Data; revision: number } {
     typeof v.payload !== "string"
   )
     throw new Error(
-      "Os dados do Firebase têm um formato incompatível. Exporte seus dados locais antes de tentar recuperar.",
+      "Os dados da nuvem têm um formato incompatível. Exporte seus dados locais antes de tentar recuperar.",
     );
   const data: unknown = JSON.parse(v.payload);
   if (!validateData(data))
-    throw new Error("Os dados do Firebase não são válidos.");
+    throw new Error("Os dados da nuvem não são válidos.");
   return { data: upgradeCategories(data), revision: v.revision! };
 }

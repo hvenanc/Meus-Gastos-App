@@ -8,22 +8,21 @@ export function authError(error: unknown) {
     "auth/email-already-in-use":
       "Este e-mail já tem uma conta. Entre ou recupere sua senha.",
     "auth/weak-password":
-      "A senha não atende à política do projeto. Use uma senha mais forte.",
+      "A senha não atende à política da sua conta. Use uma senha mais forte.",
     "auth/password-does-not-meet-requirements":
-      "A senha não atende à política de segurança do projeto.",
+      "A senha não atende à política de segurança da sua conta.",
     "auth/too-many-requests":
       "Muitas tentativas. Aguarde um pouco e tente novamente.",
     "auth/network-request-failed":
       "Sem conexão. Verifique sua internet e tente novamente.",
     "auth/operation-not-allowed":
-      "Ative o provedor E-mail/senha no Firebase Authentication.",
+      "O acesso por e-mail está temporariamente indisponível. Tente novamente mais tarde.",
     "auth/invalid-api-key":
-      "Confira a configuração do Firebase no arquivo .env.",
+      "O serviço de acesso está indisponível. Tente novamente mais tarde.",
     "auth/user-disabled": "Esta conta foi desativada.",
-    "auth/unauthorized-domain":
-      "Autorize este domínio nas configurações do Firebase Authentication.",
+    "auth/unauthorized-domain": "O acesso não está disponível neste endereço.",
     "auth/configuration-not-found":
-      "Configure o Firebase Authentication no console do projeto.",
+      "O serviço de acesso está indisponível. Tente novamente mais tarde.",
   };
   return messages[code ?? ""] ?? "Não foi possível concluir. Tente novamente.";
 }

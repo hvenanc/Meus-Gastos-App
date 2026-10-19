@@ -1,0 +1,4016 @@
+[
+  {
+    "id": "bb",
+    "name": "Banco do Brasil",
+    "url": "https://assets.organizze.com.br/institutions/logos/bb.png",
+    "file": "bb.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "0cb608f7764beb33496f1c5376a7b8f99d5fd33b70d4e0f75d6187449f407b54"
+  },
+  {
+    "id": "caixa",
+    "name": "Caixa",
+    "url": "https://assets.organizze.com.br/institutions/logos/caixa.png",
+    "file": "caixa.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "e34adccc32122fa0717e0aca6b89ff7a0e98c1ef1d765e4e1b113d67afe32bd3"
+  },
+  {
+    "id": "itau",
+    "name": "Itaú",
+    "url": "https://assets.organizze.com.br/institutions/logos/itau.png",
+    "file": "itau.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "442bd0b7d80fde499774cf6cb1f02843c2406b5127f28f7b657ff5fb9ca9f164"
+  },
+  {
+    "id": "bradesco",
+    "name": "Bradesco",
+    "url": "https://assets.organizze.com.br/institutions/logos/bradesco.png",
+    "file": "bradesco.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "87dae1b53a3763a7f4f910a62d692dbf3afe3a17100e03806e0e2fd2bf4d2c62"
+  },
+  {
+    "id": "visa",
+    "name": "Visa",
+    "url": "https://assets.organizze.com.br/institutions/logos/visa.png",
+    "file": "visa.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "2dd98f0b347fe8ece5527a91f01b2b2b8020446f005904a1eac7741a7b8e1932"
+  },
+  {
+    "id": "mastercard",
+    "name": "Mastercard",
+    "url": "https://assets.organizze.com.br/institutions/logos/mastercard.png",
+    "file": "mastercard.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "dc9f39d2a0c85439efd8a84c37104436e17891d5fa9d7473ef5527f824dacc6a"
+  },
+  {
+    "id": "nubank",
+    "name": "Nubank",
+    "url": "https://assets.organizze.com.br/institutions/logos/nubank.png",
+    "file": "nubank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "42f18c24e813521178977820f825897baee3f42696c4593a872cebdda61acecd"
+  },
+  {
+    "id": "diners",
+    "name": "Diners",
+    "url": "https://assets.organizze.com.br/institutions/logos/diners.png",
+    "file": "diners.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "18ef00941f89bda927e2ce8c5e4acd98e28c6466413db9d211b2470871618e67"
+  },
+  {
+    "id": "santander",
+    "name": "Santander",
+    "url": "https://assets.organizze.com.br/institutions/logos/santander.png",
+    "file": "santander.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "985411260cd26de1ceed81d0094a4d9e08f62312f9858fd5aa71761d2275e4a3"
+  },
+  {
+    "id": "amex",
+    "name": "American Express",
+    "url": "https://assets.organizze.com.br/institutions/logos/amex.png",
+    "file": "amex.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "4719db72042700719339e93122cb86e973ede0358047bb3a93dd99f9aa782ac0"
+  },
+  {
+    "id": "intermedium",
+    "name": "Banco Inter",
+    "url": "https://assets.organizze.com.br/institutions/logos/intermedium.png",
+    "file": "intermedium.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "8e18cba918dc9c2d71a26812a4789a339d5297fa8c8b557646de234e3c452df3"
+  },
+  {
+    "id": "btgpactual",
+    "name": "BTG Pactual",
+    "url": "https://assets.organizze.com.br/institutions/logos/btgpactual.png",
+    "file": "btgpactual.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "4705007bcea48975ffce4092471514c2da42c836a8116ab7add64da5be6fcc10"
+  },
+  {
+    "id": "elo",
+    "name": "Elo",
+    "url": "https://assets.organizze.com.br/institutions/logos/elo.png",
+    "file": "elo.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "bcb53ba4ee66c8219f568e65d6d628c59b6f11654f981637d322bcd4dc17082c"
+  },
+  {
+    "id": "c6bank",
+    "name": "C6 Bank",
+    "url": "https://assets.organizze.com.br/institutions/logos/c6bank.png",
+    "file": "c6bank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "0aecc140d93b400c586c29fb3dcfa3e60f94afb50d3681d07d82e9b74eabfa9c"
+  },
+  {
+    "id": "master-black",
+    "name": "Master Black",
+    "url": "https://assets.organizze.com.br/institutions/logos/master-black.png",
+    "file": "master-black.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "72f7c3dff345447aaf6692fac708f11361f2622cac13142357d4c5a57028aa69"
+  },
+  {
+    "id": "hipercard",
+    "name": "Hipercard",
+    "url": "https://assets.organizze.com.br/institutions/logos/hipercard.png",
+    "file": "hipercard.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "a020c245e52d8aba5c3904dbd2be97dc239388f820edc4a84f4eb10a0e689f93"
+  },
+  {
+    "id": "safra",
+    "name": "Safra",
+    "url": "https://assets.organizze.com.br/institutions/logos/safra.png",
+    "file": "safra.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "c6cdb166bec58db13d896b33ae5f78878aca0c7eb57247c66333eb260017d860"
+  },
+  {
+    "id": "credicard",
+    "name": "Credicard",
+    "url": "https://assets.organizze.com.br/institutions/logos/credicard.png",
+    "file": "credicard.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "4ce803df1b73afc10d25374eb505a5e0e05df748986f6e4ef88c72994f2d2acc"
+  },
+  {
+    "id": "itaupersonnalite",
+    "name": "Itaú Personnalité",
+    "url": "https://assets.organizze.com.br/institutions/logos/itaupersonnalite.png",
+    "file": "itaupersonnalite.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "383392c80a9e2d0aec3c2ee893e946ce4f66a173ad7ac0b5d5c4f544616be2f5"
+  },
+  {
+    "id": "118118-money",
+    "name": "118118 Money",
+    "url": "https://assets.organizze.com.br/institutions/logos/118118-money.png",
+    "file": "118118-money.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "e37f53996a3f6613667cc292893e0fc5461a598f6a30d659469c0c772ad05eed"
+  },
+  {
+    "id": "99Pay",
+    "name": "99 Pay",
+    "url": "https://assets.organizze.com.br/institutions/logos/99Pay.png",
+    "file": "99Pay.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "4ccc4e11465dd134e3bbee8f3078dfb713d7936d20dc9d3d1dd47ac86818cdb5"
+  },
+  {
+    "id": "abcbrasil",
+    "name": "ABC Brasil",
+    "url": "https://assets.organizze.com.br/institutions/logos/abcbrasil.png",
+    "file": "abcbrasil.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "b21ad72acbe1d52c6de25a617d48f0458e1d7512c5ff4fbeadbf782bd5093ff1"
+  },
+  {
+    "id": "abnamro",
+    "name": "ABN AMRO",
+    "url": "https://assets.organizze.com.br/institutions/logos/abnamro.png",
+    "file": "abnamro.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "7f2a2e7bac90b95ed2cdc8ee6bfffaa10cc14bded9e0660eca015f7ec45438fc"
+  },
+  {
+    "id": "abrapetite",
+    "name": "Abrapetite (Vale Alimentação)",
+    "url": "https://assets.organizze.com.br/institutions/logos/abrapetite.png",
+    "file": "abrapetite.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "423b2715acab8333fc4f1f82bebd3be72995a8d15b86b793509c85c3fae8965b"
+  },
+  {
+    "id": "absolutbank",
+    "name": "Absolut Bank",
+    "url": "https://assets.organizze.com.br/institutions/logos/absolutbank.png",
+    "file": "absolutbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "aac43732b865baf0e4679b4d47c25a59c13b95eaa772c0d471ae9d4ccd234aa2"
+  },
+  {
+    "id": "acessobank",
+    "name": "Acesso Bank",
+    "url": "https://assets.organizze.com.br/institutions/logos/acessobank.png",
+    "file": "acessobank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "8c8fd3ca15b5b20b35efe61c7e7db496001131c2eae502f343b766c457d78b01"
+  },
+  {
+    "id": "activo.bank",
+    "name": "Activo Bank",
+    "url": "https://assets.organizze.com.br/institutions/logos/activo.bank.png",
+    "file": "activo.bank.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "c41466dd6a0c5a0d4dacadcf528cff9d3d4777c3f6342c20a1651723975ace89"
+  },
+  {
+    "id": "activtrades",
+    "name": "ActivTrades",
+    "url": "https://assets.organizze.com.br/institutions/logos/activtrades.png",
+    "file": "activtrades.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "83c03e5fb2bdc4e0fae02973afc2822365f0445612fce7f44af5d58cc2738f6c"
+  },
+  {
+    "id": "advanzia",
+    "name": "Advanzia",
+    "url": "https://assets.organizze.com.br/institutions/logos/advanzia.png",
+    "file": "advanzia.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "b68ec82a3fe725ad890a2ea4e869b432596e226d61f2df87f4a4a6cd454b6a36"
+  },
+  {
+    "id": "agbank",
+    "name": "AGBank",
+    "url": "https://assets.organizze.com.br/institutions/logos/agbank.png",
+    "file": "agbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "fff4ae47478c683d3742ed917ddaaee857a716911982a743e7a63981d4eb7338"
+  },
+  {
+    "id": "agibank",
+    "name": "Agibank",
+    "url": "https://assets.organizze.com.br/institutions/logos/agibank.png",
+    "file": "agibank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "ed0cab7c8b96d7527150755cb17676c0fd2ab899af9b2690b51ce4c427a480ce"
+  },
+  {
+    "id": "agora",
+    "name": "Ágora Investimentos",
+    "url": "https://assets.organizze.com.br/institutions/logos/agora.png",
+    "file": "agora.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "e6b21752fdf10491dd0439c70b4311e2e5056fe88a02043a96ca0cfcf7d4cd6b"
+  },
+  {
+    "id": "agribank",
+    "name": "Agribank",
+    "url": "https://assets.organizze.com.br/institutions/logos/agribank.png",
+    "file": "agribank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "29e2c611210a86dc3cd60a8b4304bb9ab045bac426070058c9dbbabbc0561905"
+  },
+  {
+    "id": "ag-zero",
+    "name": "AgZero",
+    "url": "https://assets.organizze.com.br/institutions/logos/ag-zero.png",
+    "file": "ag-zero.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "9bc3db6c7068b577a34e5dbd2bbeecea0c00bffed0d6065a53711d5d9a6925a6"
+  },
+  {
+    "id": "cooperativa-ailos",
+    "name": "Ailos",
+    "url": "https://assets.organizze.com.br/institutions/logos/cooperativa-ailos.png",
+    "file": "cooperativa-ailos.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "6eeab4332bdd25336484677c56122250449ff6e15f95864091354b522288d42e"
+  },
+  {
+    "id": "abank",
+    "name": "AKBank",
+    "url": "https://assets.organizze.com.br/institutions/logos/abank.png",
+    "file": "abank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "6d02730289b6943c7fc943eb221c85047a978dbac93688b33b3b4800d6113223"
+  },
+  {
+    "id": "aktia",
+    "name": "Aktia",
+    "url": "https://assets.organizze.com.br/institutions/logos/aktia.png",
+    "file": "aktia.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "8f8b0124f6d86a2cefe6b9c39528703413327ddec00f3a9f1a12fb06fc60ad94"
+  },
+  {
+    "id": "alelo",
+    "name": "alelo",
+    "url": "https://assets.organizze.com.br/institutions/logos/alelo.png",
+    "file": "alelo.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "1a0b8df6498f0c2f0c78aefffc85ea4e8039b469ca70c37a05d05b165518dba3"
+  },
+  {
+    "id": "alfabank",
+    "name": "Alfa",
+    "url": "https://assets.organizze.com.br/institutions/logos/alfabank.png",
+    "file": "alfabank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "d1f0efde1cf67ea80f32a610b3171fb0496bd4a9db01008133c8f9edc2786b7d"
+  },
+  {
+    "id": "alphabank",
+    "name": "Alpha",
+    "url": "https://assets.organizze.com.br/institutions/logos/alphabank.png",
+    "file": "alphabank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "1a63fe05a6e18b631179acba4d9df6f58860db71e29e8291da8d8cb507fedfa7"
+  },
+  {
+    "id": "alt.bank",
+    "name": "Alt Bank",
+    "url": "https://assets.organizze.com.br/institutions/logos/alt.bank.png",
+    "file": "alt.bank.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "70f5dfbf10e58e8d59c0c712c92f54e2023365004cc1fcc4cfcac97d264be5f6"
+  },
+  {
+    "id": "amazon",
+    "name": "Amazon",
+    "url": "https://assets.organizze.com.br/institutions/logos/amazon.png",
+    "file": "amazon.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "c9b3db4385914e5c5370d1cf99e1e5581591143fb0b4593bebd2d5a77bd438a3"
+  },
+  {
+    "id": "amazonprime",
+    "name": "Amazon Prime",
+    "url": "https://assets.organizze.com.br/institutions/logos/amazonprime.png",
+    "file": "amazonprime.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "9274bd3d4ca22a08e51d1b6da5e1bebd176615c909e9b8b02d7072c4d1a70f27"
+  },
+  {
+    "id": "amazonia",
+    "name": "Amazonia",
+    "url": "https://assets.organizze.com.br/institutions/logos/amazonia.png",
+    "file": "amazonia.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "d49dd5e69c301962189ae029035aca3540d2692bdb8999a3d7dd1e96133ffbdb"
+  },
+  {
+    "id": "ame",
+    "name": "Ame Digital",
+    "url": "https://assets.organizze.com.br/institutions/logos/ame.png",
+    "file": "ame.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "f9978186abb3bd08825db03d1c8aec4536c2ae3f38adc6b31c697b3866c0e0a7"
+  },
+  {
+    "id": "lojasamericanas",
+    "name": "Americanas",
+    "url": "https://assets.organizze.com.br/institutions/logos/lojasamericanas.png",
+    "file": "lojasamericanas.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "fce14d80a36d0e7fd77a332bbe9c292f49e328278f5d20b6005b773bba35dde9"
+  },
+  {
+    "id": "ameriprisefinancial",
+    "name": "Ameriprise Financial",
+    "url": "https://assets.organizze.com.br/institutions/logos/ameriprisefinancial.png",
+    "file": "ameriprisefinancial.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "38f6f9c6dac848552fd21ad2aacec5edc427b5bfa1adea8389a7973adc99003c"
+  },
+  {
+    "id": "amppersonalbanking",
+    "name": "AMP Personal Banking",
+    "url": "https://assets.organizze.com.br/institutions/logos/amppersonalbanking.png",
+    "file": "amppersonalbanking.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "d6cbdcd7e5638fc65489fea8effe5d8b34445ca980b2aac5155313d211955368"
+  },
+  {
+    "id": "anz",
+    "name": "ANZ",
+    "url": "https://assets.organizze.com.br/institutions/logos/anz.png",
+    "file": "anz.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "9b1968c32d2d7c16eff7e6cdd6c3ce9afdfcdc04904754d5437f954bc6864f67"
+  },
+  {
+    "id": "app.store",
+    "name": "App Store",
+    "url": "https://assets.organizze.com.br/institutions/logos/app.store.png",
+    "file": "app.store.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "11b4caa5364f9d3b27016665c275d8f0a30db54772c6392bf9fb96a8f5350ac7"
+  },
+  {
+    "id": "asaas",
+    "name": "Asaas",
+    "url": "https://assets.organizze.com.br/institutions/logos/asaas.png",
+    "file": "asaas.png",
+    "width": 120,
+    "height": 114,
+    "sha256": "1aaccfefebb8ee2381f45ffb09d88778a5f6db6eee9286d6e5a31e0f27b32710"
+  },
+  {
+    "id": "asn",
+    "name": "ASN",
+    "url": "https://assets.organizze.com.br/institutions/logos/asn.png",
+    "file": "asn.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "a408ae91ee71134213e7baacce80a7950a7578ca4f5561d3afe2678f7033d3cf"
+  },
+  {
+    "id": "astro-pay",
+    "name": "Astro Pay",
+    "url": "https://assets.organizze.com.br/institutions/logos/astro-pay.png",
+    "file": "astro-pay.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "20764a42079cef488b849658640ef460ea7e351d93d4ac392ed0238263547689"
+  },
+  {
+    "id": "atlantico",
+    "name": "Atlantico",
+    "url": "https://assets.organizze.com.br/institutions/logos/atlantico.png",
+    "file": "atlantico.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "44fc167966a5aa32a53961f8ee01fc92c3994945fb0ded97b862e877ca5a69ca"
+  },
+  {
+    "id": "atticabank",
+    "name": "Attica",
+    "url": "https://assets.organizze.com.br/institutions/logos/atticabank.png",
+    "file": "atticabank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "c722c9f7362e2612e583c5949a0812824866a7a9b4a27fd2fa2831c23459f317"
+  },
+  {
+    "id": "aura",
+    "name": "Aura",
+    "url": "https://assets.organizze.com.br/institutions/logos/aura.png",
+    "file": "aura.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "82bef314aa7104393715e7cb76c4ed7736d939bc7b69b98f2464d5ec4d0e01da"
+  },
+  {
+    "id": "avenida",
+    "name": "Avenida",
+    "url": "https://assets.organizze.com.br/institutions/logos/avenida.png",
+    "file": "avenida.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "c5af0f6cac5e8eafa89106fe91f68d5f8cff0523a2b092cf419b17a824ad67aa"
+  },
+  {
+    "id": "avenuesecuritie",
+    "name": "Avenue Securitie",
+    "url": "https://assets.organizze.com.br/institutions/logos/avenuesecuritie.png",
+    "file": "avenuesecuritie.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "2faa5fb025678227e430b7b95b29b32048f8ea941d7bdeee149caaa6501f9b91"
+  },
+  {
+    "id": "azul",
+    "name": "Azul",
+    "url": "https://assets.organizze.com.br/institutions/logos/azul.png",
+    "file": "azul.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "9ad1916781d3cb77eb24ffa76134d1a3bf68f59661cd17d1c0859329133fb3ca"
+  },
+  {
+    "id": "b3",
+    "name": "B3",
+    "url": "https://assets.organizze.com.br/institutions/logos/b3.png",
+    "file": "b3.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "96de30d7a9f56070629269e047f0ed0963155ffee8d4da06454df687049d03a9"
+  },
+  {
+    "id": "bahamas-cred",
+    "name": "Bahamas Cred",
+    "url": "https://assets.organizze.com.br/institutions/logos/bahamas-cred.png",
+    "file": "bahamas-cred.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "96c73440f708451d0b95907c0e961a00091f0b4b56f68ceafd68582e84d53f5c"
+  },
+  {
+    "id": "banamex",
+    "name": "Banamex",
+    "url": "https://assets.organizze.com.br/institutions/logos/banamex.png",
+    "file": "banamex.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "33adc4efcac0070f4d71f71545687209c6a2e6d06071e27fc2588ea147434d84"
+  },
+  {
+    "id": "bancacarige",
+    "name": "Banca Carige",
+    "url": "https://assets.organizze.com.br/institutions/logos/bancacarige.png",
+    "file": "bancacarige.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "8aa66efc6edaa2bd0754b4e40bdbeba4a122124454a397a45a715a958a463e2e"
+  },
+  {
+    "id": "bancaditalia",
+    "name": "Banca DItalia",
+    "url": "https://assets.organizze.com.br/institutions/logos/bancaditalia.png",
+    "file": "bancaditalia.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "ffeaf38e8a62b0d6328a7c6a187ade417ecf408d7e892646831d32e455899239"
+  },
+  {
+    "id": "bancamediolanum",
+    "name": "Banca Mediolanum",
+    "url": "https://assets.organizze.com.br/institutions/logos/bancamediolanum.png",
+    "file": "bancamediolanum.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "b63ced5e8650ee29e51163274c6b2ab8e99e05f34f2d395946d3ff16931fcd5b"
+  },
+  {
+    "id": "bancamps",
+    "name": "Banca MPS",
+    "url": "https://assets.organizze.com.br/institutions/logos/bancamps.png",
+    "file": "bancamps.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "17b51e81ad68d3cae9a12ed14165fa0ec35f30c8b14807cd769d7ebbbbcfbbd5"
+  },
+  {
+    "id": "bancaopopularedisondrio",
+    "name": "Banca Populare di Sondrio",
+    "url": "https://assets.organizze.com.br/institutions/logos/bancaopopularedisondrio.png",
+    "file": "bancaopopularedisondrio.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "70e6a13413e74ff8c8c60d4dd43eb092eadce9ecde3df84f0e930969d0e7dd18"
+  },
+  {
+    "id": "banco-bai",
+    "name": "Banco Bai",
+    "url": "https://assets.organizze.com.br/institutions/logos/banco-bai.png",
+    "file": "banco-bai.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "97dd37b2f66917c94cf1d0e8d70364d35f642fc42b4828607f497c6ffdb56f9c"
+  },
+  {
+    "id": "banco-bic",
+    "name": "Banco BIC",
+    "url": "https://assets.organizze.com.br/institutions/logos/banco-bic.png",
+    "file": "banco-bic.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "510eff862f9d18a002c89264091c04ed38d670548663422d96918080f2b6a42d"
+  },
+  {
+    "id": "bancobpm",
+    "name": "Banco BPM",
+    "url": "https://assets.organizze.com.br/institutions/logos/bancobpm.png",
+    "file": "bancobpm.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "4e2d72d3f9e9f016da7bf4a6d5805db13954512620512d3f4c34ee58f46d95fb"
+  },
+  {
+    "id": "cacique",
+    "name": "Banco Cacique ",
+    "url": "https://assets.organizze.com.br/institutions/logos/cacique.png",
+    "file": "cacique.jpg",
+    "width": 100,
+    "height": 100,
+    "sha256": "7d1d725d10e035b58795948169487d69d62bd898af94ae5bdeabaa214afee4e8"
+  },
+  {
+    "id": "bancodebogota",
+    "name": "Banco de Bogotá",
+    "url": "https://assets.organizze.com.br/institutions/logos/bancodebogota.png",
+    "file": "bancodebogota.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "40c7efd18d19fed304133a07610af544ced39c3b9347115f0e4cd7ad83f208b1"
+  },
+  {
+    "id": "banco-comercio-industria",
+    "name": "Banco de Comercio e Industria",
+    "url": "https://assets.organizze.com.br/institutions/logos/banco-comercio-industria.png",
+    "file": "banco-comercio-industria.png",
+    "width": 120,
+    "height": 105,
+    "sha256": "8ecf8b64b44a2a7ba50731a76868f74ca801855a797887bc455de185e48d0b75"
+  },
+  {
+    "id": "bancodeoccident",
+    "name": "Banco de Occident",
+    "url": "https://assets.organizze.com.br/institutions/logos/bancodeoccident.png",
+    "file": "bancodeoccident.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "a9282c2fb69fbc6ab09756e39d89748dc0827e371d58c2cd769fcc9f8f74865d"
+  },
+  {
+    "id": "bancodelbajio",
+    "name": "Banco del Bajio",
+    "url": "https://assets.organizze.com.br/institutions/logos/bancodelbajio.png",
+    "file": "bancodelbajio.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "c15fe9c154cb60d92c150d7ab5e5e8548ba13e639e74673c446550c76a3a99b5"
+  },
+  {
+    "id": "nordeste",
+    "name": "Banco do Nordeste",
+    "url": "https://assets.organizze.com.br/institutions/logos/nordeste.png",
+    "file": "nordeste.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "c04d45a64282bc399e42d1c10e9431ec2f63636856f59ccc24da15b542b409b7"
+  },
+  {
+    "id": "interpj",
+    "name": "Banco Inter PJ",
+    "url": "https://assets.organizze.com.br/institutions/logos/interpj.png",
+    "file": "interpj.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "8efe50004e274986de42a229ad35ffc4aa650ef9c1788ff1f31bfa955795c127"
+  },
+  {
+    "id": "pan",
+    "name": "Banco PAN",
+    "url": "https://assets.organizze.com.br/institutions/logos/pan.png",
+    "file": "pan.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "4d823c40b2803777448ad02ee50a34f9ed135be2988bd772c4c87ac52e21ed8e"
+  },
+  {
+    "id": "banco-parana",
+    "name": "Banco Paraná",
+    "url": "https://assets.organizze.com.br/institutions/logos/banco-parana.png",
+    "file": "banco-parana.png",
+    "width": 120,
+    "height": 111,
+    "sha256": "3b95105b2e1db58eb6bc714a84b48c0b40b956317203c2533eefd2938bc33cdd"
+  },
+  {
+    "id": "banco-poupanca-credito",
+    "name": "Banco Poupança e Crédito",
+    "url": "https://assets.organizze.com.br/institutions/logos/banco-poupanca-credito.png",
+    "file": "banco-poupanca-credito.png",
+    "width": 120,
+    "height": 133,
+    "sha256": "7d06ea3317ed4c5c209920e3afe7185f3f63ff202abc41666199b6aaeef425a3"
+  },
+  {
+    "id": "votorantim",
+    "name": "Banco Votorantim",
+    "url": "https://assets.organizze.com.br/institutions/logos/votorantim.png",
+    "file": "votorantim.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "6dd32829e776560c3d2021a381b8c91d9b0d4e8c9d19f0c4ba83cde0e1ff3d99"
+  },
+  {
+    "id": "bancolombia",
+    "name": "Bancolombia",
+    "url": "https://assets.organizze.com.br/institutions/logos/bancolombia.png",
+    "file": "bancolombia.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "ba0998190d093c01ffe61aa31cda0cedc44dae22777435327ea530e0dbc57e60"
+  },
+  {
+    "id": "bancoposta",
+    "name": "BancoPosta",
+    "url": "https://assets.organizze.com.br/institutions/logos/bancoposta.png",
+    "file": "bancoposta.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "10150e1301adb4f56594b4c1552069729869545740c05de715e7863844d436cd"
+  },
+  {
+    "id": "banese",
+    "name": "Banese",
+    "url": "https://assets.organizze.com.br/institutions/logos/banese.png",
+    "file": "banese.png",
+    "width": 100,
+    "height": 100,
+    "sha256": "82b464f4b88446258954cf1b186d7733ca1e8fe42c76a985cc5a889d529b32c4"
+  },
+  {
+    "id": "banestes",
+    "name": "Banestes",
+    "url": "https://assets.organizze.com.br/institutions/logos/banestes.png",
+    "file": "banestes.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "a98bd66e4652fe7a696051d5231a2a31ad8c3658cf753a58fef26d6029432d70"
+  },
+  {
+    "id": "bangkokbank",
+    "name": "Bangkok Bank",
+    "url": "https://assets.organizze.com.br/institutions/logos/bangkokbank.png",
+    "file": "bangkokbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "c8895ccb8c0ee7461b63db4c041dddcca8919af91f632b2443e09bf978cb4b51"
+  },
+  {
+    "id": "banif",
+    "name": "Banif",
+    "url": "https://assets.organizze.com.br/institutions/logos/banif.png",
+    "file": "banif.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "587ba6f3d238c0aa2c316392ad0ddae35d784e155d389cefc3663622fdfe5021"
+  },
+  {
+    "id": "banknorwegian",
+    "name": "Bank Norwegian",
+    "url": "https://assets.organizze.com.br/institutions/logos/banknorwegian.png",
+    "file": "banknorwegian.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "65e752034fc4190ef859c969c1d53990db841449a767245c6f582acda72b87e9"
+  },
+  {
+    "id": "bankofaland",
+    "name": "Bank of Aland",
+    "url": "https://assets.organizze.com.br/institutions/logos/bankofaland.png",
+    "file": "bankofaland.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "1284ecac5b74f646549f1e1d9649aa6ee7038d9fe3b10090f74fdc690e7d3207"
+  },
+  {
+    "id": "bankofamerica",
+    "name": "Bank of America",
+    "url": "https://assets.organizze.com.br/institutions/logos/bankofamerica.png",
+    "file": "bankofamerica.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "38891ba2519ced14d3aabd2ae7f14cf41d10e439c6dcf682acda1a4923907e9e"
+  },
+  {
+    "id": "bankofchina",
+    "name": "Bank of China",
+    "url": "https://assets.organizze.com.br/institutions/logos/bankofchina.png",
+    "file": "bankofchina.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "336f31359b962db444c539ab9ba60ede9efde8f2d7a77899a3c63a68f528345a"
+  },
+  {
+    "id": "bankrakyat",
+    "name": "Bank Rakyat",
+    "url": "https://assets.organizze.com.br/institutions/logos/bankrakyat.png",
+    "file": "bankrakyat.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "db097e33ead64e491f501f70a6df9d76fbe0ccf6d1bfccfa28ee29b58c4e1ce7"
+  },
+  {
+    "id": "bankia",
+    "name": "Bankia",
+    "url": "https://assets.organizze.com.br/institutions/logos/bankia.png",
+    "file": "bankia.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "3fe60fc67d41013c0d6adc5abec2a8d13482dafeef27c41c7199673d316552fd"
+  },
+  {
+    "id": "bankwest",
+    "name": "Bankwest",
+    "url": "https://assets.organizze.com.br/institutions/logos/bankwest.png",
+    "file": "bankwest.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "512045897774cd6be9e8f6b9635d88b98cb3eff5c3d7cd09798a7f9a29e94025"
+  },
+  {
+    "id": "banorte",
+    "name": "Banorte",
+    "url": "https://assets.organizze.com.br/institutions/logos/banorte.png",
+    "file": "banorte.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "072e8f01b59acfc332cf62130d4e7e22b96dcd623578b5bbf87c6eaf87b8b080"
+  },
+  {
+    "id": "banpara",
+    "name": "Banpara",
+    "url": "https://assets.organizze.com.br/institutions/logos/banpara.png",
+    "file": "banpara.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "8671a3ee4b9082a6d6824fe3464e2a90187a9157c447c2ad4f3c8036f9f30649"
+  },
+  {
+    "id": "banrisul",
+    "name": "Banrisul",
+    "url": "https://assets.organizze.com.br/institutions/logos/banrisul.png",
+    "file": "banrisul.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "3490e1843e8f50873afa30e34437346154607db7aa531324f1e6d08f5ba4c149"
+  },
+  {
+    "id": "barclays",
+    "name": "Barclays",
+    "url": "https://assets.organizze.com.br/institutions/logos/barclays.png",
+    "file": "barclays.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "b829a62fee4b0401f03dcae0c1123a646212d3219290cdb5f618f27acf59f7f5"
+  },
+  {
+    "id": "bari",
+    "name": "Bari",
+    "url": "https://assets.organizze.com.br/institutions/logos/bari.png",
+    "file": "bari.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "425b058bfe44daefdf3dd8fcc15cbdb30340fb8224d78f0af49f6d1c40db53fe"
+  },
+  {
+    "id": "bbm",
+    "name": "Bbm",
+    "url": "https://assets.organizze.com.br/institutions/logos/bbm.png",
+    "file": "bbm.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "ca3567f5d17020757865a3fac783b36a6766765aaca2704cc769a8b6b4df3289"
+  },
+  {
+    "id": "bbva",
+    "name": "BBVA",
+    "url": "https://assets.organizze.com.br/institutions/logos/bbva.png",
+    "file": "bbva.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "9851a31dceacc1fed33959e15824acfb9bf81d59f5dfdbea8b62a051f0b0fc08"
+  },
+  {
+    "id": "bca",
+    "name": "BCA",
+    "url": "https://assets.organizze.com.br/institutions/logos/bca.png",
+    "file": "bca.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "ad866cff7de11f49a0ef7c677bc20522d1fd43bf292a224a3cd4aed8a46ffffc"
+  },
+  {
+    "id": "bemol",
+    "name": "Bemol",
+    "url": "https://assets.organizze.com.br/institutions/logos/bemol.png",
+    "file": "bemol.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "76ac24d2a2b42c6bcb2e51dce3d0af21152398931418ea8bef54fd46e3eaa5b8"
+  },
+  {
+    "id": "benvisavale",
+    "name": "Ben Visa Vale",
+    "url": "https://assets.organizze.com.br/institutions/logos/benvisavale.png",
+    "file": "benvisavale.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "5945117f09d8f6d9a14fb3d218bdad94c08e10e9500188368c2af6eeccddef5e"
+  },
+  {
+    "id": "bendigobank",
+    "name": "Bendigo",
+    "url": "https://assets.organizze.com.br/institutions/logos/bendigobank.png",
+    "file": "bendigobank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "4ed74b95ef9aff67fec4dc93ea701512ac6fb4fd8af77a2ab91dbddba1905ca1"
+  },
+  {
+    "id": "bene",
+    "name": "Bene",
+    "url": "https://assets.organizze.com.br/institutions/logos/bene.png",
+    "file": "bene.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "74aeec14c7784daed92ff00c54d3a06db7e9bf5a5c069cb8ea649fbb3c455131"
+  },
+  {
+    "id": "betfair",
+    "name": "Betfair",
+    "url": "https://assets.organizze.com.br/institutions/logos/betfair.png",
+    "file": "betfair.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "bddc0e7d068c28979a8e0407f1ddad6f39aaeeb6d48a61e3db6a8ce8272e7ae4"
+  },
+  {
+    "id": "bidv",
+    "name": "BIDV",
+    "url": "https://assets.organizze.com.br/institutions/logos/bidv.png",
+    "file": "bidv.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "0de6a5bd53937a63ec2ed02270071bda22d92e60e85bbb635e82c8173d90fcbf"
+  },
+  {
+    "id": "bilhete-unico",
+    "name": "Bilhete Único",
+    "url": "https://assets.organizze.com.br/institutions/logos/bilhete-unico.png",
+    "file": "bilhete-unico.png",
+    "width": 64,
+    "height": 64,
+    "sha256": "507dba66612de4993afd6e08b40451340c1f69cf4c93074da79861192a6ba6ca"
+  },
+  {
+    "id": "binance",
+    "name": "Binance",
+    "url": "https://assets.organizze.com.br/institutions/logos/binance.png",
+    "file": "binance.png",
+    "width": 120,
+    "height": 118,
+    "sha256": "ada793d9d4ddd64138c2f01254adadf1443545f009239569091b7ed32cd67f1c"
+  },
+  {
+    "id": "binomo",
+    "name": "Binomo",
+    "url": "https://assets.organizze.com.br/institutions/logos/binomo.png",
+    "file": "binomo.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "303bd5a80213845a7df6094905870bd829ffdd639c4fdc056271892e869eab2a"
+  },
+  {
+    "id": "bitybank",
+    "name": "Bitybank",
+    "url": "https://assets.organizze.com.br/institutions/logos/bitybank.png",
+    "file": "bitybank.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "0a5a5e358b4f9fb6fb6d200766ad86358ac380326374966a4b39c5c28ec1d718"
+  },
+  {
+    "id": "bitz",
+    "name": "Bitz",
+    "url": "https://assets.organizze.com.br/institutions/logos/bitz.png",
+    "file": "bitz.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "aa28b0a7d173d7b9e55a469accd6e81cb63d0513d56d98d631bb02d01ec7e832"
+  },
+  {
+    "id": "blaze",
+    "name": "Blaze",
+    "url": "https://assets.organizze.com.br/institutions/logos/blaze.png",
+    "file": "blaze.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "6e046c411f7f241d5b267b656819f0f3e297162efcb7be33e5fe4bd0160abac3"
+  },
+  {
+    "id": "bmg",
+    "name": "BMG",
+    "url": "https://assets.organizze.com.br/institutions/logos/bmg.png",
+    "file": "bmg.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "23275414c861177f2db2374f2fcb721373be35e78e156492c6b3c4bf14e71051"
+  },
+  {
+    "id": "bmg-corinthians",
+    "name": "BMG Corinthians",
+    "url": "https://assets.organizze.com.br/institutions/logos/bmg-corinthians.png",
+    "file": "bmg-corinthians.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "b2f158b662029d614f11cc18d3f1a3180f6e482c90357d98b73b560815bb5239"
+  },
+  {
+    "id": "bmo",
+    "name": "BMO",
+    "url": "https://assets.organizze.com.br/institutions/logos/bmo.png",
+    "file": "bmo.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "d6f8a90b5d4fcf4748d7fcc34466a8370e9e17c85a29c30597ca77969f6859fd"
+  },
+  {
+    "id": "bni",
+    "name": "BNI",
+    "url": "https://assets.organizze.com.br/institutions/logos/bni.png",
+    "file": "bni.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "f90c9fda6988adfe6263b4cc12c517a92ad6ea00f07456d14834f06b144406dd"
+  },
+  {
+    "id": "bnl",
+    "name": "BNL",
+    "url": "https://assets.organizze.com.br/institutions/logos/bnl.png",
+    "file": "bnl.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "cbf18e30e8092b58edf712fa0c622656fc26575d2a8e04d409b73a28515391c8"
+  },
+  {
+    "id": "bnpparibas",
+    "name": "BNP Paribas",
+    "url": "https://assets.organizze.com.br/institutions/logos/bnpparibas.png",
+    "file": "bnpparibas.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "c0410fbeb0881713aea41045ae74cb98cfe2effbe68f6cbfc7c870c9ad123be5"
+  },
+  {
+    "id": "boq",
+    "name": "BOQ",
+    "url": "https://assets.organizze.com.br/institutions/logos/boq.png",
+    "file": "boq.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "e414d84673f002d657bfeac83dbafca27023b3f5e379ac9b030993a1182fa0cc"
+  },
+  {
+    "id": "bperbanca",
+    "name": "BPER Banca",
+    "url": "https://assets.organizze.com.br/institutions/logos/bperbanca.png",
+    "file": "bperbanca.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "51625498bffc3f27a78bcb40fd5a0ed710b07df80bacff28b6221de4f000936d"
+  },
+  {
+    "id": "bpi",
+    "name": "BPI",
+    "url": "https://assets.organizze.com.br/institutions/logos/bpi.png",
+    "file": "bpi.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "1656fa803103051fbe1cddc4dc0f65f81ac6f21cd5b9c354a5f204dc86658ba3"
+  },
+  {
+    "id": "bradesco-empresas",
+    "name": "Bradesco Empresas",
+    "url": "https://assets.organizze.com.br/institutions/logos/bradesco-empresas.png",
+    "file": "bradesco-empresas.png",
+    "width": 64,
+    "height": 64,
+    "sha256": "6b5e6ca23a6824cd070edff874c295898f799e572f64e8b459004055f162f713"
+  },
+  {
+    "id": "bradesco-prime",
+    "name": "Bradesco Prime",
+    "url": "https://assets.organizze.com.br/institutions/logos/bradesco-prime.png",
+    "file": "bradesco-prime.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "eb04f015b89fbc12f0e72fa3683b6f8f38479016c859c3bbbb3b60b6a9daeb6e"
+  },
+  {
+    "id": "brasilcard",
+    "name": "Brasilcard",
+    "url": "https://assets.organizze.com.br/institutions/logos/brasilcard.png",
+    "file": "brasilcard.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "ea0a23b93b86a746c30cb192916dd13aa22d051a57a66f7ed29ddbcd6d969d02"
+  },
+  {
+    "id": "brb",
+    "name": "BRB",
+    "url": "https://assets.organizze.com.br/institutions/logos/brb.png",
+    "file": "brb.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "1734e77a612291df5b0397d83415b7487da0d791118833aced278a4278a75c2f"
+  },
+  {
+    "id": "brde",
+    "name": "BRDE",
+    "url": "https://assets.organizze.com.br/institutions/logos/brde.png",
+    "file": "brde.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "86eb5c539fa6f136bf4649be75f999688973b1178099bb7b2fd40b1264c295ef"
+  },
+  {
+    "id": "bankmandiri",
+    "name": "BRI",
+    "url": "https://assets.organizze.com.br/institutions/logos/bankmandiri.png",
+    "file": "bankmandiri.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "aa482a65b9710dc7f9e1a6f413be9a979bddf995b91bc1d276f0a87f0580a4fd"
+  },
+  {
+    "id": "bs2",
+    "name": "BS2",
+    "url": "https://assets.organizze.com.br/institutions/logos/bs2.png",
+    "file": "bs2.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "587d3bf0e56e227a42c6840573e7fe9c76400543860319c1908f9d6ca8c80b20"
+  },
+  {
+    "id": "btgplus",
+    "name": "BTG +",
+    "url": "https://assets.organizze.com.br/institutions/logos/btgplus.png",
+    "file": "btgplus.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "371bb1868b3e04b51c8fc8fe3f1316597e7e6d099eb18f7a58e935fb876636c7"
+  },
+  {
+    "id": "btg.empresas",
+    "name": "BTG Empresas",
+    "url": "https://assets.organizze.com.br/institutions/logos/btg.empresas.png",
+    "file": "btg.empresas.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "51425c91a61c24b536f4944d7394aed60db4df9ffce3c852bb6fd0da7e80dedc"
+  },
+  {
+    "id": "buddy.bank",
+    "name": "Buddy Bank",
+    "url": "https://assets.organizze.com.br/institutions/logos/buddy.bank.png",
+    "file": "buddy.bank.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "c592af3a4b12b564cd1bc165ef202d9fa7e60583f0c17aaf597693c4bb0b0e22"
+  },
+  {
+    "id": "bunq",
+    "name": "bunq",
+    "url": "https://assets.organizze.com.br/institutions/logos/bunq.png",
+    "file": "bunq.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "1171e96b8bceb49f252d3b0ecf09608174ff439cbd0d3d3b3070af296f677a72"
+  },
+  {
+    "id": "bv",
+    "name": "BV",
+    "url": "https://assets.organizze.com.br/institutions/logos/bv.png",
+    "file": "bv.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "6887ffc1ab5780562c2be271f90bd7c95e5658df34ddb64f6e73b5c2c67849c6"
+  },
+  {
+    "id": "c-a",
+    "name": "C&A",
+    "url": "https://assets.organizze.com.br/institutions/logos/c-a.png",
+    "file": "c-a.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "b8be27fd5668e0d6d60b2134cd7a8c2a7748b35fe0c9920a568da2cf1d6808e6"
+  },
+  {
+    "id": "c-a-pay",
+    "name": "C&A Pay",
+    "url": "https://assets.organizze.com.br/institutions/logos/c-a-pay.png",
+    "file": "c-a-pay.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "c8843c80e8c32438224bf61f01d1941d327000185aaccfb7d935791421848636"
+  },
+  {
+    "id": "caisse",
+    "name": "Caisse dEpargne",
+    "url": "https://assets.organizze.com.br/institutions/logos/caisse.png",
+    "file": "caisse.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "66d8ccef5f391bb998a93241ca8f31b2c4d96b3b949c0c8b44821c94a9a43d1c"
+  },
+  {
+    "id": "caixageral",
+    "name": "Caixa Geral",
+    "url": "https://assets.organizze.com.br/institutions/logos/caixageral.png",
+    "file": "caixageral.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "8539edbca80ed6a80416b38ca1a5c50edf54ae11c46af81f5a6e046a25ba18ba"
+  },
+  {
+    "id": "caixabank",
+    "name": "CaixaBank",
+    "url": "https://assets.organizze.com.br/institutions/logos/caixabank.png",
+    "file": "caixabank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "d3af89010106d295adf559742265c64d006a67b7a9432500ccea63355cb1b7e3"
+  },
+  {
+    "id": "caju",
+    "name": "Caju Benefícios",
+    "url": "https://assets.organizze.com.br/institutions/logos/caju.png",
+    "file": "caju.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "945d850e5ae6ccd744185f3e9f6df0b9f6c85255182f6d2d65d77778a014970c"
+  },
+  {
+    "id": "capitalone",
+    "name": "Capital One",
+    "url": "https://assets.organizze.com.br/institutions/logos/capitalone.png",
+    "file": "capitalone.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "e5b3b1d48ffc34c67e3a995b3cab0d017248846ae2d2a01c9d2a90d20185545c"
+  },
+  {
+    "id": "carrefour",
+    "name": "Carrefour",
+    "url": "https://assets.organizze.com.br/institutions/logos/carrefour.png",
+    "file": "carrefour.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "ccbc2d82108a594c94a7d81656012c82348b578f28892f719f3f50e3e5599eba"
+  },
+  {
+    "id": "cassadepositieprestiti",
+    "name": "Cassa Depositi e Prestiti",
+    "url": "https://assets.organizze.com.br/institutions/logos/cassadepositieprestiti.png",
+    "file": "cassadepositieprestiti.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "8ecd7b596aa11c8f1afc9d08f148ddf49cb25d5dff252bedcda477fce47b2547"
+  },
+  {
+    "id": "cdb",
+    "name": "CDB",
+    "url": "https://assets.organizze.com.br/institutions/logos/cdb.png",
+    "file": "cdb.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "9ee15a99a7c873184bba0a6f776d2ff007cab761205786909229240aa7d86892"
+  },
+  {
+    "id": "cdp",
+    "name": "CDP",
+    "url": "https://assets.organizze.com.br/institutions/logos/cdp.png",
+    "file": "cdp.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "a745891c901ce9d487b7dfeb0d1a9141c3e67e7f46a1a9261cf23c1941c03d0c"
+  },
+  {
+    "id": "celcoin",
+    "name": "Celcoin",
+    "url": "https://assets.organizze.com.br/institutions/logos/celcoin.png",
+    "file": "celcoin.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "4adc90984998d5d0e7e4c92ba07b82a10299bb50727563608b3f3e62333cd511"
+  },
+  {
+    "id": "cetelem",
+    "name": "Cetelem",
+    "url": "https://assets.organizze.com.br/institutions/logos/cetelem.png",
+    "file": "cetelem.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "715033405446b75ca9b7d9888c287d3df56e70e93475db1973ff6f4a82bb8fdb"
+  },
+  {
+    "id": "charlesschwab",
+    "name": "Charles Schwab",
+    "url": "https://assets.organizze.com.br/institutions/logos/charlesschwab.png",
+    "file": "charlesschwab.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "54821a4d9ccb062db187a1b7f65a03f1488b2ff44362b9ae6df49eae96ad7ff5"
+  },
+  {
+    "id": "chinaconstructionbank",
+    "name": "China Construction",
+    "url": "https://assets.organizze.com.br/institutions/logos/chinaconstructionbank.png",
+    "file": "chinaconstructionbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "b55b104cfe2ed9408add8f418466f5990886b391d5ccbc7af8afe9c2346319c3"
+  },
+  {
+    "id": "cibc",
+    "name": "CIBC",
+    "url": "https://assets.organizze.com.br/institutions/logos/cibc.png",
+    "file": "cibc.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "b7659eb83a16de1fba4395d595459a818b1ab61db54202b3d7fe87a4474ef8f6"
+  },
+  {
+    "id": "cimbbank",
+    "name": "CIMB Bank",
+    "url": "https://assets.organizze.com.br/institutions/logos/cimbbank.png",
+    "file": "cimbbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "330650112225523b73752abc6b89fcce9e6ff4ace08f3f37d637a43409062d06"
+  },
+  {
+    "id": "cimbniaga",
+    "name": "CIMB Niaga",
+    "url": "https://assets.organizze.com.br/institutions/logos/cimbniaga.png",
+    "file": "cimbniaga.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "7a0f981ea2f652a52a287458783497e3636bb6d2fcf4db9f63baa16558e6386c"
+  },
+  {
+    "id": "citibank",
+    "name": "Citibank",
+    "url": "https://assets.organizze.com.br/institutions/logos/citibank.png",
+    "file": "citibank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "39e536f358564ddfe5c1a490280dba6d153a7a65f0cf842f46b5bd6228aa8218"
+  },
+  {
+    "id": "clara",
+    "name": "Clara",
+    "url": "https://assets.organizze.com.br/institutions/logos/clara.png",
+    "file": "clara.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "9e181b3ef25d1135bd757f5d358f5c5440a00d73a550d3243c4687f39c3864f6"
+  },
+  {
+    "id": "clear",
+    "name": "Clear",
+    "url": "https://assets.organizze.com.br/institutions/logos/clear.png",
+    "file": "clear.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "a88017c1ffb69688af4e0aed508bdcc2c549bc504e74b5e95305f5ed8cf737f4"
+  },
+  {
+    "id": "clear-corretora",
+    "name": "Clear Corretora",
+    "url": "https://assets.organizze.com.br/institutions/logos/clear-corretora.png",
+    "file": "clear-corretora.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "1b79d33da3a3ee4be8cbe87d398c33e361fc7781c83c2d3c50d82c10cff185ef"
+  },
+  {
+    "id": "coinbase",
+    "name": "Coinbase",
+    "url": "https://assets.organizze.com.br/institutions/logos/coinbase.png",
+    "file": "coinbase.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "e195577db516847332e5f9c3004b9518a2ada82c633bb124cb075685318869d5"
+  },
+  {
+    "id": "commbank",
+    "name": "CommBank",
+    "url": "https://assets.organizze.com.br/institutions/logos/commbank.png",
+    "file": "commbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "5d9e0e602f7bfed2b8cc274b778e2581455ea30d7e0739002e199c56986dd6a1"
+  },
+  {
+    "id": "commerzbank",
+    "name": "Commerzbank",
+    "url": "https://assets.organizze.com.br/institutions/logos/commerzbank.png",
+    "file": "commerzbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "c4092af918314a3fb0221c95ef5c33c64b755d67a7af92d59009b018d147520d"
+  },
+  {
+    "id": "conectcar",
+    "name": "ConectCar",
+    "url": "https://assets.organizze.com.br/institutions/logos/conectcar.png",
+    "file": "conectcar.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "28194193160bf7b2ef2c98d8b90c6c6836be6cf080afc8642d85437f8457984a"
+  },
+  {
+    "id": "noh",
+    "name": "Conta Noh",
+    "url": "https://assets.organizze.com.br/institutions/logos/noh.png",
+    "file": "noh.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "0d59542c3de6da49ebba72a8bce75c39330b6b63d8614c39d0e46d205fb69536"
+  },
+  {
+    "id": "savings",
+    "name": "Conta Poupança",
+    "url": "https://assets.organizze.com.br/institutions/logos/savings.png",
+    "file": "savings.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "f7067bb7defb6c1402b2c8cc0a1addd93f1b83539653176dc44e8701b15dd557"
+  },
+  {
+    "id": "contabilizei.bank",
+    "name": "Contabilizei Bank",
+    "url": "https://assets.organizze.com.br/institutions/logos/contabilizei.bank.png",
+    "file": "contabilizei.bank.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "040f716d54a940b55c7e0a9d4fcee8a149f34632187e98e6df138c782398c7d1"
+  },
+  {
+    "id": "contasimples",
+    "name": "ContaSimples",
+    "url": "https://assets.organizze.com.br/institutions/logos/contasimples.png",
+    "file": "contasimples.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "f6d1a8f1cf067e10bdac51ba2a022fed796a0234d801b734efa6032a206cad9c"
+  },
+  {
+    "id": "coopercard",
+    "name": "Cooper Card",
+    "url": "https://assets.organizze.com.br/institutions/logos/coopercard.png",
+    "file": "coopercard.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "f908e68e402afe2d6d564dddcc104469d4e7f92e76eb39b1f2ca24f13003e67c"
+  },
+  {
+    "id": "cooperativa-cresol",
+    "name": "Cooperativa Cresol",
+    "url": "https://assets.organizze.com.br/institutions/logos/cooperativa-cresol.png",
+    "file": "cooperativa-cresol.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "06503dd692cba8b4a703c488104db5916f72393c3bf44166195133923244a786"
+  },
+  {
+    "id": "cooperforte",
+    "name": "Cooperforte",
+    "url": "https://assets.organizze.com.br/institutions/logos/cooperforte.png",
+    "file": "cooperforte.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "447b22b1052365e3831530a23675b9cbbc688eed1d1876fe5cab7f593a2da5b6"
+  },
+  {
+    "id": "cora",
+    "name": "Cora",
+    "url": "https://assets.organizze.com.br/institutions/logos/cora.png",
+    "file": "cora.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "ae14543469d242f1b733f478069f05c2700570197730c2bd9261e4257527afbb"
+  },
+  {
+    "id": "coverflex",
+    "name": "Coverflex",
+    "url": "https://assets.organizze.com.br/institutions/logos/coverflex.png",
+    "file": "coverflex.png",
+    "width": 120,
+    "height": 117,
+    "sha256": "418856dd455eddf9ba802bc8b20aa0638e2cfddadc4da2df852077d506ab1af7"
+  },
+  {
+    "id": "credicard-on",
+    "name": "Credicard On",
+    "url": "https://assets.organizze.com.br/institutions/logos/credicard-on.png",
+    "file": "credicard-on.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "08d3b6969442b9dc367bc330eb0ea2bf2f937ec878f7ebbe811bc0e45cb67408"
+  },
+  {
+    "id": "credicard-zero",
+    "name": "Credicard Zero",
+    "url": "https://assets.organizze.com.br/institutions/logos/credicard-zero.png",
+    "file": "credicard-zero.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "69ea21d9a91a8e9dda71a011faab5472158402ec14fe317219d5e3a0c3757821"
+  },
+  {
+    "id": "credisis",
+    "name": "CrediSIS",
+    "url": "https://assets.organizze.com.br/institutions/logos/credisis.png",
+    "file": "credisis.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "06715d4c623bf3e36e76e0cf4aaf288d86873e385a17ecee9d43615a7d5997a6"
+  },
+  {
+    "id": "creditagricoleitaly",
+    "name": "Credit agricole",
+    "url": "https://assets.organizze.com.br/institutions/logos/creditagricoleitaly.png",
+    "file": "creditagricoleitaly.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "ccbb7c471bec076384cf337249f719fb2d1fede1ff22a2dd1d649c4c30aff47c"
+  },
+  {
+    "id": "creditagricole",
+    "name": "Crédit Agricole",
+    "url": "https://assets.organizze.com.br/institutions/logos/creditagricole.png",
+    "file": "creditagricole.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "cd894da12ce9d9dadb550caa5eaf5bb0eede54516d03dfcd2bb605ddf0db2cc1"
+  },
+  {
+    "id": "creditbankofmoscow",
+    "name": "Credit Bank of Moscow",
+    "url": "https://assets.organizze.com.br/institutions/logos/creditbankofmoscow.png",
+    "file": "creditbankofmoscow.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "a45895f31d4e332bb2b7c49992e634d2efe3d20d0d0d28128522ad1ce114ca3c"
+  },
+  {
+    "id": "creditdunord",
+    "name": "Crédit du Nord",
+    "url": "https://assets.organizze.com.br/institutions/logos/creditdunord.png",
+    "file": "creditdunord.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "75a69585f687a12674faa178021d6730555cf5bd46e84d967d8c49d2cafb768e"
+  },
+  {
+    "id": "credito.agricola",
+    "name": "Crédito Agrícola",
+    "url": "https://assets.organizze.com.br/institutions/logos/credito.agricola.png",
+    "file": "credito.agricola.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "a66b99cd146d5e472632f4d98bade20b319fe6b99eb9ff4dc649b949a3f203de"
+  },
+  {
+    "id": "creditoemiliano",
+    "name": "Credito Emiliano",
+    "url": "https://assets.organizze.com.br/institutions/logos/creditoemiliano.png",
+    "file": "creditoemiliano.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "a9d32b88b7c8eac055819fc756fe4d2c9e271298b94899d9ce15512d5890d439"
+  },
+  {
+    "id": "crefisa",
+    "name": "Crefisa",
+    "url": "https://assets.organizze.com.br/institutions/logos/crefisa.png",
+    "file": "crefisa.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "8f67b77f1ee22a0f11554c6cef94612ecbad17c513152446447159f445854b0b"
+  },
+  {
+    "id": "cruzeirodosul",
+    "name": "Cruzeirodosul",
+    "url": "https://assets.organizze.com.br/institutions/logos/cruzeirodosul.png",
+    "file": "cruzeirodosul.jpg",
+    "width": 100,
+    "height": 100,
+    "sha256": "ff8fc5af30f6e97e74a362f319daf9af9af72fd1b9e879af7042499c0c7e4b62"
+  },
+  {
+    "id": "crypto-com",
+    "name": "Crypto",
+    "url": "https://assets.organizze.com.br/institutions/logos/crypto-com.png",
+    "file": "crypto-com.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "78e3385f7d4326adf143dd93ceb78a9db84a6475999897477a62203b34383ca2"
+  },
+  {
+    "id": "ctt",
+    "name": "CTT",
+    "url": "https://assets.organizze.com.br/institutions/logos/ctt.png",
+    "file": "ctt.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "862baa60a88b433b2d635ade9908d2b42fd5a103268ff5269349fa645c4e5e3b"
+  },
+  {
+    "id": "danskebank",
+    "name": "Danske",
+    "url": "https://assets.organizze.com.br/institutions/logos/danskebank.png",
+    "file": "danskebank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "4e194fa2c8f8b047e9048ffdc3502d5690c5cbad5529412ce671bf07f400037b"
+  },
+  {
+    "id": "bancodavivienda",
+    "name": "Davivienda",
+    "url": "https://assets.organizze.com.br/institutions/logos/bancodavivienda.png",
+    "file": "bancodavivienda.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "f8dc322bb2124a8def930c0998ff8f2ed3bc104e96d6496bcf62ee9088a7af64"
+  },
+  {
+    "id": "daycoval",
+    "name": "Daycoval",
+    "url": "https://assets.organizze.com.br/institutions/logos/daycoval.png",
+    "file": "daycoval.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "af242e6ba46ab776eebd3e6af3d95f0f39caabf9eb2b11abe57f5bfbfbd91a69"
+  },
+  {
+    "id": "desjardins",
+    "name": "Desjardins Bank",
+    "url": "https://assets.organizze.com.br/institutions/logos/desjardins.png",
+    "file": "desjardins.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "fc4d19f10f8f2ab270c12900247127c2a4e381e649fed15a21c7a16a0ba766ee"
+  },
+  {
+    "id": "digiplus",
+    "name": "Digi+",
+    "url": "https://assets.organizze.com.br/institutions/logos/digiplus.png",
+    "file": "digiplus.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "250fc7a8646ba566c48e3a1ccabd1cf973a1512483fd3d6c8662b28e2dabbee0"
+  },
+  {
+    "id": "digio",
+    "name": "Digio",
+    "url": "https://assets.organizze.com.br/institutions/logos/digio.png",
+    "file": "digio.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "c6a314af7478f3a99f0020f2a7894c3659b2ac06eacc04ea2aff75d1600693fc"
+  },
+  {
+    "id": "diin",
+    "name": "Diin",
+    "url": "https://assets.organizze.com.br/institutions/logos/diin.png",
+    "file": "diin.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "3097f13f5ae0964d240af2cfd80927d25e416002559a7a1364b010169131297e"
+  },
+  {
+    "id": "dmcard",
+    "name": "DM Card",
+    "url": "https://assets.organizze.com.br/institutions/logos/dmcard.png",
+    "file": "dmcard.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "b235feac06dfaa2072a5a9d1f05a3e5351f7d2749e48a3e3acebf3ea62746efe"
+  },
+  {
+    "id": "dnbbank",
+    "name": "DNB",
+    "url": "https://assets.organizze.com.br/institutions/logos/dnbbank.png",
+    "file": "dnbbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "84309cb5bab5ba8f85f0a59cb2b95df823cd7b14e5932a92313e05b7b1a97f92"
+  },
+  {
+    "id": "dotz",
+    "name": "Dotz",
+    "url": "https://assets.organizze.com.br/institutions/logos/dotz.png",
+    "file": "dotz.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "b2d62ab599e5c97d161a660c4992c78cbeabc539818afb495b167043cb8ef293"
+  },
+  {
+    "id": "dzbank",
+    "name": "DZ Bank",
+    "url": "https://assets.organizze.com.br/institutions/logos/dzbank.png",
+    "file": "dzbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "fe39035efad539790a5b106dcc129a6cd881edf3d9f5025b042143fdb4c4ed00"
+  },
+  {
+    "id": "easynvest",
+    "name": "Easynvest",
+    "url": "https://assets.organizze.com.br/institutions/logos/easynvest.png",
+    "file": "easynvest.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "3f9e5fa2781dcf1faf83917167f96685629c203c722c1dcb22a5e95b35a1800a"
+  },
+  {
+    "id": "ebanxgo",
+    "name": "EbanxGo",
+    "url": "https://assets.organizze.com.br/institutions/logos/ebanxgo.png",
+    "file": "ebanxgo.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "65079bace866403e092c3a4fbe129c701933241d2336977290a3265b256af233"
+  },
+  {
+    "id": "edenred",
+    "name": "Edenred",
+    "url": "https://assets.organizze.com.br/institutions/logos/edenred.png",
+    "file": "edenred.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "488fd4f166a709995504f6bfd3efc31a9d3adda69544002180859eb9c3e0fa76"
+  },
+  {
+    "id": "efi.bank",
+    "name": "Efi bank",
+    "url": "https://assets.organizze.com.br/institutions/logos/efi.bank.png",
+    "file": "efi.bank.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "855a6a146eab8558937b49e4641abcec90e1caaf06afe6449088229426155c64"
+  },
+  {
+    "id": "elliot",
+    "name": "Elliot",
+    "url": "https://assets.organizze.com.br/institutions/logos/elliot.png",
+    "file": "elliot.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "9ceec738b4212e7e10f6836acd72c0f86ece4899bd3450b1fdbb4a55b1325bab"
+  },
+  {
+    "id": "eqi",
+    "name": "EQI",
+    "url": "https://assets.organizze.com.br/institutions/logos/eqi.png",
+    "file": "eqi.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "6add22db5995e13417487773ea6705c939daab6b764adebb8107d4b7f7b0e673"
+  },
+  {
+    "id": "eurobank",
+    "name": "Eurobank",
+    "url": "https://assets.organizze.com.br/institutions/logos/eurobank.png",
+    "file": "eurobank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "81eece0fbc754842ca0657ea3a9fc28c10046a9738a0224d57bd65131e7f1faf"
+  },
+  {
+    "id": "evlibank",
+    "name": "Evli",
+    "url": "https://assets.organizze.com.br/institutions/logos/evlibank.png",
+    "file": "evlibank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "3cda7ca738ff224ed027d135a5ebf2196ecb69832991cde2176b349d6e95b641"
+  },
+  {
+    "id": "exodus",
+    "name": "Exodus (crypto wallet)",
+    "url": "https://assets.organizze.com.br/institutions/logos/exodus.png",
+    "file": "exodus.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "2a13f84bd685ad4d12764716efe4f1654c79c8953fd476a51d00312bbb136755"
+  },
+  {
+    "id": "fidelity",
+    "name": "Fidelity",
+    "url": "https://assets.organizze.com.br/institutions/logos/fidelity.png",
+    "file": "fidelity.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "9247bfd19302ac9a9d92f2254711ba6ef9ae0768c3cb55ba88ccfc06830d9960"
+  },
+  {
+    "id": "flash",
+    "name": "Flash",
+    "url": "https://assets.organizze.com.br/institutions/logos/flash.png",
+    "file": "flash.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "67d8b44653a844ec13a45ea46da04ecbd630bfc641937c27ee378747959972f7"
+  },
+  {
+    "id": "forexbank",
+    "name": "Forex",
+    "url": "https://assets.organizze.com.br/institutions/logos/forexbank.png",
+    "file": "forexbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "33a1e4ce5a7db4d96edad4135148ff94485bcdee80a76dee4c92bde0ac3ed597"
+  },
+  {
+    "id": "fortbrasil",
+    "name": "Fortbrasil",
+    "url": "https://assets.organizze.com.br/institutions/logos/fortbrasil.png",
+    "file": "fortbrasil.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "c709b7a3112cc382d56b1bb9924dbed0982976e5fd30d0612688ecec5b1f9d64"
+  },
+  {
+    "id": "foxbit",
+    "name": "Foxbit",
+    "url": "https://assets.organizze.com.br/institutions/logos/foxbit.png",
+    "file": "foxbit.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "fec1f3f3d7ede69f3cfb7a232b4470df473c25facc193a3bd8fe8658955a7363"
+  },
+  {
+    "id": "freedom.24",
+    "name": "Freedom 24",
+    "url": "https://assets.organizze.com.br/institutions/logos/freedom.24.png",
+    "file": "freedom.24.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "fda1466703391311a9e8bd46ff703679daf1f4f9db8a5e46327688d7c55acb39"
+  },
+  {
+    "id": "banco galicia",
+    "name": "Galicia",
+    "url": "https://assets.organizze.com.br/institutions/logos/banco galicia.png",
+    "file": "banco galicia.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "282284245b82f25a65c1f4549fc0d3996a141019dab3c39a94ccd2426bcec5a0"
+  },
+  {
+    "id": "garantibank",
+    "name": "Garanti",
+    "url": "https://assets.organizze.com.br/institutions/logos/garantibank.png",
+    "file": "garantibank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "e8196ed34cfeb9a8b846007b845d4c48abd8ff3c862331c99d3f7716c061c3c2"
+  },
+  {
+    "id": "gazprombank",
+    "name": "Gazprombank",
+    "url": "https://assets.organizze.com.br/institutions/logos/gazprombank.png",
+    "file": "gazprombank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "1f1daa99e0d19c2088d73cec3f29fdfe72de7821cd56e00e416fd4f90fa2f82a"
+  },
+  {
+    "id": "genial",
+    "name": "Genial Investimentos",
+    "url": "https://assets.organizze.com.br/institutions/logos/genial.png",
+    "file": "genial.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "0ff584a30a176aaced729c6c58f94c81328d260bea5fe3fcaad05b2cc0f96e99"
+  },
+  {
+    "id": "goldmansachs",
+    "name": "Goldman Sachs",
+    "url": "https://assets.organizze.com.br/institutions/logos/goldmansachs.png",
+    "file": "goldmansachs.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "df065199df6b8b37b8d24bfb7c3d2e2c3e4acdf52899e3a746f573e62845a6d9"
+  },
+  {
+    "id": "google.play",
+    "name": "Google Play",
+    "url": "https://assets.organizze.com.br/institutions/logos/google.play.png",
+    "file": "google.play.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "13dfeae6073832f8895d81fd41d5252936e41aad5aac8e3eeba72ae3774d12fa"
+  },
+  {
+    "id": "grao",
+    "name": "Grão",
+    "url": "https://assets.organizze.com.br/institutions/logos/grao.png",
+    "file": "grao.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "558fb2b745b253be7cb58d020bf3250a50acbb58fb4cc8c820a1b502d5f57b02"
+  },
+  {
+    "id": "handelsbanken",
+    "name": "Handelsbanken",
+    "url": "https://assets.organizze.com.br/institutions/logos/handelsbanken.png",
+    "file": "handelsbanken.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "3d741fa64155abc5f0d45fa073f299ac814be3b05db2c1885c201e2d199e4054"
+  },
+  {
+    "id": "havan",
+    "name": "Havan",
+    "url": "https://assets.organizze.com.br/institutions/logos/havan.png",
+    "file": "havan.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "a558d4a030c2cec7156b9f4c9946ede11857538faddf20bb55e7000eb6ea3edc"
+  },
+  {
+    "id": "bancohipotecario",
+    "name": "Hipotecario",
+    "url": "https://assets.organizze.com.br/institutions/logos/bancohipotecario.png",
+    "file": "bancohipotecario.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "117668da0a1d09a2d3e84c55a099eeb2763bcb653304b624d3f5d6447a7d323d"
+  },
+  {
+    "id": "hongleong",
+    "name": "Hong Leong",
+    "url": "https://assets.organizze.com.br/institutions/logos/hongleong.png",
+    "file": "hongleong.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "aaf9b44196cbf8186f199d16302007a2c5a3262ca23c2c5b04b8e678ba1a267b"
+  },
+  {
+    "id": "hotmart",
+    "name": "Hotmart",
+    "url": "https://assets.organizze.com.br/institutions/logos/hotmart.png",
+    "file": "hotmart.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "1e86c8ad1fe8c1e184cc3f58ab75a9bdafbafa7680662dbb0189b91b8f79389c"
+  },
+  {
+    "id": "hsbc",
+    "name": "HSBC",
+    "url": "https://assets.organizze.com.br/institutions/logos/hsbc.png",
+    "file": "hsbc.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "1d8736ee0a199f8adcd715ae385ea8a49745f71b64b73050ead8a286d618f690"
+  },
+  {
+    "id": "hypovereinsbank",
+    "name": "HypoVereinsbank",
+    "url": "https://assets.organizze.com.br/institutions/logos/hypovereinsbank.png",
+    "file": "hypovereinsbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "515ff285f114c8e4b960f8f7bacf17b627a7fdc6a0413fd2055ab724c983552a"
+  },
+  {
+    "id": "icatu",
+    "name": "Icatu",
+    "url": "https://assets.organizze.com.br/institutions/logos/icatu.png",
+    "file": "icatu.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "85b486b9a02040452dabe48983e024f47eedca2dacf25b0004041fb7571f726e"
+  },
+  {
+    "id": "icbc",
+    "name": "ICBC",
+    "url": "https://assets.organizze.com.br/institutions/logos/icbc.png",
+    "file": "icbc.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "b1f6684ec816bdb5b8d52fd2c979e1df18cd17f90d13e07d6c7ed2fca1684cad"
+  },
+  {
+    "id": "iccreabanca",
+    "name": "ICCREA Banca",
+    "url": "https://assets.organizze.com.br/institutions/logos/iccreabanca.png",
+    "file": "iccreabanca.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "21d16aa0d75e0094dd12b417923b08b5ea9256776b9d5c1bb34d2a4bf44ada73"
+  },
+  {
+    "id": "ifood-conta-digital",
+    "name": "Ifood (Conta Corrente)",
+    "url": "https://assets.organizze.com.br/institutions/logos/ifood-conta-digital.png",
+    "file": "ifood-conta-digital.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "702b9f4707267048304499b1ee9b35ae8c82573ce9e03fa668a40bcf198571f1"
+  },
+  {
+    "id": "ifood-beneficios",
+    "name": "Ifood Benefícios",
+    "url": "https://assets.organizze.com.br/institutions/logos/ifood-beneficios.png",
+    "file": "ifood-beneficios.png",
+    "width": 120,
+    "height": 100,
+    "sha256": "681b08128cec438176486d9b1ad9db66aa6b98fcd06a4d5fdc47237d92fb879b"
+  },
+  {
+    "id": "inbursa",
+    "name": "Inbursa",
+    "url": "https://assets.organizze.com.br/institutions/logos/inbursa.png",
+    "file": "inbursa.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "44424b3bd1b5e5f4587f772a4cce15efa30adaa87a6cbb4acd9fcc944fec49db"
+  },
+  {
+    "id": "infinitepay",
+    "name": "Infinite Pay",
+    "url": "https://assets.organizze.com.br/institutions/logos/infinitepay.png",
+    "file": "infinitepay.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "6ee4e5fb27487cbb5c04bad7753f113368cddf3e9c1adec0cd590f0b629f0cbc"
+  },
+  {
+    "id": "ing",
+    "name": "ING",
+    "url": "https://assets.organizze.com.br/institutions/logos/ing.png",
+    "file": "ing.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "ffdc1914b7e0061094438eb34291beb29005511929593df4bfc4270368c98786"
+  },
+  {
+    "id": "interactive.brokers",
+    "name": "Interactive Brokers",
+    "url": "https://assets.organizze.com.br/institutions/logos/interactive.brokers.png",
+    "file": "interactive.brokers.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "e378795b1ee170fd3b96322cae275e84abb028d1280e7a35594039207c3a6986"
+  },
+  {
+    "id": "intesasanpaolo",
+    "name": "Intesa Sanpaolo",
+    "url": "https://assets.organizze.com.br/institutions/logos/intesasanpaolo.png",
+    "file": "intesasanpaolo.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "d053f8c3e7281e2e07d1e1694fa0d6c613cbd9d74ce4ac2c2874c438e752fded"
+  },
+  {
+    "id": "ion",
+    "name": "Ion",
+    "url": "https://assets.organizze.com.br/institutions/logos/ion.png",
+    "file": "ion.jpg",
+    "width": 120,
+    "height": 120,
+    "sha256": "9be7b46e7b4ad93465cc8917b8ece8ce52e1752cf33d75a7beb6bd592707c9da"
+  },
+  {
+    "id": "iqoption",
+    "name": "IQ Option",
+    "url": "https://assets.organizze.com.br/institutions/logos/iqoption.png",
+    "file": "iqoption.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "24d9817ce6972e352af5a4d3d9dd5390097711b50c4dd148c704541e29e75ff7"
+  },
+  {
+    "id": "isbank",
+    "name": "Isbank",
+    "url": "https://assets.organizze.com.br/institutions/logos/isbank.png",
+    "file": "isbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "40f48862524125e8f3bd3e41aa7abe32555dedd0bfed0615cc0d457f065a1180"
+  },
+  {
+    "id": "itau.empresas",
+    "name": "Itaú Empresas",
+    "url": "https://assets.organizze.com.br/institutions/logos/itau.empresas.png",
+    "file": "itau.empresas.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "fab8c20ea6beec50bb7301317696d4d2658ed88455133a9121309c37a4293c0d"
+  },
+  {
+    "id": "itau-ion",
+    "name": "Itaú ION",
+    "url": "https://assets.organizze.com.br/institutions/logos/itau-ion.png",
+    "file": "itau-ion.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "c1535af015081c76fe634cda345766295f8e27d9163895e46d86739109d7752d"
+  },
+  {
+    "id": "itau-uniclass",
+    "name": "Itaú Uniclass",
+    "url": "https://assets.organizze.com.br/institutions/logos/itau-uniclass.png",
+    "file": "itau-uniclass.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "c280d9670385e9ce3f61b9528836a38b16fdb09f29184056a2e14da8cdbfdcfb"
+  },
+  {
+    "id": "iti",
+    "name": "Iti",
+    "url": "https://assets.organizze.com.br/institutions/logos/iti.png",
+    "file": "iti.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "cd5f110b17dbe66cfa0d393ad7f3241ccd71922fd986f1aea9fd0c1cab06a431"
+  },
+  {
+    "id": "jpbank",
+    "name": "JP",
+    "url": "https://assets.organizze.com.br/institutions/logos/jpbank.png",
+    "file": "jpbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "6b53b06e152bae7f01dda8dfabd58aa1ba88e14879fa8c986ec97ddcdd3a25e5"
+  },
+  {
+    "id": "jpmorgan",
+    "name": "JP Morgan Chase",
+    "url": "https://assets.organizze.com.br/institutions/logos/jpmorgan.png",
+    "file": "jpmorgan.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "bb7f9705071cbc921d829945abbaa2042a0f99d3cedfda6e804bfabbf6c450af"
+  },
+  {
+    "id": "juno",
+    "name": "Juno",
+    "url": "https://assets.organizze.com.br/institutions/logos/juno.png",
+    "file": "juno.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "975cbf189bbdd5d8b323228330b9bc79cb0149b04061c99997ca0f22d40f9cd3"
+  },
+  {
+    "id": "jyskebank",
+    "name": "Jyske",
+    "url": "https://assets.organizze.com.br/institutions/logos/jyskebank.png",
+    "file": "jyskebank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "5ca05bfcd3fb903f0cbbcd9f1a72d9f30c34f134e5ca32cf52d97abb71d19913"
+  },
+  {
+    "id": "kbkookminbank",
+    "name": "KB Kookmin",
+    "url": "https://assets.organizze.com.br/institutions/logos/kbkookminbank.png",
+    "file": "kbkookminbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "f2b870785e01ec505f1f87ae07531d10d23fc1b6e42b3608936d761251dde035"
+  },
+  {
+    "id": "kbank",
+    "name": "KBank",
+    "url": "https://assets.organizze.com.br/institutions/logos/kbank.png",
+    "file": "kbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "812369efc7281baa0d99aaa1e3153c8af08cadf2aeca2dfb57d198dc131d9773"
+  },
+  {
+    "id": "kdbbank",
+    "name": "KDB",
+    "url": "https://assets.organizze.com.br/institutions/logos/kdbbank.png",
+    "file": "kdbbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "1c6de3b2430e202dc4a7724fe1ae56481881fdcef18abcaed1a3e22688199e32"
+  },
+  {
+    "id": "kebhanabank",
+    "name": "KEB Hana",
+    "url": "https://assets.organizze.com.br/institutions/logos/kebhanabank.png",
+    "file": "kebhanabank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "3e017ee7f8fd1241ae443c687b7f9cab01b9b1fd66b0a45cbeeae9a0379c5d5a"
+  },
+  {
+    "id": "kfw",
+    "name": "KFW",
+    "url": "https://assets.organizze.com.br/institutions/logos/kfw.png",
+    "file": "kfw.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "37310f9ea1746b0219eddad7d04d9ee0ba4bbe602d3b7f506b03c7e72193186f"
+  },
+  {
+    "id": "kiwify",
+    "name": "Kiwify",
+    "url": "https://assets.organizze.com.br/institutions/logos/kiwify.png",
+    "file": "kiwify.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "02f71ff56cda3ef369386c5f20ea8eeb4561adf82774f61e6c546c06b076a1de"
+  },
+  {
+    "id": "klarna",
+    "name": "Klarna",
+    "url": "https://assets.organizze.com.br/institutions/logos/klarna.png",
+    "file": "klarna.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "5b8a09aff2bf85ffd959c869ea8e1c5eb070bb4e22ab963fa7104b41250a86ec"
+  },
+  {
+    "id": "krungthaibank",
+    "name": "Krung Thai Bank",
+    "url": "https://assets.organizze.com.br/institutions/logos/krungthaibank.png",
+    "file": "krungthaibank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "762098ddcc556f293763cc455966656b4141efeb2e821a4fb8a5e78f07ba7573"
+  },
+  {
+    "id": "latam.pass",
+    "name": "Latam Pass",
+    "url": "https://assets.organizze.com.br/institutions/logos/latam.pass.png",
+    "file": "latam.pass.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "4fcac92de4d1a3584bcd4c45749d0fd01ea899e5173302255d07349f0189e3e5"
+  },
+  {
+    "id": "lhv",
+    "name": "LHV",
+    "url": "https://assets.organizze.com.br/institutions/logos/lhv.png",
+    "file": "lhv.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "7b257064da2a31ee7943185c90575cea2fad0b9236b741a623c499b308e1da80"
+  },
+  {
+    "id": "lloydsbanking",
+    "name": "Lloyds Banking Group",
+    "url": "https://assets.organizze.com.br/institutions/logos/lloydsbanking.png",
+    "file": "lloydsbanking.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "0cb1e94c2f5aa2973e4f3de063f3137ac66b34c38d3c287436058fb223429b54"
+  },
+  {
+    "id": "luminor",
+    "name": "Luminor",
+    "url": "https://assets.organizze.com.br/institutions/logos/luminor.png",
+    "file": "luminor.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "363730c1ea663c414606cbfae5e6211a17914795456e82c757256c5069428757"
+  },
+  {
+    "id": "macquariebank",
+    "name": "Macquarie",
+    "url": "https://assets.organizze.com.br/institutions/logos/macquariebank.png",
+    "file": "macquariebank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "1279576491557be682b0cacbb2b0032240ad041166db6e741ad6b1a5b9469647"
+  },
+  {
+    "id": "bancomacro",
+    "name": "Macro",
+    "url": "https://assets.organizze.com.br/institutions/logos/bancomacro.png",
+    "file": "bancomacro.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "9acd5d9b9451585abda4a41ecc3664476b4c40b40d1681312c545a478fe962ad"
+  },
+  {
+    "id": "magalu-pay",
+    "name": "Magalu Pay",
+    "url": "https://assets.organizze.com.br/institutions/logos/magalu-pay.png",
+    "file": "magalu-pay.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "3ab56e651ecb9879303aeea5f5ab2732c1f81252f60b6ad35666d03013cb6e36"
+  },
+  {
+    "id": "magnetis",
+    "name": "Magnetis",
+    "url": "https://assets.organizze.com.br/institutions/logos/magnetis.png",
+    "file": "magnetis.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "a69700fe0359ce62e1ed67d27c4c84448a29a3dfc3027cdd01eddd7b6c6c7ce6"
+  },
+  {
+    "id": "mais",
+    "name": "Mais!",
+    "url": "https://assets.organizze.com.br/institutions/logos/mais.png",
+    "file": "mais.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "5380d92444486504f93e9d8b039376dc84eb4c6ba9b5766851232ef17f8a1b90"
+  },
+  {
+    "id": "mandiri",
+    "name": "Mandiri",
+    "url": "https://assets.organizze.com.br/institutions/logos/mandiri.png",
+    "file": "mandiri.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "968cd30c03d4b4ee3f254523be16b748f61d776faf58a36998fd50c66e09121f"
+  },
+  {
+    "id": "marisa",
+    "name": "Marisa",
+    "url": "https://assets.organizze.com.br/institutions/logos/marisa.png",
+    "file": "marisa.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "74da3ce82102e5feff54ba88fbb5bec33e5db23ce56f417b16061bb6cca319ec"
+  },
+  {
+    "id": "maybank",
+    "name": "Maybank",
+    "url": "https://assets.organizze.com.br/institutions/logos/maybank.png",
+    "file": "maybank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "fbc764874f4f45b99081148064cb33cfaa8c9ff70043b9411c039e059be13e09"
+  },
+  {
+    "id": "mediobanca",
+    "name": "MedioBanca",
+    "url": "https://assets.organizze.com.br/institutions/logos/mediobanca.png",
+    "file": "mediobanca.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "0774f09af44ceab36794cff332c2ed8f9b5f2919b4994de0db57aa950eed15d3"
+  },
+  {
+    "id": "meliuz",
+    "name": "Méliuz",
+    "url": "https://assets.organizze.com.br/institutions/logos/meliuz.png",
+    "file": "meliuz.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "f214e7711af41aa6e4d63c03ce6771f89233fb74cd5577b12237756c69e5d8c1"
+  },
+  {
+    "id": "mercadobitcoin",
+    "name": "Mercado Bitcoin",
+    "url": "https://assets.organizze.com.br/institutions/logos/mercadobitcoin.png",
+    "file": "mercadobitcoin.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "7f5f1d30c0687cd258ab31d09de650aab7ccc4c4fa7ae9b60c0f64d7b58fdb7e"
+  },
+  {
+    "id": "mercadolivre",
+    "name": "Mercado Livre",
+    "url": "https://assets.organizze.com.br/institutions/logos/mercadolivre.png",
+    "file": "mercadolivre.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "37a9d5a5967fdce5171f8f495116fbe601203a770eaaba4033ccbe425ad5fc84"
+  },
+  {
+    "id": "mercadopago",
+    "name": "Mercadopago",
+    "url": "https://assets.organizze.com.br/institutions/logos/mercadopago.png",
+    "file": "mercadopago.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "a60c1f177c42a7f8085dfe352e899e404b0e5bd95b1dac2cb4c0ed894b8dbed5"
+  },
+  {
+    "id": "mercantilbrasil",
+    "name": "Mercantil do Brasil",
+    "url": "https://assets.organizze.com.br/institutions/logos/mercantilbrasil.png",
+    "file": "mercantilbrasil.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "cb58fcde49dee6d5ba2cbff9c66728b499f98eb24617ead95aecec35c144f717"
+  },
+  {
+    "id": "meu-util",
+    "name": "Meu UTIL",
+    "url": "https://assets.organizze.com.br/institutions/logos/meu-util.png",
+    "file": "meu-util.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "7ed4bdc4d7d6f31834343ef30547261e3bcdf9083d690f0ba7915a763c8d0129"
+  },
+  {
+    "id": "midway",
+    "name": "Midway",
+    "url": "https://assets.organizze.com.br/institutions/logos/midway.png",
+    "file": "midway.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "b31793b0003e94fc8de6eef62dc4a72c42aabf48c33b25ef0eab4721b1419953"
+  },
+  {
+    "id": "milleniumbcp",
+    "name": "Millenium BCP",
+    "url": "https://assets.organizze.com.br/institutions/logos/milleniumbcp.png",
+    "file": "milleniumbcp.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "ba76b2638d466d77ab4108052ba9ae40510622dd51303beb98930f4fe0dff6e8"
+  },
+  {
+    "id": "mizuhobank",
+    "name": "Mizuho",
+    "url": "https://assets.organizze.com.br/institutions/logos/mizuhobank.png",
+    "file": "mizuhobank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "58a397c9f046423b60752de4516f6ae83ddab7bad7ffee04a2ccee016d528604"
+  },
+  {
+    "id": "modalmais",
+    "name": "ModalMais",
+    "url": "https://assets.organizze.com.br/institutions/logos/modalmais.png",
+    "file": "modalmais.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "7a38810e4aea03afbd8f99b655edb904ab7191bd4eee52c836c02f406bdfd637"
+  },
+  {
+    "id": "moey",
+    "name": "Moey",
+    "url": "https://assets.organizze.com.br/institutions/logos/moey.png",
+    "file": "moey.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "d7120f748a1b273ace6869eec2c194b1cc2b397ec1fb354a7aaf209d5d68c1df"
+  },
+  {
+    "id": "moip",
+    "name": "Moip",
+    "url": "https://assets.organizze.com.br/institutions/logos/moip.png",
+    "file": "moip.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "eb0c2a4daa36adc4617e3cbb24c10a71134128adf77ce14cb2736a59d8206209"
+  },
+  {
+    "id": "monetizze",
+    "name": "Monetizze",
+    "url": "https://assets.organizze.com.br/institutions/logos/monetizze.png",
+    "file": "monetizze.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "d174c41bdb315ebf7eedd65f93399205d5b55350db2e3807eeb1a1582c73c530"
+  },
+  {
+    "id": "monetus",
+    "name": "Monetus",
+    "url": "https://assets.organizze.com.br/institutions/logos/monetus.png",
+    "file": "monetus.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "7def5d1dd759cfa47f9d35cc2b1f6a9bd0256788010e5233428b03bf10677ebc"
+  },
+  {
+    "id": "mps",
+    "name": "Monte dei Paschi di Siena - MPS Banco da Itália",
+    "url": "https://assets.organizze.com.br/institutions/logos/mps.png",
+    "file": "mps.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "b4c4ccddaad970d6ffc145dc75e80e65193e074037a0f17f4af055ec01bae971"
+  },
+  {
+    "id": "monzo-bank",
+    "name": "Monzo Bank",
+    "url": "https://assets.organizze.com.br/institutions/logos/monzo-bank.png",
+    "file": "monzo-bank.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "7360e1df752d77213ad729586661fc902763ed88b788b5bfc62ff1fa34460ea2"
+  },
+  {
+    "id": "morganstanley",
+    "name": "Morgan Stanley",
+    "url": "https://assets.organizze.com.br/institutions/logos/morganstanley.png",
+    "file": "morganstanley.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "6230200c75c26266120ba5db88be79cd1145b658e1ce9d568d6d7a5924bd145c"
+  },
+  {
+    "id": "mufgbank",
+    "name": "MUFG",
+    "url": "https://assets.organizze.com.br/institutions/logos/mufgbank.png",
+    "file": "mufgbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "1e8a0d84ee36022d0b4582ddafea9114d508ef125dafa405ef6f0db3ab71aa03"
+  },
+  {
+    "id": "n26",
+    "name": "N26",
+    "url": "https://assets.organizze.com.br/institutions/logos/n26.png",
+    "file": "n26.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "1f7a8fd940294f07cf76675bdd9b2710de54d7d04b87341bb12748ae298dc6f0"
+  },
+  {
+    "id": "nab",
+    "name": "NAB",
+    "url": "https://assets.organizze.com.br/institutions/logos/nab.png",
+    "file": "nab.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "bf3d75402faf0268edfa3f15f1408489c7419a64d8651683a27bec9d4514864e"
+  },
+  {
+    "id": "banconacion",
+    "name": "Nación",
+    "url": "https://assets.organizze.com.br/institutions/logos/banconacion.png",
+    "file": "banconacion.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "f81fa73689efbc683d468735c48d822b8fe9c8dd0995709cfd4eee5ec0799ca2"
+  },
+  {
+    "id": "national.australia.bank",
+    "name": "National Australia Bank",
+    "url": "https://assets.organizze.com.br/institutions/logos/national.australia.bank.png",
+    "file": "national.australia.bank.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "63409b24c5ac85746e668086f62d5043ed24e2bee6274fe4e1c9ae2edc8b7ea4"
+  },
+  {
+    "id": "nationalbank",
+    "name": "National Bank of Greece",
+    "url": "https://assets.organizze.com.br/institutions/logos/nationalbank.png",
+    "file": "nationalbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "a04beb4ad5b49980c4b5cf9cd1bad2c2b0881105a80c54e0a92edf40b40a9c2a"
+  },
+  {
+    "id": "neon",
+    "name": "Neon",
+    "url": "https://assets.organizze.com.br/institutions/logos/neon.png",
+    "file": "neon.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "0448daf4ade95688bb60520b3f6303cb1310cda8093e2eb02cce5a82ddb915f0"
+  },
+  {
+    "id": "next",
+    "name": "Next",
+    "url": "https://assets.organizze.com.br/institutions/logos/next.png",
+    "file": "next.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "80114d8d3b30933257a9b211dda24321aadca9da6ca141e4a5f0f9193ec20f08"
+  },
+  {
+    "id": "nhbank",
+    "name": "NH",
+    "url": "https://assets.organizze.com.br/institutions/logos/nhbank.png",
+    "file": "nhbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "b40f6fa9eef049d2373662e83e42d046878acddc476c7c88630a14e9355bed30"
+  },
+  {
+    "id": "nochubank",
+    "name": "Nochu",
+    "url": "https://assets.organizze.com.br/institutions/logos/nochubank.png",
+    "file": "nochubank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "3bd7809d3a7d8027accf68ae5db7758f3d54ffa0ab37b86f0824800adbe3d4a7"
+  },
+  {
+    "id": "nomad",
+    "name": "Nomad",
+    "url": "https://assets.organizze.com.br/institutions/logos/nomad.png",
+    "file": "nomad.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "f4227d1c7396d08ddd4a32ebc6cfc260616f8fe266fc26c177e9529d89712469"
+  },
+  {
+    "id": "nordea",
+    "name": "Nordea",
+    "url": "https://assets.organizze.com.br/institutions/logos/nordea.png",
+    "file": "nordea.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "5561b1ce867e7dc1b7257189f21a93101ad3215e75ab8074f3e56096add1cd00"
+  },
+  {
+    "id": "nordnet",
+    "name": "Nordnet",
+    "url": "https://assets.organizze.com.br/institutions/logos/nordnet.png",
+    "file": "nordnet.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "d43db38b0b449da9fe084d900522c459b7cd09977f2322679058235e84fdccb2"
+  },
+  {
+    "id": "novafatura",
+    "name": "Nova Futura",
+    "url": "https://assets.organizze.com.br/institutions/logos/novafatura.png",
+    "file": "novafatura.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "bd3c64d74928081311efa85354fc167665814bc649a2b839a7cde17d8f1f9e5f"
+  },
+  {
+    "id": "novadax",
+    "name": "NovaDAX",
+    "url": "https://assets.organizze.com.br/institutions/logos/novadax.png",
+    "file": "novadax.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "6ed645c58877deee35bf6f1cad3ee4f729103c8d2d51fefa0a1fb687dfce2a8e"
+  },
+  {
+    "id": "novobancopt",
+    "name": "Novo Banco",
+    "url": "https://assets.organizze.com.br/institutions/logos/novobancopt.png",
+    "file": "novobancopt.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "396ded576746f4f41965034ec9e19a3bf30f08697a375d249303b98f303a34b8"
+  },
+  {
+    "id": "novucard",
+    "name": "Novucard",
+    "url": "https://assets.organizze.com.br/institutions/logos/novucard.png",
+    "file": "novucard.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "168861164ee3087318ded810187e8b8376b4fa12b8198aa1d6fa0e1b7f0309d8"
+  },
+  {
+    "id": "nu-invest",
+    "name": "NU invest",
+    "url": "https://assets.organizze.com.br/institutions/logos/nu-invest.png",
+    "file": "nu-invest.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "de117ff69b6b7c777fc6078614f53b3b17e490fb3c5b72f0d6284b34eda0ff9a"
+  },
+  {
+    "id": "nubank.pj",
+    "name": "Nubank PJ",
+    "url": "https://assets.organizze.com.br/institutions/logos/nubank.pj.png",
+    "file": "nubank.pj.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "89a8e861df7b8fbffdf23c82ebb092eb46c9807c2f24f67c7862e87c9c6e13c7"
+  },
+  {
+    "id": "nubank-ultravioleta",
+    "name": "Nubank Ultravioleta",
+    "url": "https://assets.organizze.com.br/institutions/logos/nubank-ultravioleta.png",
+    "file": "nubank-ultravioleta.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "f8c06e288ffa6f1e2530a3fdaeab512afe8c69c5a1ba4d565b4287e38562f45c"
+  },
+  {
+    "id": "nuconta",
+    "name": "Nuconta",
+    "url": "https://assets.organizze.com.br/institutions/logos/nuconta.png",
+    "file": "nuconta.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "42f18c24e813521178977820f825897baee3f42696c4593a872cebdda61acecd"
+  },
+  {
+    "id": "nykredit",
+    "name": "Nykredit",
+    "url": "https://assets.organizze.com.br/institutions/logos/nykredit.png",
+    "file": "nykredit.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "89f914fbb230deebe74b5b544211708e29449f7a0758d74cf2ceb9759e092bd2"
+  },
+  {
+    "id": "olist",
+    "name": "Olist",
+    "url": "https://assets.organizze.com.br/institutions/logos/olist.png",
+    "file": "olist.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "84a24d78b5bc085290efe036863070a7c0de2878b70a4cce8960c128716e4961"
+  },
+  {
+    "id": "olymp.trade",
+    "name": "Olymp Trade",
+    "url": "https://assets.organizze.com.br/institutions/logos/olymp.trade.png",
+    "file": "olymp.trade.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "f6889b3dff0dcdb6d4ecdd4597834389d3a6f50a7808b4583f79e5a28c1fa6a5"
+  },
+  {
+    "id": "omni",
+    "name": "Omni",
+    "url": "https://assets.organizze.com.br/institutions/logos/omni.png",
+    "file": "omni.png",
+    "width": 120,
+    "height": 113,
+    "sha256": "1b25ab6031069c99e16c168cbb2a1db9565fa088b1cf582c358bab6340d3bdda"
+  },
+  {
+    "id": "opbank",
+    "name": "OP",
+    "url": "https://assets.organizze.com.br/institutions/logos/opbank.png",
+    "file": "opbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "6d201cb0a27226c89aa9c1f445a4e94f9fe2a7209929bb6ad9884695c0836f85"
+  },
+  {
+    "id": "orama",
+    "name": "Órama",
+    "url": "https://assets.organizze.com.br/institutions/logos/orama.png",
+    "file": "orama.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "d3a2f777f4a5c76cae5a6149bf748a060805b0feec8db23cc40603d9dd0750d2"
+  },
+  {
+    "id": "original",
+    "name": "Original",
+    "url": "https://assets.organizze.com.br/institutions/logos/original.png",
+    "file": "original.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "2635fd532282d3d953b8f71d1099d8edda37c645c429196d857a2a687125112c"
+  },
+  {
+    "id": "otkritie",
+    "name": "Otkritie",
+    "url": "https://assets.organizze.com.br/institutions/logos/otkritie.png",
+    "file": "otkritie.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "bc055711e039d64e642fac9549fc60d91e815f27f7b7b6fd334ece155ccdff1b"
+  },
+  {
+    "id": "pag",
+    "name": "Pag!",
+    "url": "https://assets.organizze.com.br/institutions/logos/pag.png",
+    "file": "pag.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "401a7551b03e5211df1a926f2e40ff72e22c4601c388e87467aca17d431e9c9b"
+  },
+  {
+    "id": "pagar-me",
+    "name": "Pagar.me",
+    "url": "https://assets.organizze.com.br/institutions/logos/pagar-me.png",
+    "file": "pagar-me.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "8344652fbaa8e4bc32d7404de0d0fa880174a0c13322ea63bcdf632d3c9d94f7"
+  },
+  {
+    "id": "pagbank",
+    "name": "PagBank",
+    "url": "https://assets.organizze.com.br/institutions/logos/pagbank.png",
+    "file": "pagbank.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "e9d88a86dc1e51182955dd177b1ebb62be6c3dc191cc7c9696e44e402cf73159"
+  },
+  {
+    "id": "pagseguro",
+    "name": "Pagseguro",
+    "url": "https://assets.organizze.com.br/institutions/logos/pagseguro.png",
+    "file": "pagseguro.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "b243ba22b001c36140d517da6e42a605a96b83d2211b2bdfe1d7e9152676ba1c"
+  },
+  {
+    "id": "palmeiras-pay",
+    "name": "Palmeiras Pay",
+    "url": "https://assets.organizze.com.br/institutions/logos/palmeiras-pay.png",
+    "file": "palmeiras-pay.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "645f881a8b53b3d521482a77b1d0941f4e0c0bb7829fc4ca4e739b1604080c86"
+  },
+  {
+    "id": "pao-acucar",
+    "name": "Pão de Açucar",
+    "url": "https://assets.organizze.com.br/institutions/logos/pao-acucar.png",
+    "file": "pao-acucar.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "c707c48d2b1e0c971a2962f25eab93d8cda78e6e1a1f979471c5e4d012691638"
+  },
+  {
+    "id": "passfolio",
+    "name": "Passfolio",
+    "url": "https://assets.organizze.com.br/institutions/logos/passfolio.png",
+    "file": "passfolio.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "697503d1658368e098379038f6344e6df342fa1dfcc64760af49ffc9091c0626"
+  },
+  {
+    "id": "bancopatagonia",
+    "name": "Patagonia",
+    "url": "https://assets.organizze.com.br/institutions/logos/bancopatagonia.png",
+    "file": "bancopatagonia.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "50d4ff0421badc09c096cc89eadeb5b508543bc283a50a67c3d10850b377bd6e"
+  },
+  {
+    "id": "payoneer",
+    "name": "Payoneer",
+    "url": "https://assets.organizze.com.br/institutions/logos/payoneer.png",
+    "file": "payoneer.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "084e7e4dd23161c7010b55732cdd8c08899feb7b5a724fa32baf9d6aa9fcf605"
+  },
+  {
+    "id": "paypal",
+    "name": "Paypal",
+    "url": "https://assets.organizze.com.br/institutions/logos/paypal.png",
+    "file": "paypal.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "00106530e18440aae17943469163202f4eacef92a10cbd381ea252967f871dd7"
+  },
+  {
+    "id": "payu",
+    "name": "PayU Brasil",
+    "url": "https://assets.organizze.com.br/institutions/logos/payu.png",
+    "file": "payu.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "1143bf0ede83f72737f44354cfa12d3defb6f702fb8304ba6fd2b1c8c258a4cc"
+  },
+  {
+    "id": "petrobras",
+    "name": "Petrobras",
+    "url": "https://assets.organizze.com.br/institutions/logos/petrobras.png",
+    "file": "petrobras.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "b40d882c7ad6c644163e04308e28fb1256c00eba368083fdb3c78fd39cf5c9e7"
+  },
+  {
+    "id": "picpay",
+    "name": "PicPay",
+    "url": "https://assets.organizze.com.br/institutions/logos/picpay.png",
+    "file": "picpay.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "75e1b8990a9a9a5e50755b178febcdfa3380e991c9b68fa53614dae5eccb8d94"
+  },
+  {
+    "id": "piraeusbank",
+    "name": "Piraeus",
+    "url": "https://assets.organizze.com.br/institutions/logos/piraeusbank.png",
+    "file": "piraeusbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "211322bb94da0248ae9dc4d78d9941a48d0fe44f43823057683558399a1189eb"
+  },
+  {
+    "id": "players-bank",
+    "name": "Players Bank",
+    "url": "https://assets.organizze.com.br/institutions/logos/players-bank.png",
+    "file": "players-bank.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "26c1195d0515b255bdb55360a40d31db99ad3d72885110dd5004a5677cae2945"
+  },
+  {
+    "id": "pluxxe",
+    "name": "Pluxxe",
+    "url": "https://assets.organizze.com.br/institutions/logos/pluxxe.png",
+    "file": "pluxxe.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "e8663b850b4f6b5f679b1c8f05dc4015f27d16c5e696fe31cb254188e9c97a02"
+  },
+  {
+    "id": "pncfinancialservices",
+    "name": "PNC Financial Services",
+    "url": "https://assets.organizze.com.br/institutions/logos/pncfinancialservices.png",
+    "file": "pncfinancialservices.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "94f916e66d82d4521cb2af0fda3a324eabf4ad071e97033d47571b5d40e5b18f"
+  },
+  {
+    "id": "pocket.option",
+    "name": "Pocket Option",
+    "url": "https://assets.organizze.com.br/institutions/logos/pocket.option.png",
+    "file": "pocket.option.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "e1f359de20f4dae0ab5fa491625b79baf12896033c4674907fe566329bdf6dec"
+  },
+  {
+    "id": "portoseguro",
+    "name": "Porto Seguro",
+    "url": "https://assets.organizze.com.br/institutions/logos/portoseguro.png",
+    "file": "portoseguro.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "a21b6fc7cbb8a7d85ff4223eea208a2da6817cdf47b049eb28267bb33984c690"
+  },
+  {
+    "id": "primacredi",
+    "name": "Primacredi",
+    "url": "https://assets.organizze.com.br/institutions/logos/primacredi.png",
+    "file": "primacredi.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "b7ac5f6fc3b7dc5d80f233890a11e5978a03c72c8be8e5a09ee725d7d87a1a68"
+  },
+  {
+    "id": "proencamercado",
+    "name": "Proença Mercados",
+    "url": "https://assets.organizze.com.br/institutions/logos/proencamercado.png",
+    "file": "proencamercado.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "9a4e8e291181cd09ae9db54034a51a778b36606d7fae7dc59f92dbcdf1281b27"
+  },
+  {
+    "id": "promsvyazbank",
+    "name": "Promsvyazbank",
+    "url": "https://assets.organizze.com.br/institutions/logos/promsvyazbank.png",
+    "file": "promsvyazbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "a12175245b19a4bf7b1fbbc319ae330f1e601088211bceac2db4ac810060a497"
+  },
+  {
+    "id": "publicbank",
+    "name": "Public Bank",
+    "url": "https://assets.organizze.com.br/institutions/logos/publicbank.png",
+    "file": "publicbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "dfa5796cf3b124549768c71a1aaaa011d7817bf13063e53b75c76d3e1b9130fd"
+  },
+  {
+    "id": "quotex",
+    "name": "Quotex",
+    "url": "https://assets.organizze.com.br/institutions/logos/quotex.png",
+    "file": "quotex.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "22e4bb89aa05a5a15fa302203d46ff1593f7c613b2b87f3f05a45c0d8915e2eb"
+  },
+  {
+    "id": "rabobank",
+    "name": "Rabobank",
+    "url": "https://assets.organizze.com.br/institutions/logos/rabobank.png",
+    "file": "rabobank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "f024940739ae5922692573d740de030a392d153ca8781dbc87cd49edd2026e87"
+  },
+  {
+    "id": "raiffeisenbank",
+    "name": "Raiffeisen Bank",
+    "url": "https://assets.organizze.com.br/institutions/logos/raiffeisenbank.png",
+    "file": "raiffeisenbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "61143485e3269c740d4430ad406dfa79958428bb9467b2795b5b6ec30d4ecb01"
+  },
+  {
+    "id": "raio",
+    "name": "Raio",
+    "url": "https://assets.organizze.com.br/institutions/logos/raio.png",
+    "file": "raio.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "34a0594a762f9ab37eedbd81da66f29a2c439370147a3baf718f995bccb93bc3"
+  },
+  {
+    "id": "rappi-bank",
+    "name": "Rappi Bank",
+    "url": "https://assets.organizze.com.br/institutions/logos/rappi-bank.png",
+    "file": "rappi-bank.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "3e64145b2b0d9bd3b3051168773535b0dc271e6ce5c14f92249747db6dd7c573"
+  },
+  {
+    "id": "rbcroyalbank",
+    "name": "RBC Royal",
+    "url": "https://assets.organizze.com.br/institutions/logos/rbcroyalbank.png",
+    "file": "rbcroyalbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "8a1ad5c3d38fc0d4ae1aa3a4be37340b677c6254af161839819334e2c45e0a27"
+  },
+  {
+    "id": "rbs",
+    "name": "RBS",
+    "url": "https://assets.organizze.com.br/institutions/logos/rbs.png",
+    "file": "rbs.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "2b52aaf739b4f00019edf6991f62e29d0ce6eb341c2b608c6ccdad521ef06a52"
+  },
+  {
+    "id": "rci",
+    "name": "RCI",
+    "url": "https://assets.organizze.com.br/institutions/logos/rci.png",
+    "file": "rci.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "f10ba973f7ece6ec9b2c99801b7e071be15b79defaa1fa695c37bcabe74204e3"
+  },
+  {
+    "id": "recargapay",
+    "name": "Recargapay",
+    "url": "https://assets.organizze.com.br/institutions/logos/recargapay.png",
+    "file": "recargapay.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "e2df7bde0c6f23f46ce32fb6c0b70bbcb1fbe5abc57536d16a2b102896f93127"
+  },
+  {
+    "id": "renner",
+    "name": "Renner",
+    "url": "https://assets.organizze.com.br/institutions/logos/renner.png",
+    "file": "renner.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "770fab0679aed7ed3f32738bca3252a8f2c9f25d35e78df5a89831f64ef0264c"
+  },
+  {
+    "id": "revolut",
+    "name": "Revolut",
+    "url": "https://assets.organizze.com.br/institutions/logos/revolut.png",
+    "file": "revolut.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "832e6a85d17d643bdf5ce5a25f8e5c6da1ff053ff65a76b06c4f1d0f978621fa"
+  },
+  {
+    "id": "rhbbank",
+    "name": "RHB",
+    "url": "https://assets.organizze.com.br/institutions/logos/rhbbank.png",
+    "file": "rhbbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "c45a755ef1e01c8f6624d4a2314f301e2ebaeca946b9b51116273520d3a04b1b"
+  },
+  {
+    "id": "riachuelo",
+    "name": "Riachuelo",
+    "url": "https://assets.organizze.com.br/institutions/logos/riachuelo.png",
+    "file": "riachuelo.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "4ed9157c2015d6fe2b9e414ac77f256f13a57bc598f91281b388daf021a4e5b6"
+  },
+  {
+    "id": "rico",
+    "name": "Rico",
+    "url": "https://assets.organizze.com.br/institutions/logos/rico.png",
+    "file": "rico.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "a949b9e93904f8a07e374c011643d69a35f392d3f0d9ee6b789b2ec77d9aefc4"
+  },
+  {
+    "id": "sabadell",
+    "name": "Sabadell",
+    "url": "https://assets.organizze.com.br/institutions/logos/sabadell.png",
+    "file": "sabadell.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "e1c90a5145fd7486db97c536e6845c468fbead5cb0ea2ec1148cc2644090b716"
+  },
+  {
+    "id": "samsung",
+    "name": "Samsung",
+    "url": "https://assets.organizze.com.br/institutions/logos/samsung.png",
+    "file": "samsung.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "a3cb2034e973d6ec1c9a886e607be270f1e06ae1ce7bdfc905545c1ed489e0d0"
+  },
+  {
+    "id": "santander-private",
+    "name": "Santander Private",
+    "url": "https://assets.organizze.com.br/institutions/logos/santander-private.png",
+    "file": "santander-private.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "6310c0153066b998d6b10a8b9c5e87712075df18be2ca15fdaa0b12d6f8e9ece"
+  },
+  {
+    "id": "saraiva",
+    "name": "Saraiva",
+    "url": "https://assets.organizze.com.br/institutions/logos/saraiva.png",
+    "file": "saraiva.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "8094641f4b8e3d1825351417f15e76738e86f0dc38743fe06008359c4cd0cb7b"
+  },
+  {
+    "id": "sberbank",
+    "name": "Sberbank",
+    "url": "https://assets.organizze.com.br/institutions/logos/sberbank.png",
+    "file": "sberbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "20601484a184ffe6b2ae7ec702582d6cfd008cfd040030509ce25270edd388ca"
+  },
+  {
+    "id": "scb",
+    "name": "SCB",
+    "url": "https://assets.organizze.com.br/institutions/logos/scb.png",
+    "file": "scb.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "21f024678193320aa0d8b902160db6f63f26e236f776bb9747c5786fc522409d"
+  },
+  {
+    "id": "scotiabank",
+    "name": "Scotiabank",
+    "url": "https://assets.organizze.com.br/institutions/logos/scotiabank.png",
+    "file": "scotiabank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "558e6e784fdcce0fee7bfeb928299b23c4619fac2bbb1679f9f0008ce2dff168"
+  },
+  {
+    "id": "sebbank",
+    "name": "SEB",
+    "url": "https://assets.organizze.com.br/institutions/logos/sebbank.png",
+    "file": "sebbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "4ccf86dea50143554d7a08533d0cc3518f6780d85f5ba7e86cdafe0662ed9c4b"
+  },
+  {
+    "id": "sem-parar",
+    "name": "Sem parar",
+    "url": "https://assets.organizze.com.br/institutions/logos/sem-parar.png",
+    "file": "sem-parar.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "dd8b8e0ac972aef4cddb28237011409abacf67926ed949061b6c21bbdbc09eab"
+  },
+  {
+    "id": "senff",
+    "name": "Senff",
+    "url": "https://assets.organizze.com.br/institutions/logos/senff.png",
+    "file": "senff.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "f843bafaa4f40a8c0c7c426a1cf1073c85e152e10c0498a9386b4248e1078253"
+  },
+  {
+    "id": "serasa-consumidor",
+    "name": "Serasa Consumidor",
+    "url": "https://assets.organizze.com.br/institutions/logos/serasa-consumidor.png",
+    "file": "serasa-consumidor.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "3c8df539a23f13448eccef628530f98ecdf39b3f52e6401ae8b944e74fec8152"
+  },
+  {
+    "id": "shinhanbank",
+    "name": "Shinhan",
+    "url": "https://assets.organizze.com.br/institutions/logos/shinhanbank.png",
+    "file": "shinhanbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "34a2dfbfe38062c8b3030f43ab26b125d297756995edf0c075babfee12eb2ce3"
+  },
+  {
+    "id": "shopee",
+    "name": "Shopee",
+    "url": "https://assets.organizze.com.br/institutions/logos/shopee.png",
+    "file": "shopee.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "f627bc13239fbf61981abd2f0bf1af047feecc6d1ea4ce897d571c8ef1767d68"
+  },
+  {
+    "id": "shoptime",
+    "name": "Shoptime",
+    "url": "https://assets.organizze.com.br/institutions/logos/shoptime.png",
+    "file": "shoptime.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "da582b47bd16d3579bdcefb9f63b2ef3275714d250c8de5b6abf6f5b283fa1bd"
+  },
+  {
+    "id": "sicoob",
+    "name": "Sicoob",
+    "url": "https://assets.organizze.com.br/institutions/logos/sicoob.png",
+    "file": "sicoob.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "786028bdc9faa905b4648dafa5032c97f8ce33dd4819762a50cda6c28fcba4d2"
+  },
+  {
+    "id": "sicredi",
+    "name": "Sicredi",
+    "url": "https://assets.organizze.com.br/institutions/logos/sicredi.png",
+    "file": "sicredi.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "e2c3fa8673bb0008364880c5f6fcf5e8f39371389d7504f8fb70e2cca4721077"
+  },
+  {
+    "id": "sisprime",
+    "name": "Sisprime",
+    "url": "https://assets.organizze.com.br/institutions/logos/sisprime.png",
+    "file": "sisprime.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "e158c7b30244d2e1a70e69fa1013c020e9b8065ff4420e13fd85636dbce9c5b6"
+  },
+  {
+    "id": "smbc",
+    "name": "SMBC",
+    "url": "https://assets.organizze.com.br/institutions/logos/smbc.png",
+    "file": "smbc.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "c4e6e8576d8cf9d2a555b746407b1c1b1de1ce4e1b97d5dbd3e28359840922a3"
+  },
+  {
+    "id": "smiles",
+    "name": "Smiles",
+    "url": "https://assets.organizze.com.br/institutions/logos/smiles.png",
+    "file": "smiles.png",
+    "width": 120,
+    "height": 93,
+    "sha256": "9efcc523cf0dcbfea3fdd28802d3a0cb144f50c9fffc258794e7cdc81f3aa1d4"
+  },
+  {
+    "id": "smpbank",
+    "name": "SMP Bank",
+    "url": "https://assets.organizze.com.br/institutions/logos/smpbank.png",
+    "file": "smpbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "d8e2c53abe4e8a33532f890871ef8d6127403fff980a8353ddb2d579f44e128e"
+  },
+  {
+    "id": "snsbank",
+    "name": "SNS",
+    "url": "https://assets.organizze.com.br/institutions/logos/snsbank.png",
+    "file": "snsbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "de75273f50e9d83c3c50444f1318ccc6e98a46b7ed680e5ec2203583afb6ed1c"
+  },
+  {
+    "id": "socialbank",
+    "name": "Social Bank",
+    "url": "https://assets.organizze.com.br/institutions/logos/socialbank.png",
+    "file": "socialbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "0ec7d94cb7e2c425c9741e5d690bfe28f9f2f3a7c0a7b58508fef11d3ea4aef4"
+  },
+  {
+    "id": "societegenerale",
+    "name": "Société Générale",
+    "url": "https://assets.organizze.com.br/institutions/logos/societegenerale.png",
+    "file": "societegenerale.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "b39324ec09f96426013d9414a79591ccc6de51561b494577fcd1557866aeb15e"
+  },
+  {
+    "id": "sodexo",
+    "name": "Sodexo",
+    "url": "https://assets.organizze.com.br/institutions/logos/sodexo.png",
+    "file": "sodexo.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "f3acc6a537630ad49071eef757d5404abacb9858fa2effa7128e9ae3171f31ca"
+  },
+  {
+    "id": "sofi",
+    "name": "Sofi",
+    "url": "https://assets.organizze.com.br/institutions/logos/sofi.png",
+    "file": "sofi.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "f27f4091c83fa2ab478a0e2ca11617b88370e3b90cd0a812a048143b22c3482d"
+  },
+  {
+    "id": "sofisadireto",
+    "name": "Sofisa direto",
+    "url": "https://assets.organizze.com.br/institutions/logos/sofisadireto.png",
+    "file": "sofisadireto.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "20aed0f2dd4739febf03ef1e9f3a4719ba07395bc8ea8e5d33a5a9853dc19c29"
+  },
+  {
+    "id": "sparebank1",
+    "name": "Sparebank 1 SMN",
+    "url": "https://assets.organizze.com.br/institutions/logos/sparebank1.png",
+    "file": "sparebank1.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "bc52c9bb317e1974d37adef63a39e7aa6cc58197676fa44dffcdfa6e3b4e15ff"
+  },
+  {
+    "id": "sportingbet",
+    "name": "SportingBet",
+    "url": "https://assets.organizze.com.br/institutions/logos/sportingbet.png",
+    "file": "sportingbet.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "f59fca8c744e1b4e5d2dc2f63ce20bec35d06b39a3a75f11d897e5c2fae277eb"
+  },
+  {
+    "id": "spuerkeess",
+    "name": "Spuerkeess",
+    "url": "https://assets.organizze.com.br/institutions/logos/spuerkeess.png",
+    "file": "spuerkeess.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "b9f50eeb0d00b17608cdb5ec85236e242b2bd22ac624c6881715f596395f3813"
+  },
+  {
+    "id": "standardchartered",
+    "name": "Standard Chartered",
+    "url": "https://assets.organizze.com.br/institutions/logos/standardchartered.png",
+    "file": "standardchartered.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "97dab10f6133df157ac79dca3f0653f3368a83df02707e6d9cce35c8e2b1b46b"
+  },
+  {
+    "id": "stanford-federal-credit-union",
+    "name": "Stanford Federal Credit Union",
+    "url": "https://assets.organizze.com.br/institutions/logos/stanford-federal-credit-union.png",
+    "file": "stanford-federal-credit-union.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "6d12f5c9869ad2d23cf4d326d0a5d72758d08bcfe37807652fb8d95b1f609cd7"
+  },
+  {
+    "id": "stone",
+    "name": "Stone",
+    "url": "https://assets.organizze.com.br/institutions/logos/stone.png",
+    "file": "stone.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "a1eb5293c0c8153bb305a880fb3dfcef4ae5172c7510d2e4847087b5cd112951"
+  },
+  {
+    "id": "storebrandbank",
+    "name": "Storebrand",
+    "url": "https://assets.organizze.com.br/institutions/logos/storebrandbank.png",
+    "file": "storebrandbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "18155a9e71f3f011667ec3984f570f711af7645b92825ffcc38a684df8a3a5f5"
+  },
+  {
+    "id": "submarino",
+    "name": "Submarino",
+    "url": "https://assets.organizze.com.br/institutions/logos/submarino.png",
+    "file": "submarino.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "824a94c9255654ee514ddb9185571877f9c206672a7fd7e99a176d8635ac20e6"
+  },
+  {
+    "id": "sumup",
+    "name": "Sumup",
+    "url": "https://assets.organizze.com.br/institutions/logos/sumup.png",
+    "file": "sumup.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "a3fee43610314a1a4805345b0b718c335f615d7198fd2273a40d94dc3a48eb2e"
+  },
+  {
+    "id": "suncorpbank",
+    "name": "Suncorp",
+    "url": "https://assets.organizze.com.br/institutions/logos/suncorpbank.png",
+    "file": "suncorpbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "b46b321dd3a6aa1e4b58f09fe77a04886dfefd70f55471444ab238c9beb29a22"
+  },
+  {
+    "id": "superdigital",
+    "name": "Superdigital",
+    "url": "https://assets.organizze.com.br/institutions/logos/superdigital.png",
+    "file": "superdigital.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "bae193a7fc2c65f2289e1e14c64add0b5c4dfd3685bf469fbfb70bcc0f0a44f3"
+  },
+  {
+    "id": "swedbank",
+    "name": "Swedbank",
+    "url": "https://assets.organizze.com.br/institutions/logos/swedbank.png",
+    "file": "swedbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "8f04e64f2dcefc3f8eaab26225bfac0e3be4250264e3c7d4b9f652ca8c8e8670"
+  },
+  {
+    "id": "swile",
+    "name": "Swile Benefícios",
+    "url": "https://assets.organizze.com.br/institutions/logos/swile.png",
+    "file": "swile.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "86d1f272fe2262ef2aad62e62845edb0e9417dceff8114564a769c916ed3c159"
+  },
+  {
+    "id": "sydbank",
+    "name": "SydBank",
+    "url": "https://assets.organizze.com.br/institutions/logos/sydbank.png",
+    "file": "sydbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "377e4ea5672c959fe4063b6b62e45f1e24c82558ec26f7d1492785101ece6f97"
+  },
+  {
+    "id": "tangerine",
+    "name": "Tangerine",
+    "url": "https://assets.organizze.com.br/institutions/logos/tangerine.png",
+    "file": "tangerine.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "b1d9013e9b3e794f96b254a2b037d29f1c7f68546df807ffed434ebc819e1c69"
+  },
+  {
+    "id": "tdameritrade",
+    "name": "TD AmeriTrade",
+    "url": "https://assets.organizze.com.br/institutions/logos/tdameritrade.png",
+    "file": "tdameritrade.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "628ca687b6bd749541d27259d106d740d99c0bdd0efb2188c557a4e28d82dd28"
+  },
+  {
+    "id": "tdbank",
+    "name": "TD Bank",
+    "url": "https://assets.organizze.com.br/institutions/logos/tdbank.png",
+    "file": "tdbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "04ca6b94f2495dec1f662de1fdc3a11f67f21d99fa73118154428e1a074d1d4c"
+  },
+  {
+    "id": "techcombank",
+    "name": "Techcombank",
+    "url": "https://assets.organizze.com.br/institutions/logos/techcombank.png",
+    "file": "techcombank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "e2dce8c7efc48f2e8617324ab89fe973d122adc858aacefaf26cb6607f1209bf"
+  },
+  {
+    "id": "telekom",
+    "name": "Telekom Deutchsland",
+    "url": "https://assets.organizze.com.br/institutions/logos/telekom.png",
+    "file": "telekom.png",
+    "width": 120,
+    "height": 119,
+    "sha256": "cf48989315b9ea6eb29ce87b8f61b6b13aca1dc5611a12773efc622f8166db1d"
+  },
+  {
+    "id": "tesourodireto",
+    "name": "Tesouro Direto",
+    "url": "https://assets.organizze.com.br/institutions/logos/tesourodireto.png",
+    "file": "tesourodireto.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "bc6889d6a95e89b4d188e85f4b7aa15f798e4a84e89391d3e76691cfcf20b412"
+  },
+  {
+    "id": "tesouronacional",
+    "name": "Tesouro Nacional",
+    "url": "https://assets.organizze.com.br/institutions/logos/tesouronacional.png",
+    "file": "tesouronacional.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "052e845259437196a989ae30dbcea39263a3bf29d8bccb9405813a00b44ba493"
+  },
+  {
+    "id": "ticket",
+    "name": "Ticket",
+    "url": "https://assets.organizze.com.br/institutions/logos/ticket.png",
+    "file": "ticket.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "3a1067e1ce4ee96e990e8cdcdc6c53cdcc6d40b88143f4099f8ae88c02c44899"
+  },
+  {
+    "id": "tinkoff",
+    "name": "Tinkoff",
+    "url": "https://assets.organizze.com.br/institutions/logos/tinkoff.png",
+    "file": "tinkoff.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "e4f42fc4a0674d9d0e38ce50406c375f57765263a55084693697b9d482ba56de"
+  },
+  {
+    "id": "tmbbank",
+    "name": "TMB Bank",
+    "url": "https://assets.organizze.com.br/institutions/logos/tmbbank.png",
+    "file": "tmbbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "5c9670bcaf0e87ca88639c9241a1e814a1c921e4f01ce537060e4b1dfb86c8a8"
+  },
+  {
+    "id": "ton",
+    "name": "TON",
+    "url": "https://assets.organizze.com.br/institutions/logos/ton.png",
+    "file": "ton.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "c46461584bfeade8b0632e7d6393198637b80fd7c64fae5f32f5140c9900f021"
+  },
+  {
+    "id": "toroinvestimentos",
+    "name": "Toro investimentos",
+    "url": "https://assets.organizze.com.br/institutions/logos/toroinvestimentos.png",
+    "file": "toroinvestimentos.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "3fcb6cc6e790ba9e9fd30f5d11a524dc25c634b274025851e6c4add1952da64f"
+  },
+  {
+    "id": "trade.republic",
+    "name": "Trade Republic",
+    "url": "https://assets.organizze.com.br/institutions/logos/trade.republic.png",
+    "file": "trade.republic.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "dd8ca628fe6b2f543fee5bad0285df710a07b827fa2d7ab9f521020eb5ec0d92"
+  },
+  {
+    "id": "trading.212",
+    "name": "Trading 212",
+    "url": "https://assets.organizze.com.br/institutions/logos/trading.212.png",
+    "file": "trading.212.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "0aee2b177b4420e3aa5eb204843a595dfee32440e494e5b2865d4549979ed739"
+  },
+  {
+    "id": "transferwise",
+    "name": "TransferWise",
+    "url": "https://assets.organizze.com.br/institutions/logos/transferwise.png",
+    "file": "transferwise.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "e12769cd009301efdb0cba926231054bf6668cc0c4ff7b9d1115bb22f9b061fc"
+  },
+  {
+    "id": "tribanco",
+    "name": "Tribanco",
+    "url": "https://assets.organizze.com.br/institutions/logos/tribanco.png",
+    "file": "tribanco.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "89f1d92589609eaea3e82881cb8d6bc1374662dab94fb3582d3233aa8cd4ae05"
+  },
+  {
+    "id": "trigg",
+    "name": "Trigg",
+    "url": "https://assets.organizze.com.br/institutions/logos/trigg.png",
+    "file": "trigg.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "392385e87393ff54f0a4f9fe8bd5206fd1544ac579f888ee32a8666c08cb01f6"
+  },
+  {
+    "id": "tudoazul",
+    "name": "Tudo Azul",
+    "url": "https://assets.organizze.com.br/institutions/logos/tudoazul.png",
+    "file": "tudoazul.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "444352cc5d8cefc4d871637adce4020dd19baa0b1e3abcd2e1b390c7e0883157"
+  },
+  {
+    "id": "uber.drive",
+    "name": "Uber Drive",
+    "url": "https://assets.organizze.com.br/institutions/logos/uber.drive.png",
+    "file": "uber.drive.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "6e3e6519d8f59bf5f9ab68937802d069aea6932b80c733e63f82849d1891b446"
+  },
+  {
+    "id": "ubibanca",
+    "name": "UBI Banca",
+    "url": "https://assets.organizze.com.br/institutions/logos/ubibanca.png",
+    "file": "ubibanca.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "5dc4b8ded1a3b34953f4fff4646cec381c0f671ade21b625effe41878c6c56b3"
+  },
+  {
+    "id": "unicred",
+    "name": "Unicred",
+    "url": "https://assets.organizze.com.br/institutions/logos/unicred.png",
+    "file": "unicred.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "87cbcdd5530b263598442746a2e63c6064e406c97eaa90ffe7530258694bc782"
+  },
+  {
+    "id": "unicreditbank",
+    "name": "Unicredit Bank",
+    "url": "https://assets.organizze.com.br/institutions/logos/unicreditbank.png",
+    "file": "unicreditbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "84d56311b4e7ba65e6cd1c4b6a2564dc58e66ec1ad14f76f2999d8b3c93c4d1e"
+  },
+  {
+    "id": "cooperativa-unilos",
+    "name": "Unilos",
+    "url": "https://assets.organizze.com.br/institutions/logos/cooperativa-unilos.png",
+    "file": "cooperativa-unilos.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "a57f410a756f840b7c0e48ad6d82b5e481ad7df9df2f7ab2f5e8116a66d37d0c"
+  },
+  {
+    "id": "unimed.seguros",
+    "name": "Unimed Seguros",
+    "url": "https://assets.organizze.com.br/institutions/logos/unimed.seguros.png",
+    "file": "unimed.seguros.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "9618bfe5f6742214c432faf40cbca965f02051ad7cfe53031f0986b750dbf9ee"
+  },
+  {
+    "id": "unipolbanca",
+    "name": "Unipol Banca",
+    "url": "https://assets.organizze.com.br/institutions/logos/unipolbanca.png",
+    "file": "unipolbanca.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "9a6504b568bcb64ee009abaec645dab6bdf2da0453b7c05f7a0ae1881cb36f84"
+  },
+  {
+    "id": "uniprime",
+    "name": "Uniprime",
+    "url": "https://assets.organizze.com.br/institutions/logos/uniprime.png",
+    "file": "uniprime.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "eff989d1604d3c15732b08e4a81616fdb68aa481444d31ac5ba69328a742de77"
+  },
+  {
+    "id": "up.brasil",
+    "name": "Up Brasil",
+    "url": "https://assets.organizze.com.br/institutions/logos/up.brasil.png",
+    "file": "up.brasil.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "0e28a22736f80fff1edb9545b9364c59bad713cb0ea44ad31a9dd9732ff7ebf9"
+  },
+  {
+    "id": "urbeme",
+    "name": "Urbe.Me",
+    "url": "https://assets.organizze.com.br/institutions/logos/urbeme.png",
+    "file": "urbeme.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "28547a56c83b602a8c7fa6f73dedcd3130fe4521d58f933435c9b1c5a3ab6c8e"
+  },
+  {
+    "id": "urpay",
+    "name": "UrPay",
+    "url": "https://assets.organizze.com.br/institutions/logos/urpay.png",
+    "file": "urpay.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "d56000cd1312b2aebbcac873b8eded562067780a809f7e6e733b5e790e07a9e0"
+  },
+  {
+    "id": "usbank",
+    "name": "US Bank",
+    "url": "https://assets.organizze.com.br/institutions/logos/usbank.png",
+    "file": "usbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "811c7bb4b9caa0d980d8df254540f6826fc9d7ea33ac64245c1d5a47f1907baa"
+  },
+  {
+    "id": "veloe",
+    "name": "Veloe",
+    "url": "https://assets.organizze.com.br/institutions/logos/veloe.png",
+    "file": "veloe.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "6dcc357ee424ab3e1fb80edb53e7884994565982a445483b5b1e91940c9677f6"
+  },
+  {
+    "id": "venmo",
+    "name": "Venmo",
+    "url": "https://assets.organizze.com.br/institutions/logos/venmo.png",
+    "file": "venmo.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "af9eb95ff4045ab0336279dd6661712cf9ce9d0ead2f80168be65f3ca876f938"
+  },
+  {
+    "id": "verocard",
+    "name": "Verocard",
+    "url": "https://assets.organizze.com.br/institutions/logos/verocard.png",
+    "file": "verocard.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "a2b01f43c4de5248c60c677c1fd78c1fcba844fcc65bef4ca591c1fdb8e51445"
+  },
+  {
+    "id": "viacredi",
+    "name": "Viacredi",
+    "url": "https://assets.organizze.com.br/institutions/logos/viacredi.png",
+    "file": "viacredi.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "de6859b63901379e9fc07ad8b3c94bd5ece868efa82e13bb76ac397c51cc85fa"
+  },
+  {
+    "id": "vietcombank",
+    "name": "Vietcombank",
+    "url": "https://assets.organizze.com.br/institutions/logos/vietcombank.png",
+    "file": "vietcombank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "47f4e78146e7abdaa66288beca962e0a58326b7244f10cc2a3880c29974b664b"
+  },
+  {
+    "id": "vietinbank",
+    "name": "VietinBank",
+    "url": "https://assets.organizze.com.br/institutions/logos/vietinbank.png",
+    "file": "vietinbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "e7499e57ffeeee9b3d20ed5660a857e9370ab772e0616cb649e79b3a5c756e7f"
+  },
+  {
+    "id": "vitreo",
+    "name": "Vitreo",
+    "url": "https://assets.organizze.com.br/institutions/logos/vitreo.png",
+    "file": "vitreo.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "596dd76734f7d2585769285b5f779014cc827ccf48f89f17b1081e91ddab427c"
+  },
+  {
+    "id": "vr",
+    "name": "VR Benefícios",
+    "url": "https://assets.organizze.com.br/institutions/logos/vr.png",
+    "file": "vr.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "265f8d02439ac515881f8a1f4a1e7c82893f78fe0b450b725a89bdaec541c71a"
+  },
+  {
+    "id": "vtbbank",
+    "name": "VTB",
+    "url": "https://assets.organizze.com.br/institutions/logos/vtbbank.png",
+    "file": "vtbbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "4796a348472a67a04fe204df68e8a2fa3cc6ae9c741575a8f3d9736de33741eb"
+  },
+  {
+    "id": "vuon.card",
+    "name": "Vuon Card",
+    "url": "https://assets.organizze.com.br/institutions/logos/vuon.card.png",
+    "file": "vuon.card.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "a7553a5f59ab2ca26d931de2d49060477c9c31363df858f4ef4ee11097429f94"
+  },
+  {
+    "id": "warren",
+    "name": "Warren",
+    "url": "https://assets.organizze.com.br/institutions/logos/warren.png",
+    "file": "warren.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "566ae2f321651a9608d0f3aa7dc269065a32a48b9eb920ffa9fdbc89545c4313"
+  },
+  {
+    "id": "webull",
+    "name": "Webull",
+    "url": "https://assets.organizze.com.br/institutions/logos/webull.png",
+    "file": "webull.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "fb5fd28560cc6862d3bab29849ac3790a463e51ca282074c9f618a26d733a48a"
+  },
+  {
+    "id": "wellsfargo",
+    "name": "Wells Fargo",
+    "url": "https://assets.organizze.com.br/institutions/logos/wellsfargo.png",
+    "file": "wellsfargo.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "abe8ea876b167fe4fd9e8652eaad10fcae245f0225841b80d99dcdd86e8f12da"
+  },
+  {
+    "id": "westpac",
+    "name": "Westpac",
+    "url": "https://assets.organizze.com.br/institutions/logos/westpac.png",
+    "file": "westpac.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "479a0f85959dee09888b805c1eee67adf64e453536973853b680cdc106e7e48f"
+  },
+  {
+    "id": "wiipo",
+    "name": "Wiipo",
+    "url": "https://assets.organizze.com.br/institutions/logos/wiipo.png",
+    "file": "wiipo.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "5b534e002d8c68c7f9ac59fa6f71d3a3930dff0d0959f26e4771a16f7446f7f0"
+  },
+  {
+    "id": "will-bank",
+    "name": "Will Bank",
+    "url": "https://assets.organizze.com.br/institutions/logos/will-bank.png",
+    "file": "will-bank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "4c333c7689a9f9cb3f9215163f6b9a13c6d958b558b7da6ed6846f7c8f3b876c"
+  },
+  {
+    "id": "wirecard",
+    "name": "Wirecard",
+    "url": "https://assets.organizze.com.br/institutions/logos/wirecard.png",
+    "file": "wirecard.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "014b2f2b7eb614dcf5ed06d406ba90b5f318a918a36828d9c88f6317b86e3dd1"
+  },
+  {
+    "id": "wise",
+    "name": "Wise",
+    "url": "https://assets.organizze.com.br/institutions/logos/wise.png",
+    "file": "wise.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "2a6eee6d8f2877e5486ef04b7b3035a8e11133bca73075609f56d4654388bf51"
+  },
+  {
+    "id": "woop",
+    "name": "Woop",
+    "url": "https://assets.organizze.com.br/institutions/logos/woop.png",
+    "file": "woop.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "ba2cc569dbc3abeb93710da82f0d108d082d07268de0473d861f0826f9b4e6c7"
+  },
+  {
+    "id": "xdex",
+    "name": "Xdex",
+    "url": "https://assets.organizze.com.br/institutions/logos/xdex.png",
+    "file": "xdex.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "3addd614265f2ba3fb7a55dc1525e478d0afd1517c9aca9fe2b59e13db2afe9c"
+  },
+  {
+    "id": "xm",
+    "name": "XM",
+    "url": "https://assets.organizze.com.br/institutions/logos/xm.png",
+    "file": "xm.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "f8c0dbbdc852507afa61e175bb354acada0b20919e4af9a9a60d541e4a9ee3ed"
+  },
+  {
+    "id": "xp",
+    "name": "XP",
+    "url": "https://assets.organizze.com.br/institutions/logos/xp.png",
+    "file": "xp.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "bd8c5dcf1b8721cafeb50905abebc8445bdda35b9453a0d50a9cd4cc24827179"
+  },
+  {
+    "id": "xtb",
+    "name": "XTB",
+    "url": "https://assets.organizze.com.br/institutions/logos/xtb.png",
+    "file": "xtb.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "ca3c8d6f3d08a15e88bdfc7fbe85eab57cc5cfde4346e87fb13f7d68aa6e92d5"
+  },
+  {
+    "id": "yapikredi",
+    "name": "Yapi Kredi Bank",
+    "url": "https://assets.organizze.com.br/institutions/logos/yapikredi.png",
+    "file": "yapikredi.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "e70187a1fabea5cd9eaa00833fbc412d59b1a66857fa3cbeb9edbd88a93446ba"
+  },
+  {
+    "id": "z1",
+    "name": "Z1",
+    "url": "https://assets.organizze.com.br/institutions/logos/z1.png",
+    "file": "z1.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "fbbb46f78c87e582ba7ec079ef347b0ec6be8b3643a316e25bf9590dca6ad139"
+  },
+  {
+    "id": "zilch",
+    "name": "Zilch",
+    "url": "https://assets.organizze.com.br/institutions/logos/zilch.png",
+    "file": "zilch.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "6901acc584075d614ccdcf1fb224e7ab948db9a61fac7850d26d9735ebb5a75f"
+  },
+  {
+    "id": "ziraatbank",
+    "name": "Ziraat",
+    "url": "https://assets.organizze.com.br/institutions/logos/ziraatbank.png",
+    "file": "ziraatbank.png",
+    "width": 180,
+    "height": 180,
+    "sha256": "7c0624ad9cc725d5842e891e2244742bcc2d6d97a9773c990fb93111dc012774"
+  },
+  {
+    "id": "zro-bank",
+    "name": "zro Bank",
+    "url": "https://assets.organizze.com.br/institutions/logos/zro-bank.png",
+    "file": "zro-bank.png",
+    "width": 120,
+    "height": 120,
+    "sha256": "dc0f3c04a28357b59c6015b22f7bb142e33b0443d60adeeacf25293ec3710884"
+  }
+]

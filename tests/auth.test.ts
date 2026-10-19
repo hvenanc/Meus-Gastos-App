@@ -25,8 +25,8 @@ test("falhas de conexão e configuração têm mensagens acionáveis", () => {
   );
   assert.match(
     authError({ code: "auth/operation-not-allowed" }),
-    /E-mail\/senha/,
+    /e-mail|indisponível/,
   );
-  assert.match(authError({ code: "auth/invalid-api-key" }), /\.env/);
+  assert.match(authError({ code: "auth/invalid-api-key" }), /indisponível/);
   assert.equal(authError(null), "Não foi possível concluir. Tente novamente.");
 });
